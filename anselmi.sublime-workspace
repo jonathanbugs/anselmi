@@ -1,0 +1,1017 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"DATA",
+				"DATA_INSERT"
+			],
+			[
+				"E_PROD",
+				"e_PRODUTO_MARKUP"
+			],
+			[
+				"format",
+				"formataValorInsert"
+			],
+			[
+				"reto",
+				"retornoArray"
+			],
+			[
+				"qu",
+				"query"
+			],
+			[
+				"USUA",
+				"USUARIO_LOGADO"
+			],
+			[
+				"pro",
+				"produtoPreco"
+			],
+			[
+				"preco",
+				"precoVendaProduto"
+			],
+			[
+				"pre",
+				"precoVendaProduto"
+			],
+			[
+				"prec",
+				"precoCalculado"
+			],
+			[
+				"PESS",
+				"PESS_ID_PESSOA"
+			],
+			[
+				"ID",
+				"ID_PESSOA"
+			],
+			[
+				"sql",
+				"sqlvalue"
+			],
+			[
+				"sub",
+				"subdominio"
+			],
+			[
+				"IDLO",
+				"ID_LOJA"
+			],
+			[
+				"WHERE",
+				"whereIdLoja"
+			],
+			[
+				"where",
+				"whereIdLoja"
+			],
+			[
+				"quey",
+				"queryValida"
+			],
+			[
+				"peso",
+				"pesoKgTratado"
+			],
+			[
+				"resul",
+				"resultado_busca"
+			],
+			[
+				"q",
+				"queryCarrinho"
+			],
+			[
+				"pedi",
+				"pedidosDetalhe"
+			],
+			[
+				"PRIN",
+				"printr"
+			],
+			[
+				"FN_",
+				"fn_saldo_disponivel_produto"
+			],
+			[
+				"PROD",
+				"PROD_ID_PRODUTO"
+			],
+			[
+				"tab",
+				"TABELA_PRODUTO_SITE"
+			],
+			[
+				"re",
+				"results"
+			],
+			[
+				"retu",
+				"return_arr"
+			],
+			[
+				"select",
+				"select2"
+			],
+			[
+				"LI",
+				"limit"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"i",
+				"img	Tag"
+			],
+			[
+				"PRE",
+				"PRECO_VENDA"
+			],
+			[
+				"COL",
+				"colunaAdicional"
+			],
+			[
+				"assi",
+				"assinaturaRodape"
+			],
+			[
+				"pri",
+				"print_r"
+			],
+			[
+				"strot",
+				"strtotime"
+			],
+			[
+				"lista",
+				"listaBanner"
+			],
+			[
+				"arra",
+				"arrayImagens"
+			],
+			[
+				"data",
+				"dataFinal"
+			],
+			[
+				"LEGE",
+				"legenda"
+			],
+			[
+				"que",
+				"queryValida"
+			],
+			[
+				"SENH",
+				"senha"
+			],
+			[
+				"iptc",
+				"iptCpf"
+			],
+			[
+				"SE",
+				"SEXO"
+			],
+			[
+				"NOME",
+				"NOME"
+			],
+			[
+				"idPess",
+				"idPessoa"
+			],
+			[
+				"idPes",
+				"idPessoa"
+			],
+			[
+				"query",
+				"queryContato"
+			],
+			[
+				"_",
+				"_POST"
+			],
+			[
+				"id_prod",
+				"ID_PRODUTO_COMBINACAO"
+			],
+			[
+				"prco",
+				"PRCO_ID_PRODUTO_COMBINACAO"
+			],
+			[
+				"valor",
+				"valorTotalPedido"
+			],
+			[
+				"VALO",
+				"VALOR_TOTAL_PEDIDO"
+			],
+			[
+				"ORDE",
+				"sOrder"
+			],
+			[
+				"idPro",
+				"idProdutoPreco"
+			],
+			[
+				"VALOR",
+				"VALOR_TOTAL"
+			],
+			[
+				"valo",
+				"valorTotalPedido"
+			],
+			[
+				"cupo",
+				"cupomExiste"
+			],
+			[
+				"dat",
+				"dataAtual"
+			],
+			[
+				"email",
+				"EMAIL_CLIENTE_CONTEMPLADO"
+			],
+			[
+				"carrinhoProduto",
+				"carrinhoProdutoAtributo"
+			],
+			[
+				"idPe",
+				"idPessoaEndereco"
+			],
+			[
+				"PRCO",
+				"PRCO_ID_PRODUTO_COMBINACAO"
+			],
+			[
+				"ID_PROD",
+				"ID_PRODUTO_COMBINACAO"
+			],
+			[
+				"MUN",
+				"MUNICIPIO"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"prin",
+				"printr"
+			],
+			[
+				"PRINT",
+				"print_r"
+			],
+			[
+				"Consultar",
+				"ConsultarSQL"
+			],
+			[
+				"array",
+				"arrayAtributos"
+			],
+			[
+				"val",
+				"valueAtributos"
+			],
+			[
+				"op",
+				"option	Tag"
+			],
+			[
+				"valu",
+				"valueAtributos"
+			],
+			[
+				"DESCRI",
+				"DESCRICAO_ATRIBUTO_TIPO"
+			],
+			[
+				"value",
+				"valueAtributos"
+			],
+			[
+				"DES",
+				"DESCRICAO_ATRIBUTO"
+			],
+			[
+				"CATE",
+				"CATE_ID_CATEGORIA"
+			],
+			[
+				"get",
+				"getCategorias"
+			],
+			[
+				"print",
+				"printr"
+			],
+			[
+				"strlo",
+				"strtolower"
+			],
+			[
+				"_a",
+				"_arrayCategoria2"
+			],
+			[
+				"INPUT",
+				"input"
+			],
+			[
+				"COD",
+				"codigoUnico"
+			],
+			[
+				"IDPRO",
+				"idProdutoCorrente"
+			],
+			[
+				"idProd",
+				"idProdutoCorrente"
+			],
+			[
+				"produto",
+				"produtoPrincipal"
+			],
+			[
+				"prod",
+				"produtoPrincipal"
+			],
+			[
+				"usua",
+				"USUARIO_LOGADO"
+			],
+			[
+				"usu",
+				"USUARIO_UPDATE"
+			],
+			[
+				"exclu",
+				"Exclusão"
+			],
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"boleto",
+				"BoletoDraft"
+			],
+			[
+				"Boleto",
+				"boletoInstructions"
+			],
+			[
+				"Bol",
+				"boletoNumber"
+			],
+			[
+				"bole",
+				"boletoNumber"
+			],
+			[
+				"oj",
+				"objCartao"
+			],
+			[
+				"error",
+				"error_reporting"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "admin/js/produto.js",
+			"settings":
+			{
+				"buffer_size": 11649,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "admin/produto_cadastra.php",
+			"settings":
+			{
+				"buffer_size": 11612,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "classes/produto.class.php",
+			"settings":
+			{
+				"buffer_size": 28812,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "admin/actions/produto.php",
+			"settings":
+			{
+				"buffer_size": 28036,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "admin/templates/produto_cadastra.tpl",
+			"settings":
+			{
+				"buffer_size": 70161,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "configs/config.php",
+			"settings":
+			{
+				"buffer_size": 5415,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"html",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"htm",
+				"HTML: Encode Special Characters"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/configs/config.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/configs/config_old.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/templates/produto_cadastra.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/classes/funcoes.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/templates/sidebar.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/pessoa_visualiza.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/actions/pessoa_lista.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/configs/constantes.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/produto_do_dia.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/actions/pessoa.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/classes/pedido.class.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/actions/pedido_lista.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/configs/config.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/js/main.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/configs/parametro_loja_2.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/configs/parametro_loja_1.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/classes/produto.class.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/templates/footer.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/login/sair.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/pedido_visualiza.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/classes/pedido.class.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/classes/carrinho.class.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/templates/checkout-confirmacao.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/emails/pedido-realizado.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/checkout-confirmacao.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/css/template.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/actions/cadastro.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/produto-detalhe.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/js/funcoes.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/actions/carrinho.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/js/carrinho.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/checkout-pagamento-entrega.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/logar.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/carrinho.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/alterar-email.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/configs/parametro_loja_3.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/configs/parametro_loja_20.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/js/pessoa.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/templates/pessoa_visualiza.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/js/pedido.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/templates/pessoa_cadastra.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/templates/pedido_visualiza.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/pedido_atendimento.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/modulo-moip/moip.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/templates/checkout-pagamento-entrega.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/js/checkout-pagamento-entrega.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/classes/frete.class.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/actions/buscaEndereco.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/js/cadastre-se.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/modulo-moip/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/modulo-moip/examples.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/modulo-moip/lib/Moip.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/dashboard.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/templates/dashboard.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/js/dashboard.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/templates/footer.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/templates/produto_promocao.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/js/promocao.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/actions/select2_categoria_promocao.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/actions/promocao.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/produto_promocao.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/actions/select2_produto_promocao.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/templates/header.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/teste.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/css/promocao.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/plugins/stepper/ui.stepper.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/js/bootstrap/bootstrap.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/css/main.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/data.json",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/plugins/chosen/chosen.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/plugins/chosen/chosen.min.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/plugins/chosen/ajax-chosen.min.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/plugins/chosen/chosen.jquery.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/css/bootstrap/bootstrap.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/js/produto.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/produto_cadastra.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/templates/includes/_produtos.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/forms.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/templates/promocao.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/.htaccess",
+		"/Users/digital_14/Desktop/vendasComlines",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/css/main_old.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/elements.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/css/bootstrap/bootstrap-responsive.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/templates/pedido_cadastra.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/plugins/select/select2.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/plugins/select/select2.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/plugins/select/select2.min.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/actions/produto.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/templates/lista-desejos.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/actions/lista-desejos.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/js/lista-desejos.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/lista-desejos.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/templates/carrinho.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/templates/produto-detalhe.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/admin/actions/pedido.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/templates/header.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/js/endereco-de-entrega.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/lista-casamento/js/formulario.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/lista-casamento/js/funcoes.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/lista-casamento/js/lista-de-casamento.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/js/inicial.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/templates/topo-carrinho.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/templates/checkout-dados-pessoais.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/templates/_topo.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/templates/includes/_sidebar_conta.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/templates/meus-pedidos.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/templates/includes/_navegacao_checkout.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/templates/includes/_navegacao.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/templates/logar.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/cadastre-se.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/alterar-senha.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/alterar-dados-cadastrais.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/templates/_rodape.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/include/menu_sidebar.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/include/menu_topo.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/anselmi/.htaccess",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/lojapadrao/admin/actions/upload.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/lojapadrao/admin/templates/sidebar.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/lojapadrao/admin/configs/config.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/lojapadrao/admin/actions/promocao.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/lojapadrao/admin/js/banner.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/lojapadrao/admin/templates/banner_cadastra.tpl",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/lojapadrao/admin/banner_cadastra.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/lojapadrao/admin/banner_lista.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/www/lojas/lojapadrao/admin/templates/banner_lista.tpl"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"<open folders>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".MARKUP",
+			"fn_valor_parametro_loja",
+			"retornoArray",
+			"precoPromocionalProduto",
+			"`",
+			"precos",
+			"$MARKUP",
+			"MARKUP",
+			"format",
+			"\"hello world\"",
+			"formataDolar",
+			"document",
+			"ValidarUsuario",
+			"fnPedido",
+			"ID_LOJA == 1",
+			"id_loja",
+			"LOJA_ID_LOJA =",
+			"id_loja",
+			"mysqli",
+			"tamanh",
+			"fnGravaPedido",
+			"FINA",
+			"$_SERVER['HTTP_HOST'] != '127.0.0.1'",
+			"CARRIN",
+			"LOJA_ID_LOJA = 1",
+			"id_loja = 1",
+			"projeto",
+			"PROJETO",
+			"projeto",
+			"PROJETO",
+			"LOJA_ID_LOJA",
+			"$urlAtual",
+			"email",
+			");",
+			"frete",
+			"calculaFrete",
+			"frete",
+			"buscaEnderecoCep",
+			"vw_produto_promocao_ativa",
+			"MoipWidget",
+			"moip",
+			"Sandbox",
+			"grafico-pedidos-donut",
+			"plot",
+			"pedidosDonut",
+			"JSONpedidosDetalhe",
+			"CONVERT(char",
+			"CONVERT",
+			"Callback",
+			"callback",
+			"Produto",
+			"Categoria",
+			"arrayCategoriaPromocao",
+			"produto",
+			"text",
+			"real_escape_string",
+			"select2-container",
+			"stepper",
+			"select",
+			"[select",
+			"jquery",
+			"select2",
+			"select.",
+			"produtoPromocaoSelect",
+			"produto",
+			".chzn-container",
+			".chzn-container .chzn-results .group-result",
+			"No results",
+			"chosen-container-single .chosen-single",
+			"height",
+			"multiple",
+			"preco",
+			"DESCRICAO_VENDA",
+			"select2",
+			".js",
+			"jquery",
+			"form",
+			"prettyPrint",
+			"dash",
+			"qLoverlay",
+			"Multiple",
+			"Multiple select with",
+			"select",
+			".nostyle",
+			"nostyle",
+			"select",
+			"select2",
+			"input",
+			"select2",
+			"select",
+			"select2",
+			"();",
+			"idPessoa",
+			"select2",
+			"select2-container",
+			"select2",
+			"data",
+			"<?",
+			"Data Inicial Validade",
+			"removerProdutoDesejo",
+			"fn_valor_venda_produto",
+			"CASE TPSI.PRECO_PROMOCIONAL",
+			"TPSI.PRECO_PROMOCIONAL",
+			"ID_PRODUTO_ATRIBUTO_VALOR",
+			"listaca",
+			"fnComprarProduto",
+			"fnCalculaFrete",
+			"fnFrete",
+			"$.post(\"../",
+			"Searching",
+			"$.post(\"../",
+			"urlSite",
+			"finalizarCompra",
+			"btFinalizarCompra",
+			"fnComprarProduto",
+			"carrinho",
+			"Carrinho",
+			"CARRINHO",
+			"Carrinho",
+			"carrinho",
+			"href=\"/",
+			"/carrinho",
+			"action=\"/",
+			"href=\"/",
+			"href",
+			"href=\"/",
+			"action=\"/",
+			"$_SERVER['HTTP_HOST'] != 'www2.lojaspr.com.br'"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"ID_LOJA <> 1",
+			"$.post($BASE_DIR+\"",
+			"$_SERVER['HTTP_HOST'] != '127.0.0.1'",
+			"www2.lojaspr.com.br",
+			"",
+			"TPSI.PRCO_ID_PRODUTO_COMBINACAO",
+			"CARR.PRCO_ID_PRODUTO_COMBINACAO",
+			"www2.lojaspr.com.br"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "admin/js/produto.js",
+					"settings":
+					{
+						"buffer_size": 11649,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1431,
+								1502
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 322.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "admin/produto_cadastra.php",
+					"settings":
+					{
+						"buffer_size": 11612,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1836,
+								1855
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 339.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "classes/produto.class.php",
+					"settings":
+					{
+						"buffer_size": 28812,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								23328,
+								23328
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 9074.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "admin/actions/produto.php",
+					"settings":
+					{
+						"buffer_size": 28036,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7293,
+								7293
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3888.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "admin/templates/produto_cadastra.tpl",
+					"settings":
+					{
+						"buffer_size": 70161,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								27954,
+								27954
+							],
+							[
+								28105,
+								28105
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "configs/config.php",
+					"settings":
+					{
+						"buffer_size": 5415,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								208,
+								111
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 298.0,
+	"status_bar_visible": true
+}

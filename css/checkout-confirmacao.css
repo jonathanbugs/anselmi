@@ -1,0 +1,377 @@
+/* --------------
+	CONFIRMAÇÃO DO PEDIDO
+---------------*/
+.pedidoConfirmacao {
+	margin-bottom: 35px;
+	background-color: #f6ff6b;
+	width: 100%;
+}
+
+.contentConfirmacao {
+	padding: 30px;
+	display: block;
+}
+
+.pedidoConfirmacao .dadosConfirmacao {
+	padi
+	float: left;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-ms-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+
+.dadosConfirmacao .circulo {
+	background: #005199;
+	width: 60px;
+	height: 60px;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+	position: relative;
+	text-align: center;
+	float: left;
+}
+
+.dadosConfirmacao .circulo .icone {
+	background: url('../img/icons/confirmacao.png') no-repeat;
+	width: 24px;
+	height: 18px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -9px 0 0 -12px;
+}
+
+.dadosConfirmacao .texto {
+	float: left;
+	margin-left: 13px;
+}
+
+.dadosConfirmacao .sucessoTxt {
+	font-weight: bold;
+	color: #005099;
+	font-size: 22px;
+	line-height: 1em;
+	display: block;
+	padding-top: 9px;
+}
+
+.dadosConfirmacao .confirmacaosTxt {
+	color: #919191;
+	font-size: 14px;
+	line-height: 1.2em;
+	display: block;
+	padding-top: 5px;
+}
+
+.pedidoConfirmacao .confirmacaoOpcoes {
+	float: right;
+}
+
+.confirmacaoOpcoes .btConfirmacaoOpcoes {
+	background: #005099;
+	float: left;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 14px;
+	display: block;
+	text-transform: uppercase;
+	position: relative;
+	height: 30px;
+	padding: 20px 62px 0 42px;
+	margin: 25px 0 0 4px;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-ms-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+
+.confirmacaoOpcoes .btConfirmacaoOpcoes:hover {
+	background: #545454;
+}
+
+.confirmacaoOpcoes .btConfirmacaoOpcoes .icone {
+	background: url('../img/icons/confirmacao.png') no-repeat;
+	position: absolute;
+	top: 50%;
+	right: 27px;
+}
+
+.confirmacaoOpcoes .btConfirmacaoOpcoesImprimir .icone {
+	background-position: 0 -122px;
+	width: 17px;
+	height: 15px;
+	margin-top: -7px;
+}
+
+.confirmacaoOpcoes .btConfirmacaoOpcoesPdf .icone {
+	background-position: 0 -241px;
+	width: 14px;
+	height: 17px;
+	margin-top: -8px;
+}
+
+
+/* --------------
+	BLOCOS CHECKOUT
+---------------*/
+.checkoutBloco {
+	border: 1px solid #e5e5e5;
+	padding: 23px 19px 38px;
+}
+
+.checkoutBlocoLeft {
+	width: 49%;
+	float: left;
+}
+
+.checkoutBlocoRight {
+	width: 49%;
+	float: right;
+}
+
+.checkoutBloco .checkoutBlocoTitulo {
+	background: url('../img/icons/titulos_chechout.png') no-repeat;
+	display: block;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+	color: #005199;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #005099;
+	line-height: 24px;
+}
+
+.pagamentoContent {
+	margin: 30px 20px 20px;
+}
+
+
+
+/* --------------
+	BLOCOS ENTREGA
+---------------*/
+.checkoutBlocoEnvio {
+	margin-bottom: 20px;
+}
+
+.checkoutBlocoEnvio .checkoutBlocoTitulo {
+	padding-left: 45px;
+}
+
+.pagamentoContent .entregaBloco {
+	margin-bottom: 25px;
+}
+
+.pagamentoContent .entregaBlocoLast {
+	margin-bottom: 0;
+}
+
+.pagamentoContent .entregaBlocoLimite {
+	max-width: 340px;
+}
+
+.entregaBloco .titulo {
+	text-transform: uppercase;
+	color: #005099;
+	font-size: 14px;
+	font-weight: bold;
+	display: block;
+	padding-bottom: 7px;
+}
+
+.entregaBloco .descricao {
+	color: #919191;
+	line-height: 14px;
+}
+
+.entregaBloco .descricaoBold {
+	font-weight: bold;
+	text-transform: uppercase;
+	display: block;
+	font-size: 14px;
+}
+
+
+
+
+
+/* --------------
+	BLOCOS PAGAMENTO
+---------------*/
+.checkoutBlocoEntrega .checkoutBlocoTitulo {
+	background-position: 0 -123px;
+	padding-left: 45px;
+}
+
+.pedidoPagamento .pagamentoBloco {
+	float: left;
+	max-width: 110px;
+	margin-right: 45px;
+}
+
+.pedidoPagamento .pagamentoBloco .tituloBlocos {
+	font-size: 14px;
+	color: #005099;
+	font-weight: bold;
+	display: block;
+	text-align: left;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+	line-height: 14px;
+}
+
+.pagamentoBloco .valorTotal,
+.pagamentoBloco .valorVezes {
+	color: #919191;
+	display: block;
+	font-weight: bold;
+	text-align: left;
+}
+
+.pagamentoBloco .valorTotal {
+	font-size: 20px;
+	padding: 7px 0 3px;
+}
+
+.pagamentoBloco .valorVezes {
+	font-size: 12px;
+	white-space: nowrap;
+}
+
+
+.pagamentoBloco .imgPagamento {
+	background: url('../img/icons/formas_pagamentos.png') no-repeat;
+	display: block;
+}
+
+.pagamentoBloco .imgPagamento_Visa {
+	background-position: 0 0;
+	width: 74px;
+	height: 44px;
+}
+
+.pagamentoBloco .imgPagamento_VisaElectron {
+	background-position: -77px 0;
+	width: 74px;
+	height: 44px;
+}
+
+.pagamentoBloco .imgPagamento_Mastercard {
+	background-position: -153px 0;
+	width: 74px;
+	height: 44px;
+}
+
+.pagamentoBloco .imgPagamento_Diners {
+	background-position: -230px 0;
+	width: 74px;
+	height: 44px;
+}
+
+.pagamentoBloco .imgPagamento_AmericanExpress {
+	background-position: -308px 0;
+	width: 74px;
+	height: 44px;
+}
+
+.pagamentoBloco .imgPagamento_Hipercard {
+	background-position: -385px 0;
+	width: 74px;
+	height: 44px;
+}
+
+
+.pagamentoBloco .imgPagamento_Itau {
+	background-position: 0 -99px;
+	width: 36px;
+	height: 36px;
+	margin-left: 15px;
+}
+
+.pagamentoBloco .imgPagamento_Bradesco {
+	background-position: -47px -99px;
+	width: 36px;
+	height: 36px;
+	margin-left: 15px;
+}
+
+.pagamentoBloco .imgPagamento_BancoDoBrasil {
+	background-position: -95px -99px;
+	width: 36px;
+	height: 36px;
+	margin-left: 15px;
+}
+
+.pagamentoBloco .imgPagamento_Banrisul {
+	background-position: -135px -94px;
+	width: 68px;
+	height: 45px;
+}
+
+
+/* --------------
+	BLOCOS CARRINHO
+---------------*/
+.checkoutBlocoCarrinho {
+	padding-bottom: 0;
+}
+
+.checkoutBlocoCarrinho .checkoutBlocoTitulo {
+	background-position: 0 -359px;
+	padding-left: 43px;
+}
+
+.checkoutBlocoCenter{
+	margin-bottom: 20px;
+}
+
+.checkoutBlocoMensagemListaCasamento .checkoutBlocoTituloListaCasamento{
+	background: url('../lista-casamento/img/icones.png') no-repeat;
+	display: block;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+	color: #CB3B49;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #CB3B49;
+	line-height: 24px;
+	background-position: 0 -55px;
+	padding-left: 30px;	
+}
+
+textarea{
+	border: 1px solid #E6E6E6;
+    color: #919191;
+    font-size: 13px;
+    height: 145px;
+    padding: 6px 12px 5px;
+    resize: none;
+    width: 98%;
+    margin-top: 20px;
+}
+
+#btCadastrar {
+    background: url("../img/backgrounds/bg-buttons.png") no-repeat scroll 274px 20px #8A2328;
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: "Arial",sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    height: 50px;
+    margin-top: 20px;
+    outline: medium none;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.5s ease 0s;
+    width: 300px;
+}
+
+#btCadastrar:hover {
+    background-color: #6E6E6E;
+}

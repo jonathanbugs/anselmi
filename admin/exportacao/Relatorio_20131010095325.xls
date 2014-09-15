@@ -1,0 +1,16 @@
+<style type="text/css"> .table tr td { text-align: left; } </style>
+						<table border="2" bordercolor="#CCCCCC" align="left" width="1100">
+							<tr bgcolor="#F5F5F5">
+								<th><strong>VALOR_TOTAL</strong></th>
+								<th><strong>SITUACAO</strong></th>
+								<th><strong>DATA</strong></th>
+								<th><strong>NUMERO_PEDIDO</strong></th>
+								<th><strong>DESCRICAO_FORMA_PAGAMENTO</strong></th>
+								<th><strong>NUMERO_PARCELAS</strong></th>
+								<th><strong>NOME</strong></th>
+								<th><strong>SOBRENOME</strong></th>
+								<th><strong>CPF</strong></th>
+								<th><strong>EMAIL</strong></th>
+								<th><strong>DESCRICAO_PROMOCAO</strong></th>
+								<th><strong>URL_ORIGEM</strong></th>
+							 </tr></table>

@@ -1,0 +1,87 @@
+.row-fluid .valor-label{vertical-align: middle; height: 32px; display: table-cell; }
+.form-pedido-pagamento{position: absolute; z-index: 10; left: 60%;}
+.inativo{font-style: italic; color: #999999; background-color: #666}
+.selecionado{background-color: #d0e6cf}
+.falta-cod{background-color: #f3d5d5}
+.form-produto-pedido{position: absolute; z-index: 10; left: 40%;}
+#formEditaEndereco{display: none;}
+#load-endereco-entrega {padding-right: 30px; display: none;}
+.span3 {text-align: center;}
+.form-actions{text-align: right;}
+/*#tableListaPedido tbody tr {cursor: pointer;}*/
+.print{position: absolute; right: 0;}
+.print a{ display: block;}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * DataTables row classes
+ */
+
+table.display tr.DIGITACAO{
+	background-color: #ffffff;
+}
+table.display tr.ANALISE-CREDITO{
+	background-color: #f6fd3b;
+}
+table.display tr.APROVADO-CREDITO{
+	background-color: #7ffa6f;
+}
+table.display tr.NEGADO-CREDITO{
+	background-color: #fc3d3d;
+}
+table.display tr.ATENDIDO{
+	background-color: #7ade66;
+}
+table.display tr.FATURADO{
+	background-color: #ffffff;
+}
+table.display tr.CANCELADO{
+	background-color: #ffffff;
+}
+table.display tr.AGUARDANDO-FATURAMENTO{
+	background-color: #ffffff;
+}
+table.display tr.TIMEOUT-DE-SESSAO{
+	background-color: #ffffff;
+}
+table.display tr.DESPACHADO{
+	background-color: #f2f2f2;
+}
+table.display tr.DEVOLVIDO{
+	background-color: #FD3333;
+}
+table.display tr.CONTESTADO{
+	background-color: #FD3333;
+}
+table.display tr.PROD-INDISPONIVEL{
+	background-color: #FD3333;
+}
+table.display tr.AGUARDANDO-ESTOQUE{
+	background-color: #e0f83d;
+}
+table.display tr.AGUARDANDO-PAGAMENTO{
+	background-color: #e0f83d;
+}
+table.display tr.ENTREGUE{
+	background-color: #FAE8D3;
+}
+table.display tr.AGUARDANDO-DEVOLUCAO-PARA-TROCA{
+	background-color: #f83d3d;
+}
+table.display tr.ESTORNADO{
+	background-color: #f2f2f2;
+}
+table.display tr.REEMBOLSADO{
+	background-color: #FD3333;
+}
+table.display tr.EXPEDICAO{
+	background-color: #59D9E0;
+}
+
+
+tr.odd {
+	background-color: #f2f2f2;
+}
+
+tr.even {
+	background-color: white;
+}

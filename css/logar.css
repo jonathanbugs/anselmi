@@ -1,0 +1,199 @@
+/* --------------
+	FORMS CHECKOUT
+---------------*/
+.ckeckoutContent {
+	width: 727px;
+	margin: 30px auto;
+	display: block;
+}
+
+.ckeckoutContent .checkoutBloco {
+	position: relative;
+	max-width: 304px;
+	padding-bottom: 28px;
+}
+
+.ckeckoutContent .checkoutBlocoLeft {
+	float: left;
+	padding-right: 60px;
+	border-right: 1px solid #c8965a;
+}
+
+.ckeckoutContent .checkoutBlocoRight {
+	float: right;
+}
+
+.checkoutBloco .checkoutBlocoTitulo  {
+	color: #000;
+	font-family: 'pathway_gothic_oneregular', sans-serif;
+	font-size: 26px;
+	display: block;
+	padding: 28px 0 12px;
+	border-bottom: 1px solid #c8965a;
+	margin-bottom: 18px;
+	text-transform: uppercase;
+}
+
+.checkoutBloco .checkoutForm {
+	width: 304px;
+	position: relative;
+}
+
+.checkoutBlocoLeft .checkoutForm {
+	height: 203px;
+}
+
+.checkoutBlocoRight .checkoutForm {
+	height: 155px;
+}
+
+.checkoutForm .holder {
+	position: relative;
+	margin-bottom: 4px;
+}
+
+.checkoutForm .label,
+.checkoutForm .input {
+	color: #7f8187;
+	font-size: 13px;
+}
+
+.checkoutForm .label {
+	position: absolute;
+	top: 15px;
+	left: 12px;
+}
+
+.checkoutForm .input {
+	width: 280px;
+	height: 18px;
+	border: 1px solid #e5e5e5;
+	padding: 10px 11px;
+	line-height: 18px;
+}
+
+.checkoutForm .btSubmit {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 304px;
+	height: 50px;
+	background: #c8965a;
+	color: #000;
+	font-family: 'pathway_gothic_oneregular', sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	display: block;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-ms-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+
+.checkoutForm .btSubmit:hover {
+	background: #000;
+	color: #c8965a;
+}
+
+.checkoutForm .btSubmit .icone {
+	background: url('../img/icons/nav_slider.png') no-repeat;
+	background-position: -24px -3px;
+	width: 7px;
+	height: 12px;
+	position: absolute;
+	top: 50%;
+	right: 22px;
+	margin-top: -6px;
+}
+
+.checkoutBloco .btSenha,
+.checkoutBloco .checkoutBlocoTxt {
+	display: block;
+	color: #7f8187;
+}
+
+.checkoutBloco .btSenha {
+	text-decoration: underline;
+	padding: 25px 0 0 12px;
+}
+
+.checkoutBloco .btSenha:hover {
+	color: #c8965a;
+}
+
+.checkoutBloco .checkoutBlocoTxt {
+	margin-bottom: 20px;
+	line-height: 14px;
+}
+
+/* MODAL ESQUECI SENHA */
+#formEsqueciSenha {
+	padding-top: 30px;
+}
+
+#formEsqueciSenha label{
+	font-size: 12px;
+	color: #808080;
+	text-align: left;
+	float: left;
+	padding-right: 10px;
+	line-height: 30px;
+}
+
+#formEsqueciSenha li{
+	height: 30px;
+}
+
+#formEsqueciSenha ul{
+	padding-bottom: 30px;
+}
+
+#formEsqueciSenha input[type="text"]{
+	font-size: 12px;
+	color: #808080;
+	font-family: "Arial", sans-serif;
+	line-height: 14px;
+	padding: 7px 10px 6px 10px;
+	border: 1px solid #e6e6e6;
+	width: 246px;
+}
+
+#formEsqueciSenha #btEnviarSenha{
+	margin-left: 60px;
+	width: 200px;
+	height: 50px;
+	color: #000;
+	font-family: 'pathway_gothic_oneregular', sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 20px;
+	background: url("../img/backgrounds/bg-buttons.png") no-repeat 174px 20px #c8965a;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 0;
+
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-ms-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;	
+}
+
+#formEsqueciSenha #btEnviarSenha:hover{
+	background-color: #000;	
+	color: #c8965a
+}
+
+#msnRetorno{
+	color: #005199;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.erroLogar{
+	color: #CC0000;
+	position: relative;
+	margin-top: 10px;
+}

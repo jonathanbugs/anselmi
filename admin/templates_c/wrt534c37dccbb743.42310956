@@ -1,0 +1,76 @@
+<?php /* Smarty version Smarty-3.1.10, created on 2014-04-14 16:32:44
+         compiled from "templates\produto_do_dia.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:22327534c37dcc97fa7-30115897%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '0e03ff87ddc025caadeb582b2667e2c86fb593c9' => 
+    array (
+      0 => 'templates\\produto_do_dia.tpl',
+      1 => 1397503635,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '22327534c37dcc97fa7-30115897',
+  'function' => 
+  array (
+  ),
+  'variables' => 
+  array (
+    'ACTIONS_DIR' => 0,
+  ),
+  'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.10',
+  'unifunc' => 'content_534c37dccb9af2_01738142',
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_534c37dccb9af2_01738142')) {function content_534c37dccb9af2_01738142($_smarty_tpl) {?>    <div id="wrapper">
+
+        <?php echo $_smarty_tpl->getSubTemplate ("sidebar.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+
+
+        <!--Body content-->
+        <div id="content" class="clearfix">
+            <div class="contentwrapper"><!--Content wrapper-->
+
+                <?php echo $_smarty_tpl->getSubTemplate ("heading.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+
+
+                <!-- Build page from here: Usual with <div class="row-fluid"></div> -->
+
+                <form class="form-horizontal" id="produtoDoDia" enctype="multipart/form-data" action="<?php echo $_smarty_tpl->tpl_vars['ACTIONS_DIR']->value;?>
+importacao.php" method="post" />
+
+                <input value="produtoDoDia" name="acao" type="hidden">
+                
+                                
+                <div class="form-row row-fluid">
+                        <div class="span12">
+                            <div class="row-fluid">
+                                <label class="form-label span4" for="textarea">Refer&ecirc;ncia</label>
+                                <input type="file" name="arquivo" id="arquivo" />
+                            </div>
+                        </div>  
+                    </div>
+                    
+                    <div class="form-actions">
+                       <button type="submit" class="btn btn-info">Salvar</button>
+                       <!--<button type="button" class="btn">Cancel</button>-->
+                       <!-- <div id="loading" class="margin right">
+                       		<img src="images/loaders/circular/017.gif" alt="" />
+                       </div> -->
+                    </div>
+                                                            
+
+                </form> 
+
+    			<!-- Page end here -->
+
+                
+    				
+               
+            </div><!-- End contentwrapper -->
+        </div><!-- End #content -->
+    
+    </div><!-- End #wrapper -->
+
+   <?php }} ?>

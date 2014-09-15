@@ -1,0 +1,103 @@
+/* --------------
+	SESSAO
+---------------*/
+.sessaoListaCasamento {
+	background: url('../img/bg3.jpg') no-repeat top center;
+	height: 209px;
+}
+
+#blocoLogo {
+	margin-top: 45px;
+}
+
+.sucessoListaNoivas {
+	padding: 40px 0;
+	border-bottom: 1px solid #e6e6e6;
+	display: block;
+}
+
+.sucessoContent {
+	background: url('../img/sucesso.png') no-repeat;
+	padding-left: 75px;
+	min-height: 60px;
+	margin: 0 auto;
+	display: block;
+	width: 450px;
+}
+
+.sucessoTiulo {
+	display: block;
+	color: #005099;
+	font-size: 22px;
+	font-weight: bold;
+	padding: 12px 0 3px;
+}
+
+.sucessoContent p {
+	color: #515151;
+	display: block;
+	font-size: 14px;
+}
+
+#passosUl {
+	width: 443px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.passosLi {
+	margin-top: 80px;
+}
+
+.passoTitulo {
+	display: block;
+	font-weight: bold;
+	font-size: 16px;
+	color: #005099;
+	padding-bottom: 20px;
+}
+
+.passosDescricao {
+	color: #515151;
+	font-size: 14px;
+	display: block;
+	line-height: 20px;
+	padding-top: 5px;
+	margin-left: 23px;
+}
+
+.blocoBt {
+	width: 540px;
+	margin: 100px auto 0;
+	padding-bottom: 100px;
+}
+
+.btComecar {
+	display: block;
+	background: #005099;
+	text-align: center;
+	padding: 20px 0;
+	text-transform: uppercase;
+	color: #FFF;
+	font-size: 11px;
+	font-weight: bold;
+	position: relative;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+}
+
+.btComecar:hover {
+	background: #515151;
+}
+
+.btComecar .btIcone {
+	background: url('../img/icones.png') no-repeat;
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	width: 7px;
+	height: 12px;
+	margin-top: -6px;
+}

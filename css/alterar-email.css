@@ -1,0 +1,24 @@
+#formAlterarEmail .ttIpt {
+	width: 225px;
+}
+
+#formAlterarEmail #btSalvarAlteracoes{
+	margin: 55px 0 35px 240px;
+}
+
+/*validacao*/
+span.error { 
+	margin: 30px 0 0 240px;
+	color: #FF615E; 
+	font-size: 10px;
+	display: block;
+	width: 300px;
+	position: absolute;
+	text-align: justify;
+}
+
+#retornoAlteraEmail{
+	padding: 0px;
+	position: absolute;
+	margin-left: 240px;
+}

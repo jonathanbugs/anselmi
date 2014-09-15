@@ -1,0 +1,6 @@
+#dlEditaDadosPessoa{ display: none; }
+#formEditaEndereco{ display: none; }
+.gradeX{cursor: pointer;}
+#formNovoEndereco{ display: none; }
+.trPedidoPessoa{cursor: pointer;}
+#tableListaPessoa tbody tr {cursor: pointer;}

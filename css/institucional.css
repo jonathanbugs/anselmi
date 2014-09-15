@@ -1,0 +1,74 @@
+.institucionalContent {
+	margin-top: 15px;
+}
+
+.tituloInstitucional {
+	font-family: 'pathway_gothic_oneregular', sans-serif;
+	font-size: 26px;
+	display: block;
+	line-height: 1em;
+	text-transform: uppercase;
+	color: #000;
+}
+
+
+/* CMS - FORMATACAO DE TAGS DO EDITOR */
+.institucionalContent {
+	line-height: 18px;
+	margin-bottom: 30px;
+}
+
+.cms p {
+	line-height: 18px;
+	padding: 10px 0;
+}
+
+.cms p span {
+	color: #c8965a;
+	font-size: 14px;
+	text-transform: uppercase;
+	line-height: 1em;
+	display: block;
+	padding-top: 15px;
+}
+
+.cms a {
+	text-decoration: underline;
+	color: #c8965a;
+}
+
+.cms em,
+.cms i {
+
+}
+
+.cms b,
+.cms strong {
+
+}
+
+.cms ul {
+
+}
+
+.cms ul,
+.cms ol {
+
+}
+
+.cms ul li {
+	list-style: disc inside;
+	padding-bottom: 5px;
+}
+
+.cms ol li {
+	list-style: decimal inside;
+}
+
+.cms li {
+
+}
+
+.cms strike {
+
+}

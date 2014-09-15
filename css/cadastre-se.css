@@ -1,0 +1,311 @@
+.mainCadastrese{
+	padding:50px 20px 80px 20px;
+}
+
+.subttCadastrese{
+	display: block;
+	font-family: 'pathway_gothic_oneregular', sans-serif;
+	font-size: 20px;
+	line-height: 1em;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	color: #000;
+	border-bottom: 1px solid #c8965a;
+	padding: 0 0 14px 18px;
+	margin-bottom:50px;
+}
+
+.ulGrupoForm{
+	padding-bottom:100px;
+}
+
+#formCadastro{
+	color: #919191;
+}
+
+#formCadastro input[type="text"]{
+	border: 1px solid #e6e6e6;
+	font-size: 13px;
+	color: #919191;
+	line-height: 14px;
+	padding: 6px;
+	/*padding:6px 12px 5px 12px;*/
+}
+
+#formCadastro input[type="password"]{
+	border: 1px solid #e6e6e6;
+	font-size: 13px;
+	color: #919191;
+	line-height: 14px;
+	padding: 6px;
+	/*padding:6px 12px 5px 12px;*/
+}
+
+#formCadastro li{
+	height: 30px;
+	margin-bottom:20px;
+}
+
+#formCadastro li *{
+	float:left;
+	line-height: 30px;
+}
+
+#formCadastro label{
+	width: 220px;
+	text-align: right;
+	padding-right: 12px;
+}
+
+
+#formCadastro .lblRadio,
+#formCadastro .lblCheckbox
+{
+	line-height:16px;
+	height:16px;
+	position:relative;
+	cursor:pointer;
+	margin-top:6px;
+}
+
+#formCadastro .lblRadio{
+	background: url("../img/icons/radio.png") no-repeat scroll 0 -17px transparent;
+}
+
+#formCadastro .inputRadioChecked{
+	background: url("../img/icons/radio.png") no-repeat scroll 0 0px transparent;
+}
+
+#formCadastro .lblCheckbox{
+	background: url("../img/icons/filtros.png") no-repeat scroll 0 0px transparent;
+}
+
+
+#formCadastro .liCheckbox .inputRadioChecked{
+	background: url("../img/icons/filtros.png") no-repeat scroll 0 -232px transparent;
+}
+
+
+#formCadastro .lblRadio input,
+#formCadastro .lblCheckbox input{
+	opacity: 0;
+	cursor: pointer;
+}
+
+
+#formCadastro .lblRadio span,
+#formCadastro .lblCheckbox span{
+	display:block;
+	line-height:15px;
+	height:15px;
+	position:absolute;
+	top:0;
+	left:23px;
+}
+
+
+
+/*
+* TAMANHO E MARGENS LABELS
+*/
+
+#formCadastro #lblEmail,
+#formCadastro #lblSenha{
+	width: 220px
+}
+
+#formCadastro #lblConfirmacaoEmail,
+#formCadastro #lblConfirmacaoSenha{
+	width: 220px;
+}
+
+
+#formCadastro #lblReceberNews{
+	margin-left:82px;
+	width:420px;
+	cursor: pointer;
+}
+
+#formCadastro #lblPessoaFisica{
+	margin-left:232px;
+	width:133px;
+	cursor: pointer;
+}
+
+#formCadastro #lblPessoaJuridica{
+	width:160px;
+	cursor: pointer;
+}
+
+#formCadastro #lblFeminino,
+#formCadastro #lblMasculino{
+	width:100px;
+	cursor: pointer;
+}
+
+#formCadastro #lblApartamento{
+	width: 130px; 
+}
+#formCadastro #lblCasa{
+	width: 85px;
+}
+
+#formCadastro #lblComercial{
+	width: 113px;
+}
+
+#formCadastro #lblOutro{
+	width:80px;
+}
+
+#formCadastro #lblNumero{
+	width: 220px;
+}
+
+#formCadastro #lblBairro,
+#formCadastro #lblEstado{
+	width: 220px;
+}
+
+span.erroFormCadastro {
+	margin: 24px 0 0 235px;
+	color: #FF615E; 
+	font-size: 10px;
+	display: block;
+	width: 300px;
+	position: absolute;
+}
+
+/*
+* TAMANHO DOS INPUTS E TEXTAREAS
+*/
+#iptEmail,
+#iptConfirmacaoEmail,
+#pswSenha,
+#pswConfirmacaoSenha{
+	width: 214px
+}
+
+#iptApelido,
+#iptNome,
+#iptSobrenome,
+#iptRazaoSocial,
+#iptNomeFantasia{
+	width: 294px
+}
+
+
+#iptCep,
+#iptDataNascimento,
+#iptContato{
+	width: 177px;
+}
+#iptTelefoneResidencial,
+#iptTelefoneCelular,
+#iptTelefoneComercial{
+	width:120px;
+}
+
+#dddTelefoneResidencial,
+#dddTelefoneComercial,
+#dddTelefoneCelular{
+	width: 30px;
+	margin-right: 10px;
+}
+
+#iptCpf,
+#iptCnpj,
+#iptIe{
+	width:174px;
+}
+
+#iptEndereco{
+	width: 294px;
+}
+
+#iptComplemento,
+#iptCidade{
+	width: 194px;
+}
+
+#iptNumero,
+#iptEstado{
+	width:75px;
+}
+
+#iptBairro{
+	width:194px;	
+}
+
+#textAreaReferencia{
+	border: 1px solid #e6e6e6;
+	font-size: 13px;
+	color: #919191;
+	padding:6px 12px 5px 12px;
+	width:474px;
+	height:145px;
+	resize:none;
+}
+
+/* ELEMENTOS AUXILIARES DOS INPUTS */
+#formCadastro .auxCampo{
+	line-height:30px;
+	padding-left:15px;
+	font-size:11px;
+}
+
+.linkSobreCpf,
+.linkConsultarCep{
+	font-size: 11px;
+	color: #808080;
+	text-decoration: underline;
+	margin-left:15px;
+}
+
+/* LI MAIOR QUE AS DEMAIS */
+#formCadastro .liInformacoesReferencia{
+	height:160px;
+}
+
+/* BOTAO SUBMIT */
+#formCadastro #btCadastrar{
+	width: 300px;
+	height: 50px;
+	color: #000;
+	font-family: 'pathway_gothic_oneregular', sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	background: url("../img/backgrounds/bg-buttons.png") no-repeat scroll 274px 20px #c8965a;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	margin-left: 339px;
+	padding: 0;
+
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-ms-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+
+#formCadastro #btCadastrar:hover{
+	background-color: #000;
+	color: #c8965a;
+}
+
+/*validacao*/
+span.error { 
+	margin: 24px 0 0 235px;
+	color: #FF615E; 
+	font-size: 10px;
+	display: block;
+	width: 300px;
+	position: absolute;
+	text-align: justify;
+}
+
+
+
+

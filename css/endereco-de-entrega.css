@@ -1,0 +1,160 @@
+/* --------------
+	SIDEBAR CATEGORIAS
+---------------*/
+.sidebarCategorias .categoriasUl .categoriaFilha {
+	padding-left: 25px;
+}
+
+
+.btAdicionarNovoEndereco{
+	width: 300px;
+	height: 50px;
+	line-height: 50px;
+	display: block;
+	background: url("../img/backgrounds/bg-buttons.png") no-repeat scroll 274px 20px #c8965a;
+	font-family: "pathway_gothic_oneregular", sans-serif;
+	font-size: 20px;
+	color: #000;
+	text-align: center;
+	text-transform: uppercase;
+	float: right;
+
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-ms-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+
+.btAdicionarNovoEndereco:hover{
+	background-color: #000;
+	color: #c8965a;
+}
+
+.ttTipoEndereco{
+	display: block;
+	clear: both;
+	font-size: 14px;
+	color: #005099;
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height:110%;
+	padding:20px 0 8px;
+}
+
+.ttIdentificacaoEndereco{
+	text-transform: uppercase;
+	color: #919191;
+	font-weight: bold;
+	font-size: 13px;
+	letter-spacing: -0.03em;
+	display:block;
+	padding-bottom:10px;
+}
+
+.endereco{
+	float:left;
+}
+
+.endereco address{
+	font-size:13px;
+	color: #919191;
+	font-style: normal;	
+}
+
+.endereco address span{
+	display: block;
+	line-height: 130%;
+}
+
+.btAcoesEndereco{
+	position:absolute;
+	bottom:30px;
+	right:30px;
+}
+
+.btAcoesEndereco li{
+	float:left;
+	margin-left:10px;
+}
+
+.boxEndereco{
+	padding: 30px;
+	border: 1px solid #e6e6e6;
+	position: relative;
+}
+
+.boxEndereco .clearfix{
+	width:100%;
+}
+
+
+.btEditarEndereco,
+.btRemoverEndereco{
+	display: block;
+	width: 110px;
+	height: 40px;
+	line-height: 40px;
+	background: #c8965a;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: "pathway_gothic_oneregular", sans-serif;
+	font-size: 20px;
+	color: #000;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-ms-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+
+.btEditarEndereco:hover,
+.btRemoverEndereco:hover{
+	background-color: #000;
+	color: #c8965a;
+}
+
+.divEnderecoPrincipal{
+	padding-bottom:90px;
+}
+
+.divOutrosEnderecos .boxEndereco{
+	border-bottom:none;
+}
+
+.divOutrosEnderecos{
+	border-bottom: 1px solid #e6e6e6;
+} 
+
+.boxEditaEndereco{
+	display: none;
+}
+
+.lblCheckbox{
+	background: url("../img/icons/filtros.png") no-repeat scroll 0 0px transparent;
+}
+
+.liCheckbox .inputRadioChecked{
+	background: url("../img/icons/filtros.png") no-repeat scroll 0 -232px transparent;
+}
+
+.lblCheckbox
+{
+	line-height:16px;
+	height:16px;
+	position:relative;
+	cursor:pointer;
+	margin-top:6px;
+}
+
+.lblCheckbox input{
+	opacity: 0;
+	cursor: pointer;
+}
+
+/* AJUSTES PARA VIEWPORT ENTRE 1024 A 1240 Pixels */
+@media screen and (max-width: 1240px){
+	.boxEditaEndereco #formEndereco #textAreaReferencia{
+		width: 333px;
+	}
+}

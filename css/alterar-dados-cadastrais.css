@@ -1,0 +1,129 @@
+#formAlterarDadosGerais .liNews {
+	padding: 85px 0;
+}
+
+#formAlterarDadosGerais input[type="text"] {
+	font-size: 13px;
+	color: #919191;
+	height: 15px;
+	line-height: 15px;
+	padding: 6px 12px 7px 12px;
+	border: 1px solid #e6e6e6;
+	width: 294px; 
+}
+
+#formAlterarDadosGerais .ttIpt{
+	width: 145px;
+}
+
+#formAlterarDadosGerais input.inputMenor {
+	width: 176px;
+}
+
+.lblRadio input {
+	margin:0;
+	padding:0;
+	border:0;
+	cursor:pointer;
+	opacity:0;
+	filter: alpha(opacity=00);
+}
+
+.lblRadio {
+	line-height:15px;
+	height:15px;
+	position:relative;
+	color:#808080;
+	font-size:13px;
+	cursor:pointer;
+	background: url("../img/icons/radio.png") no-repeat scroll 0 -17px transparent;
+	margin-top:6px;
+}
+
+.liSexo .inputRadioChecked {
+	background: url("../img/icons/radio.png") no-repeat scroll 0 0px transparent;
+}
+
+.lblRadio span{
+	display:block;
+	line-height:15px;
+	height:15px;
+	position:absolute;
+	top:0;
+	left:23px;
+}
+
+#lblFeminino {
+	width: 100px;
+}
+
+#lblMasculino {
+	width: 85px;
+}
+
+.liNews label{
+	margin-left:130px;
+	position:relative;
+	height:16px;
+	line-height:16px;
+	width:378px;
+}
+
+.liNews label span{
+	font-size:13px;
+	color:#808080;
+	display:block;
+	line-height:16px;
+	height:16px;
+	position:absolute;
+	top:0;
+	left:28px;
+}
+
+#checkNewsletter{
+	margin:0;
+	border:0;
+	outline:0;
+	opacity:0;
+	filter: alpha(opacity=00);
+
+	cursor:pointer;
+}
+
+.liNews label{
+	cursor:pointer;
+}
+
+.liNews label{
+	background: url("../img/icons/filtros.png") no-repeat scroll 0 0px transparent;
+}
+
+
+.liNews .inputRadioChecked{
+	background: url("../img/icons/filtros.png") no-repeat scroll 0 -232px transparent;
+}
+
+#formAlterarDadosGerais #btSalvarAlteracoes{
+	margin-left:180px;
+}
+
+.F, .J {
+	display: none;
+}
+
+/*validacao*/
+span.error { 
+	margin: 30px 0 0 163px;
+	color: #FF615E; 
+	font-size: 10px;
+	display: block;
+	width: 300px;
+	position: absolute;
+	text-align: justify;
+}
+
+#retornoAlteraDados{
+	padding: 0px;
+	position: absolute;
+	margin-left: 240px;
+}

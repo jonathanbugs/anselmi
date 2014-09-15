@@ -1,0 +1,229 @@
+<?php /* Smarty version Smarty-3.1.10, created on 2013-09-16 16:02:14
+         compiled from "templates\_rodape.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:15284523755b61a8102-01593610%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '15dd0f473a59f1a2f02661f409689d0a6598be32' => 
+    array (
+      0 => 'templates\\_rodape.tpl',
+      1 => 1377794351,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '15284523755b61a8102-01593610',
+  'function' => 
+  array (
+  ),
+  'variables' => 
+  array (
+    'contato' => 0,
+    'analytics' => 0,
+    'google_conversion_id' => 0,
+  ),
+  'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.10',
+  'unifunc' => 'content_523755b61d8d82_95408033',
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_523755b61d8d82_95408033')) {function content_523755b61d8d82_95408033($_smarty_tpl) {?><div id="footer">
+	<div class="container">
+
+		<!-- INFORMACOES DUVIDAS -->
+		<div class="boxDuvidas">
+			<div class="contentDuvidas">
+				<div class="boxTextDuvidas">
+					<div class="boxIcone circulo">
+						<span class="icone"></span>
+					</div>
+					<span class="duvidasTxt">Est&aacute; com d&uacute;vidas?</span>
+					<span class="respostasTxt">
+						Encontre a resposta das d&uacute;vidas mais frequentes ou fale com um de nossos atendentes no chat-online.
+					</span>
+				</div>
+				<a class="btDuvidas" href="/duvidas-frequentes">
+					<span class="txtBt1">Esclare&ccedil;a suas d&uacute;vidas</span>
+					<span class="txtBt2">Clique Aqui</span>
+				</a>
+				<div class="boxTelefone">
+					<div class="boxLigue circulo table">
+						<div class="tableCell">
+							<span class="txtLigue txtLigue1">ou</span>
+							<span class="txtLigue">ligue</span>
+						</div>
+					</div>
+					<div class="boxInfos">
+						<a class="infosTxt infosTxtFone" href="tel:<?php echo $_smarty_tpl->tpl_vars['contato']->value['FoneLink'];?>
+"><span><?php echo $_smarty_tpl->tpl_vars['contato']->value['DDD'];?>
+</span> <?php echo $_smarty_tpl->tpl_vars['contato']->value['Fone'];?>
+</a>
+						<span class="infosTxt">de Segunda-feira &agrave;&nbsp; S&aacute;bado,</span>
+						<span class="infosTxt">das 9h &agrave;s 18h</span>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<!-- BUSCAR PRODUTO -->
+		<div class="boxBuscarRodape">
+			<form action="/busca" method="get" name="buscaForm" id="buscaForm" class="buscaForm" lang="pt">
+				<div class="holder">
+					<label class="label" for="busca">Buscar por um produto, marca ou c&oacute;digo</label>
+					<input class="input" type="text" id="busca" name="q" />
+					<button type="submit" class="btSubmit"><span class="icone"></span></button>
+				</div>
+			</form>
+		</div>
+
+		<!-- INSTITUCIONAL RODAPE -->
+		<div class="boxInstitucionalRodape">
+			<div class="contentInstitucionalRodape clearfix">
+				<div class="boxInstitucional boxInstitucionalLeft">
+					<ul class="institucionalUl">
+						<li class="institucionalTitulo">Ajuda e Suporte</li>
+						<li class="institucionalLi"><a class="institucionalLink" href="termos-uso">Termos de uso</a></li>
+						
+						<li class="institucionalLi"><a class="institucionalLink" href="duvidas-frequentes">D&uacute;vidas Frequentes</a></li>
+						<!--
+						<li class="institucionalLi"><a class="institucionalLink" href="javascript:;">Pol&iacute;tica de Privacidade</a></li>
+						<li class="institucionalLi"><a class="institucionalLink" href="javascript:;">Trocas e Devolu&ccedil;&otilde;es</a></li>
+						<li class="institucionalLi"><a class="institucionalLink" href="javascript:;">Garantia</a></li>
+						<li class="institucionalLi"><a class="institucionalLink" href="javascript:;">Mapa do site</a></li>-->
+					</ul>
+
+					<ul class="institucionalUl">
+						<li class="institucionalTitulo">Institucional</li>
+						<li class="institucionalLi"><a class="institucionalLink" href="/sobre-nos">Sobre a Comlines</a></li>
+						<!--<li class="institucionalLi"><a class="institucionalLink" href="javascript:;">Neg&oacute;cios</a></li>
+						<li class="institucionalLi"><a class="institucionalLink" href="javascript:;">Trabalhe Conosco</a></li>
+						<li class="institucionalLi"><a class="institucionalLink" href="javascript:;">Termos de Uso</a></li>-->
+					</ul>
+				</div>
+				<div class="boxInstitucional boxInstitucionalCentro">
+					<ul class="institucionalUl pagamentoUl">
+						<li class="institucionalTitulo">Formas de Pagamento</li>
+
+						<!-- PARA OCULTAR ALGUMA FORMA DE PAGAMENTO ADICIONAR A CLASSE "pagamentoLiInativo" -->
+						<li class="pagamentoLi">
+							<span class="pagamentoIcone pagamentoIconeVisa ir">Visa</span>
+						</li>
+						<!--<li class="pagamentoLi">
+							<span class="pagamentoIcone pagamentoIconeElectron ir">Visa Electron</span>
+						</li>-->
+						<li class="pagamentoLi">
+							<span class="pagamentoIcone pagamentoIconeMastercard ir">Mastercard</span>
+						</li>
+						<li class="pagamentoLi">
+							<span class="pagamentoIcone pagamentoIconeDiners ir">Diners Club</span>
+						</li>
+						<li class="pagamentoLi">
+							<span class="pagamentoIcone pagamentoIconeAmerican ir">American Express</span>
+						</li>
+						<li class="pagamentoLi">
+							<span class="pagamentoIcone pagamentoIconeHipercard ir">Hipercard</span>
+						</li>
+					
+						<li class="pagamentoLi">
+							<span class="pagamentoIcone pagamentoIconeItau ir">Itaú</span>
+						</li>
+						<li class="pagamentoLi">
+							<span class="pagamentoIcone pagamentoIconeBradesco ir">Bradesco</span>
+						</li>
+						<li class="pagamentoLi">
+							<span class="pagamentoIcone pagamentoIconeBancoBrasil ir">Banco do Brasil</span>
+						</li>
+						<li class="pagamentoLi">
+							<span class="pagamentoIcone pagamentoIconeBanrisul ir">Banrisul</span>
+						</li>
+						<!--<li class="pagamentoLi">
+							<span class="pagamentoIcone pagamentoIconeOi ir">Oi</span>
+						</li>-->
+						<li class="pagamentoLi">
+							<span class="pagamentoIcone pagamentoIconeBoleto ir">Boleto</span>
+						</li>
+					</ul>
+
+					<div class="institucionalUl lojaSegura">
+						<span class="institucionalTitulo">Loja Segura</span>
+						<a href="http://www.ebit.com.br/comlines-revendedor-tramontina" class="icone iconeEbit ir" target="_blank">E-bit</a>
+						<a href="http://www.buscape.com.br/ferramentas-buscape/loja-reconhecida-selo-ebit?aba=como-adquirir?id_emp=907728" class="icone iconeBuscape ir" target="_blank">Empresa Reconhecida Buscap&eacute;</a>
+						<span class="icone iconeBondfaro ir">Empresa Reconhecida Bondfaro</span>
+						<a href="https://seals.trustsign.com.br/certificate.php?id=439&amp;site=www.comlines.com.br&amp;lang=pt" class="icone iconeTrustsign ir" target="_blank">Trustsign Site Auntêntico</a>
+					</div>
+				</div>
+
+				<div class="boxFacebook">
+					<div class="fb-like-box" data-href="https://www.facebook.com/ComlinesTramontina" data-width="232" data-height="325" data-show-faces="true" data-stream="false" data-show-border="false" data-header="false"></div>
+				</div>
+			</div>
+			<a class="spr ir" href="http://www.spr.com.br" target="_blank">SPR</a>
+		</div>
+	</div>
+</div>
+
+<!-- MODAL - COMPRA SEGURA 
+<div id="modalLoaderActions">
+	<img src="../img/backgrounds/loader_actions.gif">
+</div>
+-->
+
+<div id="fb-root"></div>
+<script>
+window.fbAsyncInit = function() {
+    // init the FB JS SDK
+    FB.init({
+      appId      : '168311620023539',                        // App ID from the app dashboard
+      //channelUrl : '//WWW.YOUR_DOMAIN.COM/channel.html', // Channel file for x-domain comms
+      status     : true,                                 // Check Facebook Login status
+      xfbml      : true                                  // Look for social plugins on the page
+    });
+
+    // Additional initialization code such as adding Event Listeners goes here
+  };
+
+  // Load the SDK asynchronously
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {
+     	return;
+     }
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/pt_BR/all.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<?php if ($_smarty_tpl->tpl_vars['analytics']->value){?>
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', '<?php echo $_smarty_tpl->tpl_vars['analytics']->value;?>
+']);
+	_gaq.push(['_setDomainName', 'comlines.com.br']);
+	_gaq.push(['_trackPageview']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+<?php }?>
+
+<!-- Código do Google para tag de remarketing -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = <?php echo $_smarty_tpl->tpl_vars['google_conversion_id']->value;?>
+;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/<?php echo $_smarty_tpl->tpl_vars['google_conversion_id']->value;?>
+/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+<?php }} ?>

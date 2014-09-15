@@ -1,0 +1,646 @@
+/* RESET */
+html {height:100%;overflow:auto;}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;font-size:100%;vertical-align:baseline;background:transparent;}
+h1,h2,h3,h4,h5,h6 {font-weight:normal;}
+body {line-height:1em;color:#000;font-size:12px;font-family:Arial,Helvetica,sans-serif;}
+ul {list-style:none;}
+blockquote,q {quotes:none;}
+hr {display:none;}
+textarea {overflow:auto;}
+select {-webkit-appearance:none;}
+button {padding:0;border:none;cursor:pointer;background:none;}
+iframe {border:none;overflow:hidden;}
+* {outline:0 none;}
+a,a:hover {text-decoration:none;}
+/* CLEARFIX */
+.clearfix:after {content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0;}
+.clearfix display:inline-block;}
+html[xmlns] .clearfix {display:block;}
+/* CLASSES PADROES */
+.ir {text-indent:-100%;overflow:hidden;white-space:nowrap;display:inline-block;font-size:0;line-height:0;}
+.table {display:table;}
+.table-cell {display:table-cell;vertical-align:middle;text-align:center;}
+
+
+@font-face {
+	font-family: 'alexbrushregular';
+	src: url('../fontes/alexbrush-webfont.eot');
+	src: url('../fontes/alexbrush-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fontes/alexbrush-webfont.woff') format('woff'),
+		 url('../fontes/alexbrush-webfont.ttf') format('truetype'),
+		 url('../fontes/alexbrush-webfont.svg#alexbrushregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+body {
+}
+
+.bgListaCasamento {
+	background: #ca3c4a;
+	line-height:1em; text-align:center; color:#545454; font-size:12px; font-family: Arial,Helvetica,sans-serif;
+	/*font-family: arial, sans-serif;
+	
+	font-size: 12px;
+	line-height: 18px;*/
+}
+
+
+/* --------------
+	ESTRUTURA
+---------------*/
+#wrapper {
+	position: relative;
+}
+
+.containerGeral {
+	margin: 0 auto;
+	width: 980px;
+	position: relative;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+}
+
+
+/* --------------
+	GERAIS
+---------------*/
+#topo,
+#conteudoLista {
+	position: relative;
+	z-index: 2;
+	background: #FFF;
+	display: block;
+}
+
+
+/* --------------
+	TOPO QUE REPETE
+---------------*/
+.sessaoListaCasamento {
+	background: url('../img/bg2.png') no-repeat;
+	height: 200px;
+	position: relative;
+}
+
+#blocoLogo {
+	float: left;
+	width: 231px;
+	margin: 30px 0 0 40px;
+}
+
+
+.btVoltar {
+	background: url('../img/icones.png') no-repeat;
+	background-position: 0 -191px;
+	padding-left: 30px;
+	text-transform: uppercase;
+	display: inline-block;
+	min-height: 20px;
+	line-height: 20px;
+	color: #FFF;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 15px;
+}
+
+.btVoltar:hover {
+	text-decoration: underline;
+}
+
+#blocoImagem {
+	float: left;
+	margin-left: 30px;
+	width: 320px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -160px;
+}
+
+.imagemNoivos{
+ 	-moz-transform:rotate(-15deg);
+ 	-webkit-transform:rotate(-15deg);
+ 	-o-transform:rotate(-15deg);
+ 	-ms-transform:rotate(-15deg);
+ 	transform:rotate(-15deg);
+}
+
+#blocoNomes {
+	float: right;
+	margin: 40px 82px 0 40px;
+	text-align: center;
+	color: #fff;
+}
+
+#blocoNomes .nome,
+#blocoNomes .divisor {
+	display: block;
+	font-family: 'alexbrushregular', arial, sans-serif;
+	position: relative;
+}
+
+#blocoNomes .nome {
+	font-size: 42px;
+	z-index: 2;
+	line-height: 1em;
+}
+
+#blocoNomes .divisor {
+	font-size: 54px;
+	color: #292929;
+	opacity: 0.5;
+	-moz-opacity: 0.5;
+	filter: alpha(opacity=50);
+	z-index: 1;
+	line-height: 0.5em;
+}
+
+
+#produtosContent {
+	display: block;
+	margin: 0 12px;
+	padding-top: 20px;
+	position: relative;
+}
+
+
+
+/* --------------
+	SIDEBAR
+---------------*/
+.sidebarCategorias {
+	width: 187px;
+	border: 1px solid #e6e6e6;
+	border-bottom: none;
+	float: left;
+	text-align: left;
+}
+
+.sidebarCategorias .sidebarTitulo {
+	background: #e5e5e5;
+	color: #919191;
+	font-size: 14px;
+	display: block;
+	padding: 19px 0 19px 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+	width: 179px;
+}
+
+.sidebarCategorias .categoriasUl {
+	border-bottom: 1px solid #e6e6e6;
+	padding-bottom: 17px;
+}
+
+.sidebarCategorias .categoriasUl .categoriaMae {
+	display: block;
+	margin-left: 9px;
+}
+
+.sidebarCategorias .categoriaMae .categoriasLink {
+	background: url('../img/icones2.png') no-repeat;
+	background-position: 0 -595px;
+	display: block;
+	padding: 17px 0 0 20px;
+	font-size: 13px;
+	color: #005099;
+	font-weight: bold;
+}
+
+.sidebarCategorias .categoriaMae .categoriasLink:hover {
+	text-decoration: underline;
+}
+
+.sidebarCategorias .categoriasUl .categoriaFilha {
+	padding: 0 21px 0 40px;
+}
+
+.sidebarCategorias .categoriaFilha .categoriasLink {
+	background: url('../img/icones2.png') no-repeat;
+	background-position: 0 -988px;
+	color: #545454;
+	display: block;
+	padding-bottom: 8px;
+	line-height: 15px;
+}
+
+.sidebarCategorias .categoriaFilha .categoriasLinkAtivo {
+	color: #005199;
+	font-weight: bold;
+}
+
+.sidebarCategorias .categoriaFilha .categoriasLink:hover {
+	text-decoration: underline;
+}
+
+.sidebarCategorias .categoriaFilha .categoriasLink2  {
+	color: #005099;
+	font-weight: bold;
+	display: block;
+	padding: 8px 0 8px;
+	line-height: 16px;
+}
+
+.sidebarCategorias .categoriaFilha .categoriasLink2:hover {
+	text-decoration: underline;
+}
+
+.sidebarCategorias .categoriaFilha .categoriasLinkFirst {
+	margin-top: 17px;
+}
+
+.sidebarCategorias .categoriasLink span {
+	display: block;
+	margin-left: 7px;
+}
+
+
+
+
+/* --------------
+	CONTEUDO
+---------------*/
+.produtosListagem {
+	float: right;
+	width: 755px;
+}
+
+.tituloPagina {
+	background: url("../img/icones2.png") no-repeat scroll 0 -1103px transparent;
+	color: #005099;
+	display: block;
+	font-family: "Exo Medium",arial,sans-serif;
+	font-size: 22px;
+	line-height: 32px;
+	padding: 0 0 20px 40px;
+	text-transform: uppercase;
+	text-align: left;
+	border-bottom: 4px solid #E5E5E5;	
+	margin-bottom: 25px;
+}
+
+.sessao {
+	text-align: left;
+	overflow: hidden;
+}
+
+.sessao .sessaoTitulo {
+	display: block;
+	font-size: 16px;
+	color: #005199;
+	padding: 0 10px 10px 20px;
+	border-bottom: 2px solid #e5e5e5;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.sessao .sessaoContent {
+	margin: 0 20px;
+}
+
+
+
+/*---------
+	FORMULARIOS
+----------*/
+.inputForm {
+	height: 14px;
+	line-height: 14px;
+	padding: 12px 11px;
+	display: block;
+}
+
+
+/* --------------
+	DADOS DOS CONJUGES
+---------------*/
+.blocoConjuge {
+	margin-bottom: 35px;
+}
+
+.blocoConjugeLeft,
+.blocoConjugeRight {
+	float: left;
+	min-height: 83px;
+	position: relative;
+}
+
+.blocoConjugeLeft {
+	width: 300px;
+	margin-top: 44px;
+}
+
+.relativeInput {
+	position: relative;
+}
+
+.relativeInputMargem {
+	margin-top: 25px;
+}
+
+.dadosTitulo {
+	display: block;
+	color: #515151;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 0 0 5px 12px;
+}
+
+.labelForm,
+.labelFormEntrega,
+.inputForm,
+.inputFormDataEntrega,
+.textareaMensagem {
+	color: #6e6e6e;
+	font-size: 12px;
+	display: block;
+	font-family: arial, sans-serif
+}
+
+.labelForm,
+.labelFormEntrega {
+	position: absolute;
+	left: 13px;
+}
+
+.labelForm {
+	line-height: 40px;
+}
+
+.inputForm,
+.textareaMensagem {
+	border: 1px solid #d3d3d3;
+}
+
+.inputFormDadosCasamento {
+	width: 216px;
+}
+
+.divisorForm {
+	background: url('../img/divisor_form.png') no-repeat;
+	width: 60px;
+	height: 83px;
+	display: block;
+	position: absolute;
+	top: -5px;
+	right: 0;
+}
+
+.blocoConjugeTextarea {
+	margin-top: 40px;
+}
+
+.textareaMensagem {
+	width: 515px;
+	resize: none;
+	padding: 9px 12px 20px;
+	line-height: 20px;
+}
+
+
+
+/* --------------
+	DADOS DA CERIMÔNIA
+---------------*/
+.blocoInput {
+	display: block;
+	margin-bottom: 20px;
+}
+
+.relativeInputFloat {
+	float: left;
+}
+
+.relativeInputHora {
+	margin-left: 40px;
+}
+
+.relativeInputMargemLeft {
+	margin-left: 20px;
+}
+
+.inputFormData {
+	width: 72px;
+	float: left;
+}
+
+.inputFormHora {
+	width: 37px;
+	float: left;
+}
+
+.formato,
+.formatoEntrega {
+	color: #6e6e6e;
+	font-size: 13px;
+	float: left;
+	display: block;
+	padding-left: 15px;
+}
+
+.formato {
+	padding-top: 11px;
+
+}
+
+.inputFormLocal {
+	width: 515px;
+}
+
+.linkCep {
+	color: #6e6e6e;
+	font-size: 13px;
+}
+
+.linkCep:hover {
+	text-decoration: underline;
+}
+
+.inputFormCepEndereco {
+	width: 395px;
+	float: left;
+}
+
+.relativeInputMargemLeft2 {
+	margin-left: 15px;
+}
+
+.inputFormNumero {
+	width: 78px;
+}
+
+.inputFormComplementoBairro {
+	width: 236px;
+}
+
+.select { 
+	background: url('../img/select.png') no-repeat;
+	width: 130px;
+	height: 40px; 
+}
+
+.select span { 
+	position: absolute;
+	color: #6e6e6e;
+	font-size: 13px;
+	display: block;
+	font-family: arial, sans-serif;
+	line-height: 40px;
+	padding-left: 15px;
+} 
+
+.select select { 
+	width: 100%;
+	height: 100%;
+	opacity: 0; 
+	filter:alpha(opacity=0); 
+} 
+
+.comboboxFocus { 
+	border: none;
+}
+
+.inputFormCidade {
+	width: 367px;
+}
+
+.inputFormEstado {
+	width: 106px;
+}
+
+.blocoEntrega {
+	margin-bottom: 60px;
+}
+
+.entregaTitulo {
+	color: #6e6e6e;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: bold;
+	/*padding: 0 0 10px 25px;
+	border-bottom: 2px solid #d6d6d6;*/
+	display: block;
+	margin-bottom: 40px;
+}
+
+.labelFormEntrega {
+	line-height: 70px;
+}
+
+.inputFormDataEntrega {
+	width: 78px;
+	float: left;
+	height: 20px;
+	line-height: 20px;
+	padding: 20px 11px;
+	display: block;
+}
+
+.formatoEntrega {
+	padding-top: 26px;
+}
+
+.textoLista {
+	background: #fbffc4;
+	margin-left: 25px;
+	padding: 0 30px;
+	position: relative;
+	text-align: left;
+	float: left;
+	max-width: 310px;
+}
+
+.contentTextoLista {
+	background: url('../img/texto_lista.png') no-repeat center left;
+	padding: 35px 0 35px 60px;
+	color: #6e6e6e
+}
+
+.tituloTextoLista {
+	font-weight: bold;
+	display: block;
+	padding-bottom: 2px;
+}
+
+.descricaotextoLista {
+	font-size: 11px;
+	line-height: 15px;
+}
+
+.descricaotextoLista span {
+	display: block;
+}
+
+
+
+.inputFormFone {
+	width: 146px;
+}
+
+.btSalvar {
+	width: 536px;
+	margin: 0 0 120px 20px;
+	background: #005199;
+	display: block;
+	color: #FFF;
+	text-transform: uppercase;
+	padding: 20px 0;
+	font-size: 11px;
+	font-weight: bold;
+	position: relative;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+}
+
+.btSalvar:hover {
+	background: #515151;
+}
+
+.btSalvar .btIcone {
+	background: url('../img/icones.png') no-repeat;
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	width: 7px;
+	height: 12px;
+	margin-top: -6px;
+}
+
+.btContinuar {
+	width: 200px;
+	margin: 0 0 120px 20px;
+	background: #005199;
+	display: block;
+	color: #FFF;
+	text-transform: uppercase;
+	padding: 20px 0;
+	font-size: 11px;
+	font-weight: bold;
+	position: relative;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+}
+
+.btContinuar:hover {
+	background: #515151;
+}
+
+.btContinuar .btIcone {
+	background: url('../img/icones.png') no-repeat;
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	width: 7px;
+	height: 12px;
+	margin-top: -6px;
+}
+

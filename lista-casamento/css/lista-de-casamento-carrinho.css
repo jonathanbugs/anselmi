@@ -1,0 +1,32 @@
+/* --------------
+	SESSAO
+---------------*/
+.textoLista {
+	background: #fbffc4;
+	margin: 0 12px;
+	padding: 0 30px;
+	position: relative;
+	top: 20px;
+	text-align: left;
+}
+
+.contentTextoLista {
+	background: url('../img/texto_lista.png') no-repeat center left;
+	padding: 20px 0 20px 60px;
+	color: #6e6e6e
+}
+
+.tituloTextoLista {
+	font-weight: bold;
+	display: block;
+	padding-bottom: 2px;
+}
+
+.descricaotextoLista {
+	font-size: 11px;
+	line-height: 15px;
+}
+
+.descricaotextoLista span {
+	display: block;
+}

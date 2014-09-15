@@ -1,0 +1,639 @@
+/* --------------
+	FILTRO PEDIDOS
+---------------*/
+.filtroPedidos {
+	height: 50px;
+	position: relative;
+	margin: 30px 0;
+}
+
+.filtroPedidos .txtIntro {
+	float: left;
+	font-size: 16px;
+	color: #005099;
+	text-transform: uppercase;
+	line-height: 50px;
+	font-weight: bold;
+	padding-left: 15px;
+}
+
+.filtroPedidos .holder {
+	width: 255px;
+	float: left;
+	position: relative;
+	margin-right: 5px;
+}
+
+.filtroPedidos .holder .label,
+.filtroPedidos .holder .input {
+	font-size: 12px;
+	color: #919191;
+}
+
+.filtroPedidos .holder .label {
+	position: absolute;
+	top: 15px;
+	left: 16px;
+}
+
+.filtroPedidos .holder .input {
+	width: 223px;
+	height: 14px;
+	border: 1px solid #e5e5e5;
+	padding: 12px 15px;
+	line-height: 14px;
+}
+
+.filtroPedidos .holderTipoBusca {
+	width: 140px;
+	margin: 5px 0 0 30px;
+}
+
+
+.filtroPedidos .relativeBusca {
+	position: relative;
+	display: block;
+	margin-top: 5px;
+}
+
+.filtroPedidos .relativeBusca label {
+	background: url('../img/icons/radio.png') no-repeat;
+	background-position: 0 -17px;
+	position: relative;
+	cursor: pointer;
+	color: #919191;
+	font-size: 12px;
+	padding-left: 18px;
+}
+
+.filtroPedidos .relativeBusca label:hover,
+.filtroPedidos .relativeBusca label.checked {
+	background-position: 0 0;
+}
+
+.filtroPedidos .relativeBusca input {
+	opacity: 0;
+	filter:alpha(opacity= 0);
+	-moz-opacity: 0;
+	position: absolute;
+	top: -2px;
+	left: -4px;
+	border: none;
+	cursor: pointer;
+}
+
+
+/* --------------
+	BUSCAR DE PEDIDO
+---------------*/
+.holderBusca {
+	width: 680px;
+	height: 50px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.holderBusca .label,
+.holderBusca .input {
+	font-size: 12px;
+	color: #ababab;
+ }
+
+.holderBusca .label {
+	position: absolute;
+	top: 20px;
+	left: 22px;
+}
+
+.holderBusca .input {
+	background: #FFF;
+	line-height: 20px;
+	display: block;
+	border: 1px solid #e5e5e5;
+	padding: 15px 76px 15px 20px;
+	width: 582px;
+	height: 18px;
+}
+
+.holderBusca .btSubmit {
+	background: #005099;
+	width: 50px;
+	height: 50px;
+	border: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.holderBusca .btSubmit .icone {
+	background: url('../img/icons/icones.png') no-repeat;
+	background-position: 0 -794px;
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -9px 0 0 -9px;
+}
+
+
+
+
+/* --------------
+	PEDIDO ABERTO
+---------------*/
+.pedidoAberto {
+	border: 4px solid #005099;
+	padding: 16px;
+	position: relative;
+	display: none;
+}
+
+.pedidoAberto .btFecharPedido {
+	background: #005099;
+	width: 60px;
+	height: 60px;
+	float: right;
+	display: block;
+	position: relative;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-ms-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+
+.pedidoAberto .btFecharPedido .icon {
+	background: url('../img/icons/mais-menos.png') no-repeat;
+	background-position: -15px -72px;
+	width: 19px;
+	height: 2px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -1px 0 0 -9px;
+}
+
+.pedidoAberto .btFecharPedido:hover {
+	background: #545454;
+}
+
+.pedidoAberto .pedidoInfos {
+	position: relative;
+	height: 60px;
+}
+
+.pedidoAberto .pedidoTable {
+	margin-left: 22px;
+	float: left;
+	padding-top: 12px;
+}
+
+.pedidoTable .pedidoTableTr {
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.pedidoTable .pedidoTableTd {
+	padding: 0 50px 7px 0;
+	color: #545454;
+	text-transform: none;
+}
+
+.pedidoTable .pedidoTableTdTitulo {
+	font-size: 14px;
+	color: #005099;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+
+
+
+/* --------------
+	TIUTLOS BLOCOS
+---------------*/
+.tituloBloco {
+	background: url('../img/icons/titulos_chechout.png') no-repeat;
+	display: block;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+	color: #005199;
+	border-bottom: 2px solid #005099;
+	padding: 0 0 7px 40px;
+	line-height: 25px;
+	margin-bottom: 30px;
+}
+
+.tituloBlocoStatus {
+	background-position: 0 -469px;
+}
+
+.tituloBlocoCarrinho {
+	background-position: 0 -360px;
+}
+
+.tituloBlocoEntrega {
+	background-position: 0 0;
+}
+
+.tituloBlocoPagamento {
+	background-position: 0 -123px;
+}
+
+
+
+
+/* --------------
+	PEDIDO STATUS
+---------------*/
+.pedidoAberto .pedidoStatus {
+	border: 1px solid #e6e6e6;
+	padding: 20px 20px 40px;
+	margin: 40px 0;
+}
+
+.pedidoStatus .status {
+	height: 119px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.statusUl .statusLi {
+	float: left;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+	width: 60px;
+	height: 119px; 
+}
+
+.statusLi .iconStatus {
+	background: url('../img/icons/status.png') no-repeat;
+	background-position: 0 -320px;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	margin-bottom: 7px;
+	text-align: center;
+	display: block;
+	position: relative;
+	z-index: 2;
+}
+
+.statusLi .iconStatusConcluido {
+	background-position: 0 0;
+}
+
+.statusLi .iconStatusErro {
+	background-position: 0 -160px;
+}
+
+.statusLi .tituloStatus {
+	color: #919191;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 14px;
+	max-width: 70px;
+	margin: 0 auto;
+	display: block;
+}
+
+.statusLi .statusTxt {
+	display: block;
+	padding-bottom: 3px;
+}
+
+.statusLi .dataStatus {
+	font-weight: normal;
+	display: block;
+	font-size: 11px;
+	white-space: nowrap;
+}
+
+.statusLi .statusLinha {
+	background: #b3b3b3;
+	width: 80px;
+	height: 3px;
+	position: absolute;
+	top: 29px;
+	left: 0;
+	z-index: 1;
+}
+
+.statusLi .statusLinhaAtiva {
+	background: #005099;
+}
+
+
+
+/* --------------
+	BLOCOS DE INFORMACOES
+---------------*/
+.pedidoLeft {
+	float: left;
+}
+
+.pedidoRight {
+	float: right;
+}
+
+.pedidoBlocos {
+	border: 1px solid #e6e6e6;
+	padding: 20px 20px 40px;
+	width: 305px;
+	color: #919191;
+}
+
+.pedidoTable .pedidoTableTd {
+	padding: 0 25px 7px 0;
+}
+
+/* AJUSTES SECOES */
+#mainEnderecoEntrega .endereco address {
+	font-size:12px;
+}
+
+#mainEnderecoEntrega .btEditarEndereco,
+#mainEnderecoEntrega .btRemoverEndereco {
+	width: 90px;
+}
+
+
+/* --------------
+	CARRINHO DE COMPRAS
+---------------*/
+.pedidoCarrinho {
+	padding-bottom: 10px;
+}
+
+.pedidosCarrinhoUl .pedidosCarrinhoLi {
+	border-bottom: 1px solid #e5e5e5;
+	padding-bottom: 12px;
+	margin-bottom: 12px;
+	min-height: 60px;
+	position: relative;
+}
+
+.pedidosCarrinhoUl .pedidosCarrinhoLast {
+	margin-bottom: 0;
+}
+
+.pedidosCarrinhoUl .pedidosCarrinhoLink {
+	display: block;
+}
+
+.pedidosCarrinhoUl .pedidosCarrinhoLi .carrinhoImg {
+	width: 60px;
+	height: 60px;
+	display: block;
+	float: left;
+	margin-right: 12px;
+}
+
+.pedidosCarrinhoUl .carrinhoProdutoTitulo,
+.pedidosCarrinhoUl .carrinhoProdutoQuantidade {
+	font-size: 12px;
+	color: #919191;
+}
+
+.pedidosCarrinhoUl .carrinhoProdutoTitulo {
+	display: block;
+	padding-bottom: 20px;
+	max-width: 200px;
+}
+
+.pedidosCarrinhoUl .pedidosCarrinhoLink:hover .carrinhoProdutoTitulo {
+	text-decoration: underline;
+	color: #005199;
+}
+
+.pedidosCarrinhoUl .carrinhoProdutoQuantidade {
+	float: left;
+}
+
+.pedidosCarrinhoUl .carrinhoProdutoValor {
+	font-size: 14px;
+	color: #005199;
+	font-weight: bold;
+	position: absolute;
+	top: 25px;
+	right: 15px;
+}
+
+
+.subTotalLi,
+.totalLi {
+	text-align: right;
+	display: table;
+	width: 100%;
+	padding-top: 10px;
+}
+
+.subTotalLi {
+	height: 65px;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.totalLi {
+	height: 40px
+}
+
+.subTotalLi .contentBlocos,
+.totalLi .contentBlocos {
+	float: right;
+	margin-right: 15px;
+}
+
+.subTotalLi .subTotalBloco,
+.totalLi .subTotalBloco {
+	float: left;
+	width: 80px;
+}
+
+.subTotalBloco .subTotalTxt,
+.totalLi .subTotalTxt {
+	display: block;
+	font-size: 12px;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+.subTotalBloco .subTotalTxt {
+	color: #919191;
+}
+
+.totalLi .subTotalTxt {
+	color: #005199;
+}
+
+
+/* --------------
+	ENTREGA
+---------------*/
+.pedidoEntrega {
+	margin-bottom: 20px;
+}
+
+.pedidoEntrega .entregaBloco {
+	margin: 0 0 25px 20px;
+}
+
+.pedidoEntrega .entregaBlocoLast {
+	margin-bottom: 0;
+}
+
+.pedidoEntrega .entregaBlocoLimite {
+	max-width: 140px;
+}
+
+.entregaBloco .titulo {
+	text-transform: uppercase;
+	color: #005099;
+	font-size: 14px;
+	font-weight: bold;
+	display: block;
+	padding-bottom: 7px;
+}
+
+.entregaBloco .descricao {
+	color: #919191;
+	line-height: 14px;
+}
+
+.entregaBloco .descricaoBold {
+	font-weight: bold;
+	text-transform: uppercase;
+	display: block;
+	font-size: 14px;
+}
+
+
+
+/* --------------
+	PAGAMENTO
+---------------*/
+.pedidoPagamento {
+	text-align: center;
+}
+
+.pedidoPagamento .tituloBloco {
+	text-align: left;
+}
+
+.pedidoPagamento .txtIntro {
+	font-size: 13px;
+	display: block;
+	margin-bottom: 35px;
+}
+
+.pagamentoContent {
+	margin: 0 auto;
+}
+
+.pedidoPagamento .pagamentoBloco {
+	float: left;
+	max-width: 110px;
+	margin-right: 45px;
+}
+
+.pedidoPagamento .pagamentoBloco .tituloBlocos {
+	font-size: 14px;
+	color: #005099;
+	font-weight: bold;
+	display: block;
+	text-align: left;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+	line-height: 14px;
+}
+
+.pagamentoBloco .valorTotal,
+.pagamentoBloco .valorVezes {
+	color: #919191;
+	display: block;
+	font-weight: bold;
+	text-align: left;
+}
+
+.pagamentoBloco .valorTotal {
+	font-size: 20px;
+	padding: 7px 0 3px;
+}
+
+.pagamentoBloco .valorVezes {
+	font-size: 12px;
+	white-space: nowrap;
+}
+
+
+.pagamentoBloco .imgPagamento {
+	background: url('../img/icons/formas_pagamentos.png') no-repeat;
+	display: block;
+}
+
+.pagamentoBloco .imgPagamento_Visa {
+	background-position: 0 0;
+	width: 74px;
+	height: 44px;
+}
+
+.pagamentoBloco .imgPagamento_visa_electron {
+	background-position: -77px 0;
+	width: 74px;
+	height: 44px;
+}
+
+.pagamentoBloco .imgPagamento_Mastercard {
+	background-position: -153px 0;
+	width: 74px;
+	height: 44px;
+}
+
+.pagamentoBloco .imgPagamento_Diners {
+	background-position: -230px 0;
+	width: 74px;
+	height: 44px;
+}
+
+.pagamentoBloco .imgPagamento_AmericanExpress {
+	background-position: -308px 0;
+	width: 74px;
+	height: 44px;
+}
+
+.pagamentoBloco .imgPagamento_Hipercard {
+	background-position: -385px 0;
+	width: 74px;
+	height: 44px;
+}
+
+
+.pagamentoBloco .imgPagamento_Itau {
+	background-position: 0 -99px;
+	width: 36px;
+	height: 36px;
+	margin-left: 15px;
+}
+
+.pagamentoBloco .imgPagamento_Bradesco {
+	background-position: -47px -99px;
+	width: 36px;
+	height: 36px;
+	margin-left: 15px;
+}
+
+.pagamentoBloco .imgPagamento_BancoDoBrasil {
+	background-position: -95px -99px;
+	width: 36px;
+	height: 36px;
+	margin-left: 15px;
+}
+
+.pagamentoBloco .imgPagamento_Banrisul {
+	background-position: -135px -94px;
+	width: 68px;
+	height: 45px;
+}

@@ -1,0 +1,840 @@
+#tabelaCarrinho {
+	width: 100%;
+	border: 1px solid #cecece;
+	border-bottom: none;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+}
+
+#tabelaCarrinho thead {
+	font-size: 11px;
+	color: #6e6e6e;
+	text-transform: uppercase;
+	text-align: center;
+	vertical-align: center
+}
+
+#tabelaCarrinho thead td {
+	background: #e5e5e5;
+	height: 38px;
+	font-size: 10px;
+	padding: 0 10px;
+	vertical-align: middle;
+	border-right: 1px solid #cecece;
+	border-bottom: 1px solid #cecece;
+}
+
+#tabelaCarrinho .penultimo {
+	width: 25%;
+}
+
+#tabelaCarrinho thead td.last {
+	border-right: none;
+	width: 17%;
+}
+
+#tabelaCarrinho tbody tr {
+	text-align: center;
+}
+
+#tabelaCarrinho tbody td {
+	border-bottom: 1px solid #cecece;
+	vertical-align: middle;
+	padding: 20px 10px;
+	display: table-cell;
+}
+
+#tabelaCarrinho .tdItem {
+	max-width: 260px;
+	text-align: left;
+}
+
+#tabelaCarrinho .imgProduto {
+	width: 80px;
+	height: 80px;
+	float: left;
+	margin-right: 20px;
+}
+
+#tabelaCarrinho {
+
+}
+
+#tabelaCarrinho .ttNomeProduto,
+#tabelaCarrinho .ttReferenciaProduto,
+#tabelaCarrinho .linkAcoes {
+	display: block;
+}
+
+#tabelaCarrinho .produtoInfos {
+	float: left;
+	max-width: 180px;
+}
+
+#tabelaCarrinho .linkNomeReferencia {
+	display: block;
+}
+
+#tabelaCarrinho .ttNomeProduto {
+	color: #005099;
+	font-weight: bold;
+}
+
+#tabelaCarrinho .ttReferenciaProduto {
+	color: #808080;
+	padding: 7px 0 15px;
+}
+
+#tabelaCarrinho .linkAcoes {
+	background: url('../img/icons/carrinho.png') no-repeat;
+	padding: 0 0 7px 18px;
+	color: #808080;
+}
+
+#tabelaCarrinho .linkAcoes:hover {
+	text-decoration: underline;
+	color: #005099;
+}
+
+#tabelaCarrinho .linkRemoverCarrinho {
+	background-position: 0 0;
+}
+
+#tabelaCarrinho .linkRemoverCarrinho:hover {
+	background-position: 0 -47px;
+}
+
+#tabelaCarrinho .linkMoverListaDesejos {
+	background-position: 0 -103px;
+}
+
+#tabelaCarrinho .linkMoverListaDesejos:hover {
+	background-position: 0 -156px;
+}
+
+
+#formCarinhoCompras .lblEmbalarPresente {
+	width: 95px;
+	height: 75px;
+	position: relative;
+	cursor: pointer;
+	display: inline-block;
+	color: #808080;
+}
+
+#formCarinhoCompras .lblEmbalarPresente {
+	background: url("../img/icons/carrinho.png") no-repeat scroll 30px -222px transparent;
+}
+
+#formCarinhoCompras .inputEmbalarChecked {
+	background: url("../img/icons/carrinho.png") no-repeat scroll 30px -380px transparent;
+}
+
+#formCarinhoCompras .lblEmbalarPresente:hover,
+#formCarinhoCompras .inputEmbalarChecked {
+	color: #005099;
+}
+
+#formCarinhoCompras .lblEmbalarPresente input {
+	opacity: 0;
+	-moz-opacity: 0;
+	filter: alpha(opacity=0);
+	cursor: pointer;
+	position: absolute;
+	top: 25px;
+	left: 36px;
+}
+
+#formCarinhoCompras .lblEmbalarPresente span {
+	display: block;
+	line-height: 15px;
+	position: absolute;
+	top: 46px;
+	left: 0;
+}
+
+.tdValorUnitario {
+	font-size: 14px;
+	color: #808080;
+}
+
+.tdQuantidade .centerQuantidade {
+	width: 147px;
+	margin: 0 auto;
+}
+
+.tdQuantidade .tdQuantidadeBt {
+	background: #005099;
+	width: 49px;
+	height: 49px;
+	position: relative;
+	display: block;
+	float: left;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-ms-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+
+.tdQuantidade .tdQuantidadeBt:hover {
+	background: #545454;
+}
+
+.tdQuantidade .tdQuantidadeBt .icone {
+	background: url('../img/icons/mais-menos.png') no-repeat;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.tdQuantidade .btAddQuantidade .icone {
+	background-position: 0 0;
+}
+
+.tdQuantidade .btRemoverQuantidade .icone {
+	background-position: 0 -49px;
+}
+
+.tdQuantidade .erroQtdIndisponivel{
+	color: #FF615E; 
+	font-size: 10px;
+	display: block;
+	position: absolute;
+	margin-top: 70px;
+}
+
+.tdQuantidade .qtdDesejada{
+	color: #808080; 
+	font-size: 11px;
+	display: block;
+	position: absolute;
+	margin-top: 55px;
+}
+
+.iptQtdeProduto {
+	width: 45px;
+	height: 45px;
+	border: 1px solid #cecece;
+	text-align: center;
+	font-size: 14px;
+	color: #808080;
+	float: left;
+}
+
+.tdValorTotal {
+	font-size: 16px;
+	color: #808080;
+	font-weight: bold;
+	max-width: 200px;
+}
+
+#tabelaCarrinho tbody .tdSubTotal,
+#tabelaCarrinho tbody .tdValorTotalFinal {
+	color: #808080;
+	padding: 30px 0;
+	text-transform: uppercase;
+}
+
+#tabelaCarrinho tbody .tdSubTotal {
+	font-size: 18px;
+}
+
+#tabelaCarrinho tbody .tdValorTotalFinal {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+
+#blocoCep,
+#blocoCupomDesconto,
+#blocoInformacoes {
+	padding: 30px 0 30px 10px;
+	position: relative;
+	border: 1px solid #cecece;
+	border-top: none;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+}
+
+#blocoCep {
+	background: #e5e5e5;
+}
+
+.buscaCepLoader{
+	display: none;
+}
+.buscaCepLoader .loader{
+	margin-left: 200px;
+	height: 56px;
+}
+
+#blocoCep .icone {
+	background: url('../img/icons/carrinho.png') no-repeat;
+	background-position: 0 -461px;
+	width: 73px;
+	height: 46px;
+	display: block;
+	text-align: right;
+	float: left;
+}
+
+#tabelaCep .resultadoCep{
+	
+}
+
+#tabelaCep,
+#tabelaDesconto {
+	width: 100%;
+}
+
+#tabelaCep .td1,
+#tabelaDesconto .td1 {
+	vertical-align: top;
+	padding-top: 16px;
+}
+
+#tabelaCep .td2,
+#tabelaDesconto .td2 {
+	width: 25%;
+	text-transform: uppercase;
+	font-size: 18px;
+	text-align: center;
+}
+
+#tabelaCep .td3,
+#tabelaDesconto .td3 {
+	width: 20%;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#tabelaCep .td2,
+#tabelaCep .td3,
+#tabelaDesconto .td2,
+#tabelaDesconto .td3 {
+	color: #808080;
+	padding: 30px 0;
+	text-transform: uppercase;
+}
+
+#blocoCep .boxInformeCep {
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+} 
+
+.boxInformeCep .ttInformeCep {
+	color: #005099;
+	font-size: 11px;
+	font-weight: bold;
+	display: block;
+	text-transform: uppercase;
+	margin: 0 0 6px 100px;
+	text-align: left;
+	letter-spacing: 0.015em;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+}
+
+.boxCupom {
+	position: relative;
+	top: 6px;
+}
+
+.boxCupom .ttCupom {
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #005099;
+	font-weight: bold;
+	float: left;
+	display: block;
+	position: relative;
+	top: 10px;
+	margin-right: 20px;
+}
+
+.linkExcluir {
+	text-decoration: underline;
+	color: #005099;
+	position: absolute;
+	right: 0;
+	bottom: -20px;
+}
+
+#formCupom,
+#formConsultaPrazoEntrega {
+	height: 30px;
+	position: relative;
+}
+
+#formConsultaPrazoEntrega {
+	float: right;
+}
+
+#formCupom {
+	float: left;
+}
+
+#formConsultaPrazoEntrega .label,
+#formCupom .label {
+	position: absolute;
+	top: 9px;
+	left: 15px;
+	color: #808080;
+	font-size: 12px;
+}
+
+#formConsultaPrazoEntrega *,
+#formCupom * {
+	float: left;
+}
+
+#iptConsultaCep,
+#iptCupom {
+	color: #808080;
+	font-size: 12px;
+	line-height: 15px;
+	border: 1px solid #cecece;
+	padding: 6px 0 7px 13px;
+	height: 15px;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+}
+
+#iptConsultaCep {
+	width: 162px;
+}
+#iptCupom {
+	width: 140px;
+}
+
+#btConsultar {
+	border: none;
+	background: url("../img/icons/produto-detalhe.png") no-repeat 118px -1582px #005099;
+	text-transform:uppercase;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 9px;
+	font-family: "Arial", sans-serif;
+	height: 30px;
+	line-height: 30px;
+	width: 134px;
+	cursor: pointer;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-ms-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+
+#btConsultar:hover{
+	background-color: #6e6e6e;
+}
+
+#btCalcularCupom {
+	border: none;
+	background: url("../img/icons/produto-detalhe.png") no-repeat 118px -1582px #005099;
+	text-transform:uppercase;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 9px;
+	height: 30px;
+	line-height: 30px;
+	width: 134px;
+	cursor: pointer;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-ms-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+	font-family: "Arial", sans-serif;	
+}
+
+#btCalcularCupom:hover{
+	background-color: #6e6e6e;
+}
+
+.linkNaoSabeCep {
+	margin-left: 10px;
+	font-size: 10px;
+	color: #808080;
+	line-height: 30px;
+}
+
+.linkNaoSabeCep:hover {
+	text-decoration: underline;
+}
+
+.resultadoBoxValorFrete {
+	height: 47px;
+	width: 570px;
+}
+
+.resultadoBoxValorFrete .ttFrete {
+	height: 60px;
+	padding-top: 18px;
+	float: left;
+	font-size: 18px;
+	margin: 0 20px;
+	font-weight: bold;
+	color: #005099;
+	text-transform: uppercase;
+}
+
+.resultadoBoxValorFrete .ulResultadoFrete li {
+	display: block;
+	color: #6e6e6e;
+	font-size: 14px;
+	padding-top: 5px;
+}
+
+.resultadoBoxValorFrete .ulResultadoFrete li .txtValorFrete{
+	font-size: 11px;
+}
+
+.resultadoBoxValorFrete .ulResultadoFrete li .txtPrazo {
+	color: #6e6e6e;
+	font-size: 10px;
+	font-weight: normal;
+	margin-left: 5px;
+}
+
+#informacoesRetiraLoja{
+	text-decoration: underline;
+}
+
+.ulResultadoFreteFirst {
+	padding: 5px 0 5px;
+}
+
+.resultadoBoxValorFrete .ulResultadoFrete li a {
+	color: #6e6e6e;
+	font-size: 13px;
+}
+
+.resultadoBoxValorFrete .ulResultadoFrete li a:hover {
+	text-decoration: underline;
+}
+
+.resultadoBoxValorFrete .ulResultadoFrete li .txtBold {
+	font-weight: bold;
+	color: #005099;
+}
+
+
+.resultadoBoxValorFrete .lblRadioFrete {
+	background: url("../img/icons/radio.png") no-repeat scroll 4px -16px transparent;
+	cursor: pointer;
+}
+
+.resultadoBoxValorFrete .inputRadioChecked{
+	background: url("../img/icons/radio.png") no-repeat scroll 4px 1px transparent;
+}
+
+.resultadoBoxValorFrete input {
+	opacity: 0;
+	-moz-opacity: 0;
+	filter: alpha(opacity=0);
+}
+
+
+.blocoInformacoes {
+	background: red;
+}
+
+.boxInformacoes .tt {
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #005099;
+	font-weight: bold;
+	display: block;
+	padding-bottom: 7px;
+}
+
+.txtDescricao {
+	display: block;
+	max-width: 440px;
+	font-size: 11px;
+	line-height: 13px;
+	color: #808080;
+}
+
+#blocoInformacoes .txtTotal,
+#blocoInformacoes .txtValorTotal,
+#blocoInformacoes .txtVezes {
+	display: block;
+	font-weight: bold;
+}
+
+#blocoInformacoes .txtTotal {
+	font-size: 26px;
+	color: #005099;
+}
+
+#blocoInformacoes .txtValorTotal {
+	font-size: 24px;
+	color: #005099;
+}
+
+#blocoInformacoes .txtValorTotal,
+#blocoInformacoes .txtVezes {
+	text-align: right;
+	padding-right: 45px;
+}
+
+
+#blocoInformacoes .txtVezes {
+	font-size: 14px;
+	color: #808080;
+	padding-top: 12px;
+	text-transform: none;
+	line-height: 17px;
+}
+
+
+/*---------
+	COMPRE JUNTO
+----------*/
+#moduloCompreJunto {
+	position: relative;
+	width: 100%;
+	margin-top: 50px;
+}
+
+#moduloCompreJunto .produtoLiTabela .produtosInfos {
+	display: block;
+	padding-top: 5px;
+}
+
+.btAdicionarCarrinho {
+	background: #cecece;
+	display: block;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 11px;
+	padding: 10px 0;
+	text-align: center;
+	text-transform: uppercase;
+	position: relative;
+	z-index: 1;
+	margin: 20px 5px 0 0; 
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-ms-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+
+.btAdicionarCarrinho:hover {
+	background: #005199
+}
+
+
+
+/* --------------
+	SLIDER COMPRE JUNTO
+---------------*/
+#moduloCompreJunto .produtosSlide {
+	height: 460px;
+}
+
+#moduloCompreJunto .produtosSlideUl .produtosSlideLi {
+	margin-right: 20px;
+}
+
+.produtosSlide .btProdutosSlide {
+	background: #005099;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 0;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-ms-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+
+.produtosSlide .btProdutosSlidePrev {
+	left: 0;
+}
+
+.produtosSlide .btProdutosSlideNext {
+	right: 0;
+}
+
+.produtosSlide .btProdutosSlide .iconBt {
+	background: url('../img/icons/nav_produtos.png') no-repeat;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.produtosSlide .btProdutosSlidePrev .iconBt {
+	background-position: 0 0;
+
+}
+
+.produtosSlide .btProdutosSlideNext .iconBt {
+	background-position: -50px 0;
+}
+
+.produtosSlide .tituloModulo {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 22px;
+	display: block;
+	color: #005099;
+	letter-spacing: 0.08em;
+	padding: 15px 0 10px;
+	margin-bottom: 30px;
+	line-height: 1em;
+	text-align: center;
+	height: 25px;
+	border-bottom: 2px solid #005099;
+}
+
+.produtosSlideUl .produtosSlideLi {
+	width: 166px;
+	min-height: 355px;
+	float: left;
+	margin-right: 4px;
+	padding: 16px 0 0 14px;
+	position: relative;
+}
+
+.produtosSlideUl .produtosSlideLi .produtosSlideLink {
+	position: relative;
+	display: block;
+}
+
+.produtosSlideLink .boxProdutoSelo {
+	position: absolute;
+	top: 7px;
+	right: 0;
+	width: 65px;
+	z-index: 2;
+}
+
+.produtosSlideLink .produtoSelo {
+	display: block;
+	padding: 4px 6px;
+	font-weight: bold;
+	font-size: 10px;
+	text-transform: uppercase;
+	color: #FFF;
+	float: right;
+}
+
+.produtosSlideLink .produtoSeloPorcentagem {
+	background: #ec4a00;
+	margin-bottom: 3px;
+}
+
+.produtosSlideLink .produtoSeloNovo {
+	top: 30px;
+	background: #005099;
+}
+
+.produtosSlideLiCaurossel {
+	overflow: inherit !important; 
+}
+
+
+
+.ulAcoesCarrinho {
+	height: 80px;
+	display: block;
+}
+
+.ulAcoesCarrinho .liContinuarComprando {
+}
+
+.ulAcoesCarrinho .btAcao {
+	background: #005199;
+	display: block;
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: bold;
+	height: 80px;
+	line-height: 80px;
+	vertical-align: middle;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-ms-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+	position: relative;
+}
+
+.ulAcoesCarrinho .btAcao:hover {
+	background: #545454;
+}
+
+.ulAcoesCarrinho .btAcao .icone {
+	background: url('../img/icons/icones.png') no-repeat;
+	background-position: 0 -1689px;
+	width: 34px;
+	height: 34px;
+	position: absolute;
+	top: 50%;
+	margin-top: -17px;
+}
+
+.ulAcoesCarrinho .btContinuarComprando .icone {
+	left: 20px;
+}
+
+.ulAcoesCarrinho .btFinalizarCompra .icone {
+	right: 20px;
+	-moz-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	transform: scaleX(-1);
+	-ms-filter: fliph;
+	filter: fliph;
+}
+
+.ulAcoesCarrinho .btContinuarComprando {
+	width: 300px;
+	float: left;
+	text-align: right;
+	padding-right: 20px;
+}
+
+.ulAcoesCarrinho .btFinalizarCompra {
+	width: 420px;
+	float: right;
+	text-align: center;
+}
+
+.erroCepNaoInformado {
+    color: #FF615E;
+    display: block;
+    font-size: 11px;
+    margin-left: 225px;
+    margin-top: 36px;
+    position: absolute;
+    width: 200px;
+}

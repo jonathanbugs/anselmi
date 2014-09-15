@@ -1,0 +1,710 @@
+/* --------------
+	BLOCOS CHECKOUT
+---------------*/
+.checkoutBloco {
+	border: 1px solid #e5e5e5;
+	padding: 23px 19px 38px;
+}
+
+.checkoutBlocoLeft {
+	width: 56%;
+	float: left;
+}
+
+.checkoutBlocoRight {
+	width: 42%;
+	float: right;
+}
+
+.checkoutBloco .checkoutBlocoTitulo {
+	background: url('../img/icons/titulos_chechout.png') no-repeat;
+	display: block;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+	color: #005199;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #005099;
+	line-height: 24px;
+}
+
+
+
+
+/* --------------
+	BLOCOS ENTREGA
+---------------*/
+.checkoutBlocoEnvio {
+	margin-bottom: 20px;
+}
+
+.checkoutBlocoEnvio .txtIntro {
+	display: block;
+	padding-bottom: 30px;
+}
+
+.checkoutBlocoEnvio .checkoutBlocoTitulo {
+	padding-left: 45px;
+}
+
+#entregaForm {
+	margin-bottom: 15px;
+}
+
+.checkoutBlocoEnvio .entregaBloco {
+	width: 146px;
+	border: 1px solid #e5e5e5;
+	float: left;
+	margin-right: 5px;
+	position: relative;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+}
+
+.entregaBloco:before {
+	border: 6px solid #FFF;
+	content: '';
+	position: absolute;
+	right: 0px;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+}
+
+.entregaBloco:hover:before,
+.checkoutBlocoEnvio .entregaBlocoAtivo:before {
+	border: 6px solid #005099;
+}
+
+.checkoutBlocoEnvio .entregaBlocoLast {
+	margin-right: 0;
+}
+
+#entregaForm .lblRadioEnvio {
+	padding: 10px 0;
+	background: red;
+	display: block;
+	cursor: pointer;
+	position: relative;
+	text-align: center;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+}
+
+#entregaForm .lblRadioEnvio {
+	background: url("../img/icons/ckeck_envio.png") no-repeat;
+	background-position: -218px -4px;
+}
+
+#entregaForm .inputRadioChecked{
+	background: url("../img/icons/ckeck_envio.png") no-repeat;
+	background-position: -22px -4px;
+}
+
+#entregaForm .lblRadioEnvio input {
+	opacity: 0;
+	cursor: pointer;
+	position: relative;
+	top: 10px;
+}
+
+#entregaForm .entregaTitulo {
+	display: block;
+	font-weight: bold;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #005099;
+	padding-top: 15px;
+	padding-bottom: 5px;
+}
+
+#entregaForm .entregaDescricao {
+	display: block;
+	color: #919191;
+	font-size: 13px;
+	padding-bottom: 4px;
+}
+
+#entregaForm .entregaDescricaoBold {
+	font-weight: bold;
+	padding-top: 8px;
+}
+
+
+
+
+
+/* --------------
+	BLOCOS PAGAMENTO
+---------------*/
+.checkoutBlocoEntrega .checkoutBlocoTitulo {
+	background-position: 0 -123px;
+	padding-left: 45px;
+}
+
+.checkoutBlocoEntrega .txtIntro {
+	display: block;
+	padding-bottom: 30px;
+}
+
+.checkoutBlocoEntrega .txtBanco {
+	display: none;
+	padding-bottom: 20px;
+	color: #919191;
+	font-size: 13px;
+	padding: 25px 0 0;
+}
+
+.pagamentoContent {
+	margin: 30px 20px 20px;
+}
+
+.pagamentoContent .pagamentoBloco {
+	border: 1px solid #e5e5e5;
+	padding: 35px;
+	margin-bottom: 10px;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+}
+
+.pagamentoContent .pagamentoBlocoLast {
+	margin-bottom: 0;
+	margin-bottom: -20px;
+}
+
+.pagamentoBloco .txtIntro {
+	display: block;
+	color: #919191;
+	font-size: 13px;
+	padding: 25px 0 0;
+}
+
+.pagamentoBloco .txtIntroHide {
+	display: none;
+}
+
+.pedidoBlocos .pagamentoBloco {
+	padding: 0;
+}
+
+.pagamentoContent .pagamentoBlocoSelecionado {
+	border: 6px solid #005099;
+	/*padding: 34px;*/
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+}
+
+.pagamentoSelecionar {
+	position: relative;
+}
+
+.checkoutBloco .lblRadio {
+	line-height: 16px;
+	height: 16px;
+	position: relative;
+	cursor: pointer;
+	margin-top: 6px;
+	display: block;
+
+}
+
+#pagamentoForm .lblRadioCartao {
+	width: 180px;
+}
+
+#pagamentoForm .lblRadioBoleto {
+	width: 180px;
+}
+
+#pagamentoForm .lblRadioTransferencia {
+	width: 205px;
+}
+
+.checkoutBloco .lblRadio {
+	background: url("../img/icons/radio.png") no-repeat scroll 0 -17px transparent;
+}
+
+.checkoutBloco .inputRadioChecked{
+	background: url("../img/icons/radio.png") no-repeat scroll 0 0px transparent;
+}
+
+.checkoutBloco .lblRadio input {
+	opacity: 0;
+	cursor: pointer;
+	margin: 0;
+	position: absolute;
+	left: 1px;
+}
+
+.checkoutBloco .lblRadio span {
+	line-height: 14px;
+	height: 15px;
+	position: absolute;
+	top: 0;
+	left: 23px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #005099;
+	text-transform: uppercase;
+	width: 400px;
+}
+
+.pagamentoIcones {
+	display: block;
+	margin-top: 25px;
+	width: 104%;
+}
+
+.pagamentoIcones .pagamentoIcone {
+	float: left;
+	width: 72px;
+	height: 42px;
+	position: relative;
+}
+
+.pagamentoIcones .pagamentoIconesCartoes {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #e5e5e5;
+	margin-right: 2px;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+}
+
+.pagamentoIcones .pagamentoIconesCartoes:hover,
+.pagamentoIcones .pagamentoIconesCartoesAtivo {
+	border: 1px solid #005099;
+}
+
+.pagamentoIcone .icone {
+	background: url('../img/icons/formas_pagamentos.png') no-repeat;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+
+.pagamentoIcone .iconeCartao {
+	width: 43px;
+	height: 25px;
+	margin: -12px 0 0 -22px;
+}
+
+.pagamentoIcone .iconeCartaoVisa {
+	background-position: -15px -9px;
+}
+
+.pagamentoIcone .iconeCartaoVisaElectron {
+	background-position: -92px -9px;
+}
+
+.pagamentoIcone .iconeCartaoMastercard {
+	background-position: -169px -9px;
+}
+
+.pagamentoIcone .iconeCartaoDiners {
+	background-position: -245px -9px;
+}
+
+.pagamentoIcone .iconeCartaoAmerican {
+	background-position: -323px -9px;
+}
+
+.pagamentoIcone .iconeCartaoHipercard {
+	background-position: -400px -9px;
+}
+
+.pagamentoIcone .iconeBoleto {
+	background-position: -208px -99px;
+	width: 47px;
+	height: 32px;
+	margin: -16px 0 0 -23px;
+}
+
+
+/* --------------
+	FORMULARIO DADOS PAGAMENTO
+---------------*/
+.pagamentoFormDados {
+	width: 372px;
+	margin: 50px auto 0;
+	display: none;
+}
+
+.pagamentoDadosUl .pagamentoDadosLi {
+	margin-bottom: 10px;
+	display: block;
+}
+
+.pagamentoDadosUl .pagamentoDadosLabel {
+	width: 160px;
+	text-align: right;
+	float: left;
+	color: #808080;
+	font-size: 13px;
+	line-height: 30px;
+}
+
+.pagamentoDadosUl .pagamentoDadosInput,
+.pagamentoDadosUl .pagamentoDadosInputValidade,
+.pagamentoDadosUl .pagamentoDadosInputCodigo {
+	border: 1px solid #E6E6E6;
+    color: #808080;
+    font-size: 12px;
+    height: 14px;
+    line-height: 14px;
+    padding: 7px 10px;
+}
+
+.pagamentoDadosUl .pagamentoDadosInput {
+	width: 180px;
+	float: right;
+}
+
+.pagamentoDadosUl .pagamentoDadosInputCodigo {
+	width: 83px;
+	float: left;
+	margin-left: 10px;
+}
+
+.pagamentoDadosUl .pagamentoDadosInputValidade {
+	width: 14px;
+	float: left;
+	margin-left: 10px;
+}
+
+.pagamentoDadosTxt,
+.pagamentoTxtAdd {
+	display: inline-block;
+	color: #808080;
+	font-size: 11px;
+}
+
+.pagamentoDadosTxt {
+	padding: 4px 0 0 182px;
+}
+
+.pagamentoTxtAdd {
+	float: left;
+	padding: 10px 0 0 10px;
+}
+
+.pagamentoTxtAddLink {
+	padding-left: 170px;
+}
+
+.pagamentoTxtAddLink:hover {
+	color: #005099;
+	text-decoration: underline;
+}
+
+.pagamentoDadosLimiter {
+	float: left;
+	margin: 0 5px 0 15px;
+	padding-top: 10px;
+}
+
+.pagamentoBloco .btFinalizar {
+	background: #005099;
+	display: block;
+	color: #FFF;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 20px 0;
+	position: relative;
+	margin-top: 30px;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-ms-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+
+.pagamentoBlocoBoleto .btFinalizar,
+.pagamentoBlocoTranferencia .btFinalizar {
+	display: none;
+}
+
+.pagamentoBloco .btFinalizar:hover {
+	background: #545454;
+}
+
+.pagamentoBloco .btFinalizar .icone {
+	background: url('../img/icons/nav_slider.png') no-repeat;
+	background-position: -24px -3px;
+	width: 7px;
+	height: 12px;
+	position: absolute;
+	top: 50%;
+	right: 22px;
+	margin-top: -6px;
+}
+
+.pagamentoIcones .pagamentoIconeTransferencia {
+	float: left;
+	width: 47px;
+	height: 42px;
+	position: relative;
+}
+
+.pagamentoIcones .pagamentoIconeTransferenciaBanrisul {
+	width: 68px;
+}
+
+.pagamentoIconeTransferencia .icone {
+	background: url('../img/icons/formas_pagamentos.png') no-repeat;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+
+.pagamentoIconeTransferencia .iconeTransferencia {
+	width: 37px;
+	height: 37px;
+	margin: -18px 0 0 -18px;
+}
+
+.pagamentoIconeTransferencia .iconeItau {
+	background-position: 0 -99px;
+}
+
+.pagamentoIconeTransferencia .iconeBradesco {
+	background-position: -47px -99px;
+}
+
+.pagamentoIconeTransferencia .iconeBancoBrasil {
+	background-position: -95px -99px;
+}
+
+.pagamentoIconeTransferencia .iconeBanrisul {
+	background-position: -135px -94px;
+	width: 68px;
+	height: 45px;
+	margin: -22px 0 0 -34px;
+}
+
+.txtBoleto {
+	display: block;
+	font-size: 13px;
+	color: #919191;
+	line-height: 17px;
+	margin-left: 4px;
+	padding-top: 10px;
+}
+
+.txtBoletoDesconto {
+	display: block;
+	float: left;
+	font-size: 13px;
+	color: #919191;
+	line-height: 17px;
+	margin-left: 4px;
+	padding-top: 2px;
+}
+
+.txtBoletoDesconto strong {
+	font-size: 18px;
+	color: #005099;
+}
+.txtTransferencia {
+	margin: 9px 0 0 15px;
+	float: left;
+}
+
+.txtTransferencia span {
+	display: block;
+	font-size: 13px;
+	line-height: 16px;
+	color: #919191;
+}
+
+.pedidoPagamento .pagamentoBloco {
+	margin: 0 5px 0 15px;
+}
+
+
+/* --------------
+	BLOCOS ENDEREÇO
+---------------*/
+.checkoutBlocoEndereco .checkoutBlocoTitulo {
+	background-position: 0 -246px;
+	padding-left: 43px;
+}
+
+.checkoutBlocoEndereco {
+	margin-bottom: 20px;
+}
+
+.pagamentoDadosUl .styleCombobox,
+.checkoutBlocoEndereco .styleCombobox { 
+	color: #005099;
+	font-weight: bold;
+	font-size: 13px;
+	border: 1px solid #e5e5e5;
+	position: relative;
+	cursor: pointer;
+	width: 200px;
+} 
+
+.pagamentoDadosUl .styleCombobox {
+	float: left;
+	width: 200px;
+	height: 28px;
+	margin-left: 10px;
+}
+
+.checkoutBlocoEndereco .styleCombobox {
+	width: 340px;
+	height: 38px;
+	margin: 20px 10px;
+}
+
+.pagamentoDadosUl .styleCombobox .comboBoxTitle { 
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	color: #808080;
+	font-size: 12px;
+}
+
+.checkoutBlocoEndereco .styleCombobox .comboBoxTitle { 
+	position: absolute;
+	top: 13px;
+	left: 15px;
+} 
+
+.pagamentoDadosUl .styleCombobox select,
+.checkoutBlocoEndereco .styleCombobox select { 
+	width: 100%; 
+	opacity: 0; 
+	filter:alpha(opacity= 0);
+	cursor: pointer; 
+	position: relative;
+}
+
+.pagamentoDadosUl .styleCombobox select {
+	height: 28px;
+}
+
+.checkoutBlocoEndereco .styleCombobox select {
+	height: 38px;
+}
+
+.pagamentoDadosUl .styleCombobox .icone,
+.checkoutBlocoEndereco .styleCombobox .icone {
+	background: url('../img/icons/icones.png') no-repeat;
+	background-position: 0 -1232px;
+	width: 10px;
+	height: 6px; 
+	position: absolute;
+	top: 50%;
+}
+
+.pagamentoDadosUl .styleCombobox .icone {
+	right: 15px;
+	margin-top: -2px;
+}
+
+.checkoutBlocoEndereco .styleCombobox .icone {
+	right: 15px;
+	margin-top: -3px;
+}
+
+.pagamentoDadosUl .styleCombobox select option,
+.checkoutBlocoEndereco .styleCombobox select option {
+	margin-bottom: 4px;
+	color: #545454;
+	font-size: 12px;
+}
+
+.pagamentoDadosUl .styleCombobox select option {
+	padding-left: 10px;
+}
+
+.checkoutBlocoEndereco .styleCombobox select option {
+	padding-left: 15px;
+}
+
+.checkoutBlocoEndereco .descricao {
+	color: #919191;
+	line-height: 14px;
+	max-width: 140px;
+	display: block;
+	margin-left: 27px;
+}
+
+.checkoutBlocoEndereco .linkNovoEndereco {
+	display: block;
+	margin-top: 20px;
+	padding-left: 27px;
+	text-decoration: underline;
+	color: #919191;
+}
+
+.checkoutBlocoEndereco .linkNovoEndereco:hover {
+	color: #005199;
+}
+
+
+
+
+/* --------------
+	BLOCOS CARRINHO
+---------------*/
+.checkoutBlocoCarrinho {
+	/*margin-top: 20px;*/
+	padding-bottom: 0;
+}
+
+.checkoutBlocoCarrinho .checkoutBlocoTitulo {
+	background-position: 0 -359px;
+	padding-left: 43px;
+}
+
+#erroFinalizarPedido{
+	display: none;
+	color: #FF615E;
+}
+
+/*validacao*/
+span.error { 
+	margin: 20px 0 0 235px;
+	color: #FF615E; 
+	font-size: 10px;
+	display: block;
+	width: 300px;
+	position: absolute;
+	text-align: justify;
+}
+
+#codigoSeguranca{
+	position: absolute;
+	margin: -62px 0 0 317px;
+	z-index: 100;
+	display: none;
+}
+
+.displayNone{
+	display: none;
+}
+
+
+

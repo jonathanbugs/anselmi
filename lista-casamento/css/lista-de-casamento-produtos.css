@@ -1,0 +1,137 @@
+/* --------------
+	SESSAO
+---------------*/
+#sessaoListaCasamentoProdutos {
+	background: url('../img/bg_produtos.png') no-repeat;
+	height: 506px;
+	position: relative;
+}
+
+#sessaoListaCasamentoProdutos #blocoLogo {
+	float: left;
+	width: 320px;
+	margin: 60px 0 0 95px;
+	position: relative;
+}
+
+#blocoLogo .logo {
+	width: 175px;
+	height: 87px;
+	display: block;
+	margin-left: 40px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -87px;
+}
+
+#sessaoListaCasamentoProdutos .imagemNoivos {
+	margin-top: 160px;
+	display: block;
+ 	-moz-transform:rotate(-5deg);
+ 	-webkit-transform:rotate(-5deg);
+ 	-o-transform:rotate(-5deg);
+ 	-ms-transform:rotate(-5deg);
+ 	transform:rotate(-5deg);
+}
+
+#sessaoListaCasamentoProdutos #blocoCerinomina {
+	width: 495px;
+	float: right;
+	margin: 60px 70px 0 0;
+	text-align: center;
+}
+
+#blocoNomes {
+	display: inline-block;
+	margin: 0 auto 40px;
+	float: none;
+}
+
+#blocoNomes .nome,
+#blocoNomes .divisor {
+	display: block;
+	font-family: 'alexbrushregular', arial, sans-serif;
+	position: relative;
+}
+
+#blocoNomes .nome {
+	font-size: 42px;
+	z-index: 2;
+	line-height: 1em;
+}
+
+#blocoNomes .divisor {
+	font-size: 54px;
+	color: #292929;
+	opacity: 0.5;
+	-moz-opacity: 0.5;
+	filter: alpha(opacity=50);
+	z-index: 1;
+	line-height: 0.5em;
+}
+
+
+.linha {
+	background: #bc3642;
+	display: block;
+	width: 100%;
+	height: 1px;
+}
+
+.cerimoniaTexto {
+	margin: 40px 0;
+	color: #fff;
+}
+
+.cerimoniaTexto span {
+	display: block;
+	font-size: 14px;
+	line-height: 22px;
+	font-style: italic;
+}
+
+#cermoniaInformacoesUl {
+	margin-top: 30px;
+	display: inline-block;
+	color: #fff;
+}
+
+.cermoniaInformacoesLi {
+	background: url('../img/cerimonia.png') no-repeat;
+	padding-left: 85px;
+	min-height: 70px;
+	float: left;
+	text-align: left;
+	margin-right: 30px;
+	width: 140px;
+}
+
+.cermoniaInformacoesLiRecepcao {
+	background-position: 0 -130px;
+	margin-right: 0;
+}
+
+.informacoesTitulo {
+	display: block;
+	font-weight: bold;
+}
+
+.informacoesDescricao span {
+	display: block;
+	font-size: 11px;
+	line-height: 15px;
+}
+
+/*---------
+	RESOLUCAO 1024
+----------*/
+@media screen and (max-width: 1024px){
+	#blocoLogo {
+		margin-left: 40px
+	}
+	
+	#blocoNomes {
+		margin-right: 40px;
+	}
+}

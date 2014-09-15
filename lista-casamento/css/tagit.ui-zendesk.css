@@ -1,0 +1,61 @@
+ul.tagit {
+	padding: 20px;
+	border: 1px solid #e6e6e6;
+	margin: 0;
+}
+
+ul.tagit li.tagit-choice {
+	border: 1px solid #e6e6e6;
+}
+
+ul.tagit li.tagit-choice .tagit-label:not(a) {
+	color: #555;
+}
+
+ul.tagit li.tagit-choice a.tagit-close {
+	background: url('../img/close_emails.png') no-repeat;
+	width: 15px;
+	height: 15px;
+	display: block;
+	text-decoration: none;
+	text-indent: -9999px;
+}
+
+ul.tagit li.tagit-choice a.tagit-close:hover {
+	background-position: 0 -50px;
+}
+
+ul.tagit li.tagit-choice .tagit-close {
+	right: 7px;
+}
+
+ul.tagit li.tagit-choice .ui-icon {
+	display: none;
+}
+
+ul.tagit li.tagit-choice .tagit-close .text-icon {
+	display: inline;
+	font-family: arial, sans-serif;
+	font-size: 16px;
+	line-height: 16px;
+	color: #777;
+}
+
+
+
+ul.tagit li.tagit-choice a.tagLabel:hover,
+ul.tagit li.tagit-choice a.tagit-close .text-icon:hover {
+	color: #222;
+}
+
+ul.tagit input[type="text"] {
+	color: #545454;
+	background: none;
+}
+
+.ui-widget {
+	color: #005199;
+	font-size: 12px;
+	line-height: 15px;
+}
+

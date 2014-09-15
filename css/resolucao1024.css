@@ -1,0 +1,178 @@
+/*---------
+	STYLES RESOLUCAO 1024
+----------*/
+
+
+/* AJUSTES PARA VIEWPORT ENTRE 1024 A 1240 Pixels */
+@media screen and (max-width: 1240px){
+	/* TOPO */
+
+	.topoCategorias .topoBloco #boxLogo .logo {
+		margin-left: 10px;
+	}
+
+	.topoCategorias .contentTopoCategorias {
+		width: 956px;
+	}
+
+	.topoCategorias .topoBloco .topoRevendedor {
+		margin: 0 15px;
+		width: 128px;
+	}
+
+	.topoBloco .topoBuscaCarrinho {
+		width: 620px;
+		margin-left: 0;
+	}
+
+	.buscaTopo .buscaForm {
+		width: 407px;
+	}
+
+	.buscaTopo .buscaForm .input {
+		width: 309px;
+	}
+
+	.finalizarCompraLi {
+		width: 104%;
+	}
+
+	.topoCategorias .categoriasUl .categoriasLi {
+		margin-right: 0px;
+	}
+
+	/* CONTEUDO */
+	
+
+
+	.sidebarBanners {
+		display: none;
+	}
+
+	.boxNews .tableNews {
+		margin: 0 auto;
+	}
+
+	.boxNews .linkSeloListaCasamento {
+		display: none;
+	}
+
+
+
+	/* RODAPE */
+	.boxDuvidas .boxTextDuvidas {
+		margin-left: 0;
+	}
+
+	.boxBuscarRodape .buscaForm {
+		width: 835px;
+	}
+
+	.boxBuscarRodape .buscaForm .input {
+		width: 605px;
+	}
+
+	.boxDuvidas .boxTelefone {
+		margin-left: 35px;
+	}
+
+	.boxInstitucionalRodape .contentInstitucionalRodape {
+		width: 920px;
+	}
+
+	.boxInstitucionalCentro {
+		margin-left: 90px;
+	}
+
+	.boxInstitucionalRodape .spr {
+		right: 40px;
+	}
+
+	.boxBuscarRodape .buscaForm .label{
+		left:30px;
+	}
+
+
+	/* SERVIÇOS */
+	.meusPedidosContent,
+	.servicosContent {
+		width: 755px;
+		-webkit-transition: all .3s;
+		-moz-transition: all .3s;
+		-ms-transition: all .3s;
+		-o-transition: all .3s;
+	}
+
+	.tabelaBoletos .table1 {
+		width: 290px !important;
+	}
+
+	.tabelaBoletos .table2 {
+		width: 288px !important;
+	}
+
+	.tabelaBoletos .table3 {
+		width: 171px !important;
+	}
+
+	.mainMinhaConta {
+		float: right;
+		width: 653px;
+		margin: 0;
+	}
+
+
+
+	/* LISTAGEM DE PRODUTOS */
+	.produtosListagem {
+		float: right;
+		margin-left: 0;
+		width: 750px;
+	}
+
+	.boxOrdenar {
+		width: 170px;
+	}
+
+	.boxOrdenar .listSelectUl {
+		width: 168px;
+	}
+
+	.produtoUl .produtoLiTabela {
+		/*margin-left: 24px;*/
+	}
+
+	.produtoLi .produtoDescricao {
+		min-width: 375px;
+		max-width: 375px; 
+	}
+
+	.produtoLiListagem .produtoCategoria {
+		display: none;
+	}
+
+	.paginacaoUl .paginacaoLi .paginacaoLinksNormalFirst {
+		padding: 0 10px;
+	}
+
+	.paginacaoUl .paginacaoLi .paginacaoLinksNormalLast {
+		padding: 0 10px;
+	}
+
+	.produtoUl .produtoLiTabela {
+		width: 166px;
+		/*min-height: 355px;*/
+		min-height: 310px;
+		float: left;
+		margin: 0 0 20px 0;
+		padding: 16px 0 0 14px;
+		-webkit-transition: all .3s;
+		-moz-transition: all .3s;
+		-ms-transition: all .3s;
+		-o-transition: all .3s;
+		transition: all .3s;
+	}
+
+
+
+}

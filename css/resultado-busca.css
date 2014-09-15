@@ -1,0 +1,61 @@
+.sugestoesBusca {
+	height: 42px;
+	padding-top: 10px;
+	border-bottom: 1px solid #e5e5e5;
+	margin-bottom: 10px;
+}
+
+.sugestoeUl .sugestoeLi {
+	float: left;
+	margin-right: 5px;
+}
+
+.sugestoeLiTitulo {
+	font-weight: bold;
+	font-size: 14px;
+	color: #919191;
+}
+
+.sugestoeUl .sugestoeLi .sugestoeLink {
+	font-size: 12px;
+	text-decoration: underline;
+	color: #919191;
+}
+
+.sugestoeUl .sugestoeLi .sugestoeLink:hover {
+	color: #005099;
+}
+
+.blovoVisualizando {
+	display: block;
+	text-align: center;
+	margin-top: -15px;
+	padding-bottom: 45px;
+}
+
+
+/*---------
+	FILTRO POR CORES
+----------*/
+.coresUl .coresLi {
+	float: left;
+	margin: 0 7px 7px 0;
+}
+
+.coresUl .coresLast {
+	margin-right: 0;
+}
+
+.coresUl .coresLi .coresLink {
+	border: 1px solid #e6e6e6;
+	width: 22px;
+	height: 22px;
+	display: block;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.coresUl .coresLi .coresLink:hover {
+	border: 1px solid #919191;
+}

@@ -1,0 +1,288 @@
+/* --------------
+	SESSAO
+---------------*/
+.sessaoListaCasamento {
+	background: url('../../lista-casamento/img/bg.jpg') no-repeat top center;
+	width: 100%;
+	min-height: 910px;
+}
+
+.containerLista {
+	margin: 0 auto;
+	padding: 75px 0;
+	width: 850px;
+}
+
+.bt,
+.links {
+	color: #FFF;
+	font-size: 11px;
+	cursor: pointer;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+}
+
+.bt {
+	width: 240px;
+	background: #8a2328;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 20px 0 20px;
+	position: relative;
+	text-align: center;
+}
+
+.btIcone {
+	background: url('../../lista-casamento/img/icones.png') no-repeat;
+	position: absolute;
+	top: 50%;
+	right: 20px;
+}
+
+.bt:hover {
+	background: #892a35;
+}
+
+.links {
+	text-decoration: underline;
+}
+
+.links {
+	color: #FFF;
+	text-decoration: underline;
+}
+
+
+
+/* --------------
+	CONTEUDO ESQUERDA
+---------------*/
+.containerLeft {
+	width: 269px;
+	float: left;
+	/*margin-left: 150px;*/
+}
+
+.logoLista {
+	width: 100%;
+}
+
+.descricaoLista {
+	font-size: 14px;
+	display: block;
+	line-height: 18px;
+	margin: 45px 0 50px;
+	color: #ffffff;
+}
+
+.descricaoLista span {
+	display: block;
+}
+
+#passos {
+	position: relative;
+}
+
+#passos .divisor {
+	position: absolute;
+	width: 2px;
+	height: 11px;
+	background: #8a2328;
+	left: 40.5px;
+	opacity: 0.5;
+	-moz-opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+
+#passos .divisor1 {
+	top: 80px;
+}
+
+#passos .divisor2 {
+	bottom: 81px;
+}
+
+#passosUl {
+	position: relative;
+}
+
+.passosLi {
+	background: url('../../lista-casamento/img/passos.png') no-repeat;
+	max-width: 130px;
+	min-height: 81px;
+	padding-left: 95px;
+	display: block;
+	color: #FFF;
+	border: none;
+	margin-bottom: 10px;
+}
+
+.tablePassos {
+	height: 80px;
+}
+
+.tablePassos .table-cell {
+	text-align: left;
+}
+
+.passosLiPreencha {
+	background-position: 0 0;
+}
+
+.passosLiNavegue {
+	background-position: 0 -90px;
+}
+
+.passosLiDivulgue {
+	background-position: 0 -180px;
+}
+
+.btCriar {
+	margin: 30px 0 0;
+}
+
+.btAcessar {
+	margin: 10px 0 40px;
+}
+
+.btIcone {
+	width: 7px;
+	height: 12px;
+	margin-top: -6px;
+}
+
+
+/* --------------
+	CONTEUDO DIREITA
+---------------*/
+.containerRight {
+	width: 347px;
+	float: right;
+	/*margin-right: 130px;*/
+	padding-top: 255px;
+}
+
+#blocoForm {
+	width: 341px;
+	height: 440px; 
+	border: 3px solid #ac252c;
+}
+
+#formProcura {
+	background: url('../../lista-casamento/img/bg_form.png') no-repeat top center;
+	width: 240px;
+	margin: 50px auto 0;
+	padding-top: 50px;
+}
+
+.formTitulo {
+	font-size: 18px;
+	display: block;
+	line-height: 18px;
+	color: #ffffff;
+}
+
+.formDescricao {
+	font-size: 13px;
+	display: block;
+	line-height: 16px;
+	margin: 25px 0 25px;
+	color: #ffffff;
+}
+
+.relative {
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.label,
+.input {
+	color: #6e6e6e;
+	font-size: 12px;
+}
+
+.label {
+	position: absolute;
+	top: 12px;
+	left: 15px;
+}
+
+.input {
+	background: #FFF;
+	width: 210px;
+	height: 14px;
+	line-height: 14px;
+	border: none;
+	padding: 13px 15px;
+}
+
+#btEnviar {
+	border: none;
+	margin-top: 34px;
+}
+
+.btIconeBuscar {
+	background-position: 0 -120px;
+	width: 16px;
+	height: 16px;
+	margin-top: -8px;
+}
+
+.loaderBuscaListaCasamento{
+	position: absolute;
+	background: url('../../lista-casamento/img/ajax-loader.gif') no-repeat top left;
+	height: 32px;
+	padding: 7px 0 0 35px;
+	display: none;
+	color: #ffffff;
+}
+.erroBusca{
+	color:#FFFFFF;
+	position:absolute
+}
+.resultadoBuscaListaCasamento{
+	width: 400px;
+	height: 281px;
+	position: absolute;
+	background-color: #ffffff;
+	margin-top: 255px;
+	z-index: 100;
+	display: none;
+	padding: 20px;
+	text-align: left;
+	color: #ca3c4a;
+}
+.resultadoBuscaListaCasamento .titulo{
+	border-bottom: 1px solid #bcbec0;
+	font-size: 16px;
+	padding-bottom: 5px;
+	color: #a7a9ac;
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "Exo_Demi_Bold",Arial,sans-serif;
+}
+.resultadoBuscaListaCasamento a{
+	color: #ca3c4a;
+	text-decoration: none;
+	font-family: "Exo Medium",Arial,sans-serif;
+	font-size: 16px;
+}
+.resultadoBuscaListaCasamento a:hover{
+	color: #ca3c4a;
+	text-decoration: underline;
+}
+.resultadoBuscaListaCasamento ul {
+	padding-top: 20px;
+	height: 247px;
+	width: 250px;
+	overflow:auto;
+}
+.resultadoBuscaListaCasamento ul li {
+	line-height: 18px;
+	padding: 0 0 15px 30px;
+	background: url('../../lista-casamento/img/icones.png') no-repeat left;
+	background-position: 0px -48px;
+}

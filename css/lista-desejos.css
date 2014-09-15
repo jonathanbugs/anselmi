@@ -1,0 +1,158 @@
+/* --------------
+	SIDEBAR CATEGORIAS
+---------------*/
+.sidebarCategorias .categoriasUlListaDesejos .categoriaFilha {
+	padding-left: 25px;
+}
+
+.auxiliarFiltros {
+	border-top: 1px solid #E5E5E5;
+	padding-top: 18px;
+}
+
+.visualizandoTxt {
+	float: left;
+	display: block;
+	padding-top: 10px;
+}
+
+.produtoUl .produtoLi {
+	border-bottom: 1px solid #E5E5E5;
+	padding: 25px 0 26px;
+	display: block;
+}
+
+.produtoUl .produtoLiFirst {
+	padding-top: 0;
+}
+
+.produtoUl .produtoLiLast {
+	margin-bottom: 40px;
+	border-bottom: none;
+}
+
+.produtoUl .produtoLi .produtoImagem {
+	float: left;
+	margin: 0 25px 0 11px;
+}
+
+.produtoUl .produtoLi .produtoInformacoes {
+	max-width: 260px;
+	float: left;
+	color: #808080
+}
+
+.produtoInformacoes .produtoTitulo {
+	text-transform: uppercase;
+	color: #545454;
+	font-size: 14px;
+	font-weight: bold;
+	padding-bottom: 12px;
+}
+
+.produtoUl .produtoLi:hover .produtoTitulo {
+	text-decoration: none;
+}
+
+.produtoInformacoes .produtoValor {
+	display: block;
+	padding-bottom: 4px;
+}
+
+.produtoInformacoes .produtoValor span {
+	text-decoration: line-through;
+}
+
+.produtoInformacoes .produtoValorParcelado {
+	color: #005199;
+	font-size: 20px;
+	font-weight: bold;
+	display: block;
+}
+
+.produtoInformacoes .produtoValorParcelado .produtoVezes {
+	font-size: 12px;
+}
+
+.produtoInformacoes .produtoValorParcelado .produtoJuros {
+	color: #808080;
+	font-size: 12px;
+}
+
+.produtoInformacoes .produtoValorVista {
+	padding-top: 4px;
+	display: block;
+}
+
+.produtoInformacoes .produtoBts {
+	padding-top: 13px;
+}
+
+.produtoInformacoes .produtoBts .produtoBt {
+	background: url('../img/icons/icones.png') no-repeat;
+	padding: 0 0 2px 20px;
+	color: #808080;
+	display: block;
+	line-height: 17px;
+}
+
+.produtoInformacoes .produtoBts .produtoBt:hover {
+	text-decoration: underline;
+}
+
+.produtoInformacoes .produtoBts .produtoBtAdcionar {
+	background-position: 0 -1500px;
+}
+
+.produtoInformacoes .produtoBts .produtoBtRemover {
+	background-position: 0 -1571px;
+}
+
+.produtoLi .produtoOpcoes {
+	width: 190px;
+	background: #DDD;
+	float: right;
+	margin: 20px 21px 0 0;
+}
+
+.produtoLi .produtoOpcoes .btOpces {
+	display: block;
+	position: relative;
+	color: #FFF;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.produtoLi .produtoOpcoes .btOpces:hover {
+	background: #545454;
+}
+
+.produtoLi .produtoOpcoes .btOpcesComprar {
+	width: 151px;
+	background: #ec4a00;
+	height: 31px;
+	font-size: 14px;
+	margin-bottom: 2px;
+	padding: 19px 0 0 39px;
+}
+
+.produtoLi .produtoOpcoes .btOpcesComprar .icone {
+	background: url('../img/icons/icones.png') no-repeat;
+	background-position: 0 -1689px;
+	width: 34px;
+	height: 34px;
+	position: absolute;
+	top: 8px;
+	right: 30px;
+}
+
+.produtoLi .produtoOpcoes .btOpcesAdicionar {
+	width: 190px;
+	background: #005099;
+	height: 38px;
+	font-size: 10px;
+	text-align: center;
+	padding-top: 12px;
+	line-height: 12px;
+}
+
