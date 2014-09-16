@@ -1,0 +1,6 @@
+templates_c/
+admin/templates_c/
+templates_c/*
+admin/templates_c/*
+*.tpl.php
+
