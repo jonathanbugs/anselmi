@@ -8,7 +8,7 @@ ini_set('display_errors', 0);
 // error_reporting(E_ALL);
 
 ### Configuracoes do Projeto
-define('PROJETO','anselmi');
+define('PROJETO','lojas/anselmi');
 define('CLIENTE','Anselmi');
 
 ### Configuracoes de Meta Tags do Site

@@ -2,7 +2,8 @@
 #config loja
 if(isset($subdominio)) $subdominio = $subdominio;
 $idsLojas = array('malhastaudt'=>3, 'www'=>1);
-define("ID_LOJA", $idsLojas[$subdominio]);
+//define("ID_LOJA", $idsLojas[$subdominio]);
+define('ID_LOJA', 1);
 define("IP_USUARIO", $_SERVER["REMOTE_ADDR"]);
 if(isset($_SESSION["sessionNome"])){
 	$usuarioLogado = $_SESSION["sessionNome"];

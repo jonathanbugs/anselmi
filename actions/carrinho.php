@@ -72,7 +72,7 @@ switch ($acao) {
 							WHERE
 								TPSI.PRCO_ID_PRODUTO_COMBINACAO = ".$idProduto."
 				";
-			printr($query);
+			//printr($query);
 			$row = $mysqli->ExecutarSQL($query);
 
 			$linhasAfetadas = $mysqli->LinhasAfetadas();
