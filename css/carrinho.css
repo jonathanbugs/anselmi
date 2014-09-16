@@ -1,3 +1,7 @@
+#mainCarrinhoCompras {
+	padding: 20px;
+}
+
 #tabelaCarrinho {
 	width: 100%;
 	border: 1px solid #cecece;
@@ -79,8 +83,11 @@
 }
 
 #tabelaCarrinho .ttNomeProduto {
-	color: #005099;
-	font-weight: bold;
+	color: #c8965a;
+	font-family: 'pathway_gothic_oneregular';
+	line-height: 1em;
+	font-size: 20px;
+	text-transform: uppercase;
 }
 
 #tabelaCarrinho .ttReferenciaProduto {
@@ -96,7 +103,7 @@
 
 #tabelaCarrinho .linkAcoes:hover {
 	text-decoration: underline;
-	color: #005099;
+	color: #c8965a;
 }
 
 #tabelaCarrinho .linkRemoverCarrinho {
@@ -104,7 +111,7 @@
 }
 
 #tabelaCarrinho .linkRemoverCarrinho:hover {
-	background-position: 0 -47px;
+	background-position: 0 -75px;
 }
 
 #tabelaCarrinho .linkMoverListaDesejos {
@@ -112,7 +119,7 @@
 }
 
 #tabelaCarrinho .linkMoverListaDesejos:hover {
-	background-position: 0 -156px;
+	background-position: 0 -187px;
 }
 
 
@@ -130,12 +137,12 @@
 }
 
 #formCarinhoCompras .inputEmbalarChecked {
-	background: url("../img/icons/carrinho.png") no-repeat scroll 30px -380px transparent;
+	background: url("../img/icons/carrinho.png") no-repeat scroll 30px -526px transparent;
 }
 
 #formCarinhoCompras .lblEmbalarPresente:hover,
 #formCarinhoCompras .inputEmbalarChecked {
-	color: #005099;
+	color: #c8965a;
 }
 
 #formCarinhoCompras .lblEmbalarPresente input {
@@ -167,7 +174,7 @@
 }
 
 .tdQuantidade .tdQuantidadeBt {
-	background: #005099;
+	background: #c8965a;
 	width: 49px;
 	height: 49px;
 	position: relative;
@@ -181,7 +188,7 @@
 }
 
 .tdQuantidade .tdQuantidadeBt:hover {
-	background: #545454;
+	background: #000;
 }
 
 .tdQuantidade .tdQuantidadeBt .icone {
@@ -336,7 +343,7 @@
 } 
 
 .boxInformeCep .ttInformeCep {
-	color: #005099;
+	color: #c8965a;
 	font-size: 11px;
 	font-weight: bold;
 	display: block;
@@ -359,7 +366,7 @@
 .boxCupom .ttCupom {
 	font-size: 18px;
 	text-transform: uppercase;
-	color: #005099;
+	color: #c8965a;
 	font-weight: bold;
 	float: left;
 	display: block;
@@ -370,7 +377,7 @@
 
 .linkExcluir {
 	text-decoration: underline;
-	color: #005099;
+	color: #c8965a;
 	position: absolute;
 	right: 0;
 	bottom: -20px;
@@ -428,7 +435,7 @@
 
 #btConsultar {
 	border: none;
-	background: url("../img/icons/produto-detalhe.png") no-repeat 118px -1582px #005099;
+	background: url("../img/icons/produto-detalhe.png") no-repeat 118px -1582px #c8965a;
 	text-transform:uppercase;
 	color: #FFF;
 	font-weight: bold;
@@ -446,12 +453,12 @@
 }
 
 #btConsultar:hover{
-	background-color: #6e6e6e;
+	background-color: #000;
 }
 
 #btCalcularCupom {
 	border: none;
-	background: url("../img/icons/produto-detalhe.png") no-repeat 118px -1582px #005099;
+	background: url("../img/icons/produto-detalhe.png") no-repeat 118px -1582px #c8965a;
 	text-transform:uppercase;
 	color: #FFF;
 	font-weight: bold;
@@ -469,7 +476,7 @@
 }
 
 #btCalcularCupom:hover{
-	background-color: #6e6e6e;
+	background-color: #000;
 }
 
 .linkNaoSabeCep {
@@ -495,7 +502,7 @@
 	font-size: 18px;
 	margin: 0 20px;
 	font-weight: bold;
-	color: #005099;
+	color: #c8965a;
 	text-transform: uppercase;
 }
 
@@ -536,7 +543,7 @@
 
 .resultadoBoxValorFrete .ulResultadoFrete li .txtBold {
 	font-weight: bold;
-	color: #005099;
+	color: #c8965a;
 }
 
 
@@ -563,7 +570,7 @@
 .boxInformacoes .tt {
 	font-size: 18px;
 	text-transform: uppercase;
-	color: #005099;
+	color: #c8965a;
 	font-weight: bold;
 	display: block;
 	padding-bottom: 7px;
@@ -586,12 +593,12 @@
 
 #blocoInformacoes .txtTotal {
 	font-size: 26px;
-	color: #005099;
+	color: #c8965a;
 }
 
 #blocoInformacoes .txtValorTotal {
 	font-size: 24px;
-	color: #005099;
+	color: #c8965a;
 }
 
 #blocoInformacoes .txtValorTotal,
@@ -661,7 +668,7 @@
 }
 
 .produtosSlide .btProdutosSlide {
-	background: #005099;
+	background: #c8965a;
 	width: 50px;
 	height: 50px;
 	position: absolute;
@@ -704,14 +711,14 @@
 	font-weight: bold;
 	font-size: 22px;
 	display: block;
-	color: #005099;
+	color: #c8965a;
 	letter-spacing: 0.08em;
 	padding: 15px 0 10px;
 	margin-bottom: 30px;
 	line-height: 1em;
 	text-align: center;
 	height: 25px;
-	border-bottom: 2px solid #005099;
+	border-bottom: 2px solid #c8965a;
 }
 
 .produtosSlideUl .produtosSlideLi {
@@ -753,7 +760,7 @@
 
 .produtosSlideLink .produtoSeloNovo {
 	top: 30px;
-	background: #005099;
+	background: #c8965a;
 }
 
 .produtosSlideLiCaurossel {
@@ -771,12 +778,12 @@
 }
 
 .ulAcoesCarrinho .btAcao {
-	background: #005199;
+	background: #c8965a;
+	color: #000;
 	display: block;
-	color: #FFF;
+	font-family: "pathway_gothic_oneregular",sans-serif;
+	font-size: 30px;
 	text-transform: uppercase;
-	font-size: 18px;
-	font-weight: bold;
 	height: 80px;
 	line-height: 80px;
 	vertical-align: middle;
@@ -789,7 +796,8 @@
 }
 
 .ulAcoesCarrinho .btAcao:hover {
-	background: #545454;
+	background: #000;
+	color: #c8965a;
 }
 
 .ulAcoesCarrinho .btAcao .icone {

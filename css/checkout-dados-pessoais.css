@@ -3,7 +3,7 @@
 ---------------*/
 .ckeckoutContent {
 	width: 727px;
-	margin: 0 auto;
+	margin: 0 auto 40px;
 	display: block;
 }
 
@@ -16,7 +16,7 @@
 .ckeckoutContent .checkoutBlocoLeft {
 	float: left;
 	padding-right: 60px;
-	border-right: 2px solid #e5e5e5;
+	border-right: 1px solid #c8965a;
 }
 
 .ckeckoutContent .checkoutBlocoRight {
@@ -24,14 +24,14 @@
 }
 
 .checkoutBloco .checkoutBlocoTitulo  {
-	text-transform: uppercase;
-	color: #005099;
-	font-size: 16px;
+	color: #000;
+	font-family: 'pathway_gothic_oneregular', sans-serif;
+	font-size: 26px;
 	display: block;
 	padding: 28px 0 12px;
-	border-bottom: 1px solid #e5e5e5;
+	border-bottom: 1px solid #c8965a;
 	margin-bottom: 18px;
-	font-weight: bold;
+	text-transform: uppercase;
 }
 
 .checkoutBloco .checkoutForm {
@@ -78,10 +78,10 @@
 	bottom: 0;
 	width: 304px;
 	height: 50px;
-	background: #005099;
-	color: #FFF;
-	font-weight: bold;
-	font-size: 11px;
+	background: #c8965a;
+	color: #000;
+	font-family: 'pathway_gothic_oneregular', sans-serif;
+	font-size: 20px;
 	text-transform: uppercase;
 	border: none;
 	display: block;
@@ -94,7 +94,8 @@
 }
 
 .checkoutForm .btSubmit:hover {
-	background: #545454;
+	background: #000;
+	color: #c8965a;
 }
 
 .checkoutForm .btSubmit .icone {

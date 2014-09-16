@@ -2526,7 +2526,7 @@ h1,h2,h3,h4,h5,h6 {
 	float: left;
 	height: 70px;
 	text-align: center;
-	margin-right: 75px;
+	margin-right: 92px;
 	position: relative;
 	z-index: 2;
 }
@@ -2540,7 +2540,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .checkoutLinha1 {
-	left: 80px;
+	left: 76px;
 }
 
 .checkoutLinha2 {
@@ -2548,7 +2548,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .checkoutOrdemUl .checkoutLinhaAtiva {
-	background: #00519a;
+	background: #c8965a;
 }
 
 .checkoutOrdemUl .checkoutOrdemLiLast {
@@ -2578,10 +2578,10 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .checkoutOrdemLi .tituloPasso {
+	font-family: 'pathway_gothic_oneregular', sans-serif;
 	text-transform: uppercase;
-	color: #919191;
-	font-weight: bold;
-	font-size: 14px;
+	color: #000;
+	font-size: 22px;
 }
 
 .checkoutOrdemLi .tituloPassoAtivo {
