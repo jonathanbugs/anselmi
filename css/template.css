@@ -1053,6 +1053,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .produtoUl .produtoLiTabelaSeparador {
 	width: 100%;
+	display: none;
 	/*min-height: 355px;*/
 	/*min-height: 250px;*/
 	height: 10px;
@@ -1078,7 +1079,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .produtoUl .produtoLiListagem {
 	width: 100%;
-	padding-bottom: 5px;
+	padding: 20px 0 5px;
 	border-bottom: 1px solid #e5e5e5;
 	margin-bottom: 25px;
 }
@@ -1099,11 +1100,12 @@ h1,h2,h3,h4,h5,h6 {
 	left: 20px;
 	z-index: 2;
 	max-width: 48px;
+	text-align: center;
 }
 
 .produtoUl .produtoLiListagem .boxProdutoSelo {
-	top: 0;
-	left: 0;
+	top: -24px;
+	left: -24px;
 }
 
 .produtoUl .produtoLiTabela .produtoLink .produtoSelo {
@@ -1142,7 +1144,7 @@ h1,h2,h3,h4,h5,h6 {
 .produtoLiListagem .produtosInfos {
 	position: absolute;
 	top: 0;
-	right: 35px;
+	right: 0;
 }
 
 .produtoSeloPorcentagem {
@@ -1191,7 +1193,9 @@ h1,h2,h3,h4,h5,h6 {
 
 .produtoLiListagem .produtoTitulo {
 	float: left;
-	min-width: 565px;
+	width: 100%;
+	max-width: 235px;
+	display: block;
 }
 
 .produtoLink:hover .produtoTitulo {
@@ -1203,7 +1207,7 @@ h1,h2,h3,h4,h5,h6 {
 	line-height: 17px;
 	color: #919191;
 	display: block;
-	width: 390px;
+	width: 220px;
 	margin: 10px 0;
 	float: left;
 	-webkit-transition: all .3s;
@@ -1361,19 +1365,13 @@ h1,h2,h3,h4,h5,h6 {
 	text-align: center;
 	display: block;
 	height: 42px;
+	line-height: 42px;
 }
 
 .produtoLiListagem:hover .produtoAddCarrinho,
 .produtosSlideLi:hover .produtoAddCarrinho {
-	background: #c8965a;
-	color: #FFF;
-	font-size: 9px;
-	font-weight: bold;
-	text-transform: uppercase;
-	padding: 8px 0;
-	width: 168px;
-	text-align: center;
-	display: block;	
+	background: #000;
+	color: #c8965a
 }
 
 
@@ -1482,8 +1480,8 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .produtoUl .produtoLiListagem .produtoContent {
-	width: 100% !important;
 	position: relative;
+	width: 700px;
 }
 
 .produtoUl .produtoLiTabela .produtoHover,
