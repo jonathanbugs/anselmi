@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.10, created on 2014-09-15 11:39:16
+<?php /* Smarty version Smarty-3.1.10, created on 2014-09-16 08:48:20
          compiled from "templates/capa-lojas.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:5768473205416fa142db9e7-19885407%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:576389933541823846d45a5-02690731%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'd946196284b8a3809ef6601a2a31cf8b8631de38' => 
     array (
       0 => 'templates/capa-lojas.tpl',
-      1 => 1410791828,
+      1 => 1410867410,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '5768473205416fa142db9e7-19885407',
+  'nocache_hash' => '576389933541823846d45a5-02690731',
   'function' => 
   array (
   ),
@@ -21,35 +21,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.10',
-  'unifunc' => 'content_5416fa142f9155_25277058',
+  'unifunc' => 'content_541823846f26b4_28282576',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5416fa142f9155_25277058')) {function content_5416fa142f9155_25277058($_smarty_tpl) {?><!-- TOPO CAPA -->
-<header id="topoCapa">
-	<div class="container clearfix">
-		<div class="logo">
-			<a href="javascript:;">
-				<img src="<?php echo $_smarty_tpl->tpl_vars['IMG_DIR']->value;?>
-logos/clube_anselmi.png" alt="Clube Anselmi" />
-			</a>
-		</div>
+<?php if ($_valid && !is_callable('content_541823846f26b4_28282576')) {function content_541823846f26b4_28282576($_smarty_tpl) {?><!-- TOPO -->
+<?php echo $_smarty_tpl->getSubTemplate ('_topo2.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
 
-		<div class="logoAnselmi">
-			<a href="javascript:;">
-				<img src="<?php echo $_smarty_tpl->tpl_vars['IMG_DIR']->value;?>
-logos/logo.png" alt="Anselmi" />
-			</a>
-		</div>
-
-		<ul class="blocoLinks clearfix">
-			<li>
-				<a href="javascript:;">entrar</a>
-			</li>
-			<li>
-				<a href="javascript:;">cadastre-se</a>
-			</li>
-		</ul>
-	</div>
-</header>
 
 <div class="container">
 	<div class="conteudoCapa clearfix">
@@ -97,50 +73,7 @@ logos/clube_anselmi2.png" alt="Clube Anselmi" />
 	</div>
 </div>
 
-<div class="blocoContatos">
-	<div class="container clearfix">
-		<ul class="social">
-			<li>
-				<a class="facebook" href="javascript:;">Facebook</a>
-			</li>
-			<li>
-				<a class="instagram" href="javascript:;">instagram</a>
-			</li>
-			<li>
-				<a class="vimeo" href="javascript:;">Vimeo</a>
-			</li>
-		</ul>
-
-		<ul class="duvidas">
-			<li class="titulo">D&uacute;vidas?</li>
-			<li>
-				<a class="fone" href="tel:5426283444">(54) 2628-3444</a>
-			</li>
-			<li>
-				<a href="mailto:comercial@anselmi.com.br">comercial@anselmi.com.br</a>
-			</li>
-		</ul>
-	</div>
-</div>
-
-<div class="blocoInformacoes">
-	<div class="container clearfix">
-		<ul class="pagamentosClube">
-			<li class="visa"></li>
-			<li class="mastercard"></li>
-			<li class="pagseguro"></li>
-			<li class="verisign"></li>
-		</ul>
-		<ul class="informacoes">
-			<li>Malharia Anselmi Ltda.</li>
-			<li>Av. Pedro Grendene, 50 - Volta Grande - Farroupilha - RS</li>
-			<li>CNPJ 90.005.307/0001-78 - <a href="mailto:comercial@anselmi.com.br">comercial@anselmi.com.br</a></li>
-		</ul>
-	</div>
-</div>
-
-<footer id="rodapeCapa">
-	<a class="logoSPR ir" href="http://www.spr.com.br" target="_blank">SPR</a>
-</footer>
+<!-- RODAPE -->
+<?php echo $_smarty_tpl->getSubTemplate ('_rodape2.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
 
 <?php }} ?>

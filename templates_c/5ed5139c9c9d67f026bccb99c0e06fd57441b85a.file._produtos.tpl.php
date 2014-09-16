@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.10, created on 2014-09-15 18:05:11
+<?php /* Smarty version Smarty-3.1.10, created on 2014-09-16 09:44:22
          compiled from "/Applications/MAMP/htdocs/anselmi/templates/includes/_produtos.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1560278307541754878c5127-36965071%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1368034014541830a622c868-50589693%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1560278307541754878c5127-36965071',
+  'nocache_hash' => '1368034014541830a622c868-50589693',
   'function' => 
   array (
   ),
@@ -50,9 +50,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.10',
-  'unifunc' => 'content_54175487e70b29_84720213',
+  'unifunc' => 'content_541830a674a236_66018767',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_54175487e70b29_84720213')) {function content_54175487e70b29_84720213($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_valor_parcelado')) include '/Applications/MAMP/htdocs/anselmi/smarty/plugins/modifier.valor_parcelado.php';
+<?php if ($_valid && !is_callable('content_541830a674a236_66018767')) {function content_541830a674a236_66018767($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_valor_parcelado')) include '/Applications/MAMP/htdocs/anselmi/smarty/plugins/modifier.valor_parcelado.php';
 ?>		<?php if ($_smarty_tpl->tpl_vars['listaCompreJunto']->value!='S'){?>
 		<div id="conteudo"></div>
 		<!--CASO NAO HOUVER BANNERS LATERIAS ADICIONAR A CLASSE 'produtosListagemFull' NA DIV ABAIXO-->
