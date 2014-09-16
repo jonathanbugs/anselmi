@@ -19,7 +19,7 @@ $topListaProduto = 15;
 $smarty->assign('topListaProduto', $topListaProduto);
 $listaProdutoSite = $Produto->fnProdutoSite(null,$topListaProduto,null,$busca,$getCategorias);
 $smarty->assign('listaProdutoSite', $listaProdutoSite);
-$smarty->assign('nroColunas', 5);
+$smarty->assign('nroColunas', 3);
 /**/
 
 $smarty->assign('countCategorias',$countCategorias);

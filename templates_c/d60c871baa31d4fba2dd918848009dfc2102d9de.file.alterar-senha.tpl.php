@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.10, created on 2014-09-15 11:51:21
+<?php /* Smarty version Smarty-3.1.10, created on 2014-09-16 11:21:42
          compiled from "templates/alterar-senha.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:15365046125416fce97a10f1-54166620%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:106972915154184776145324-82216858%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,15 +11,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '15365046125416fce97a10f1-54166620',
+  'nocache_hash' => '106972915154184776145324-82216858',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.10',
-  'unifunc' => 'content_5416fce97a9c50_45491240',
+  'unifunc' => 'content_5418477614e695_65522904',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5416fce97a9c50_45491240')) {function content_5416fce97a9c50_45491240($_smarty_tpl) {?><div class="container">
+<?php if ($_valid && !is_callable('content_5418477614e695_65522904')) {function content_5418477614e695_65522904($_smarty_tpl) {?><div class="container">
 	<div id="produtosContent" class="clearfix">
 		<div class="navegacaoContent">
 			<h2 class="tituloPagina">Meus Dados</h2>

@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.10, created on 2014-08-29 13:47:04
+<?php /* Smarty version Smarty-3.1.10, created on 2014-09-16 11:45:32
          compiled from "templates/lista-desejos.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:11474476325400ae882ca068-54086634%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:40499484854184d0c3eae55-62777599%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '11474476325400ae882ca068-54086634',
+  'nocache_hash' => '40499484854184d0c3eae55-62777599',
   'function' => 
   array (
   ),
@@ -28,9 +28,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.10',
-  'unifunc' => 'content_5400ae883739d3_68233671',
+  'unifunc' => 'content_54184d0c4c1778_45626139',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5400ae883739d3_68233671')) {function content_5400ae883739d3_68233671($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_valor_parcelado')) include '/Applications/MAMP/htdocs/anselmi/smarty/plugins/modifier.valor_parcelado.php';
+<?php if ($_valid && !is_callable('content_54184d0c4c1778_45626139')) {function content_54184d0c4c1778_45626139($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_valor_parcelado')) include '/Applications/MAMP/htdocs/anselmi/smarty/plugins/modifier.valor_parcelado.php';
 ?><div class="container">
 	<div id="produtosContent" class="clearfix">
 		<div class="navegacaoContent">

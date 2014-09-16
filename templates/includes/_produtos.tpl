@@ -88,46 +88,14 @@
 			<ul class="produtoUl clearfix">
 				{$cookieLista}
 				{foreach $listaProdutoSite as $valueProdutoSite}
-					<li class="produtoLi produtoLiTabela {if $sessao neq 'produto-detalhe' and $valueProdutoSite@iteration is div by 4}produtoLiLast{/if}">
+					<li class="produtoLi produtoLiTabela {if $sessao neq 'produto-detalhe' and $valueProdutoSite@iteration is div by 2}produtoLiLast{/if}">
 						<div class="produtoContent clearfix">
-							<div class="produtoHover">
-								<!--<ul class="produtoThumbsUl clearfix">
-									<li class="produtoThumbsLi">
-										<a class="produtoThumbLink produtoThumbLinkAtivo" href="javascript:;">
-											<img class="produtoThumbImg" src="{$MIDIA_DIR}produtos/thumbs-hover/1.jpg" alt="" />
-										</a>
-									</li>
-									<li class="produtoThumbsLi">
-										<a class="produtoThumbLink" href="javascript:;">
-											<img class="produtoThumbImg" src="{$MIDIA_DIR}produtos/thumbs-hover/2.jpg" alt="" />
-										</a>
-									</li>
-									<li class="produtoThumbsLi">
-										<a class="produtoThumbLink" href="javascript:;">
-											<img class="produtoThumbImg" src="{$MIDIA_DIR}produtos/thumbs-hover/3.jpg" alt="" />
-										</a>
-									</li>
-									<li class="produtoThumbsLi">
-										<a class="produtoThumbLink" href="javascript:;">
-											<img class="produtoThumbImg" src="{$MIDIA_DIR}produtos/thumbs-hover/4.jpg" alt="" />
-										</a>
-									</li>
-									<li class="produtoThumbsLi">
-										<a class="produtoThumbLink" href="javascript:;">
-											<img class="produtoThumbImg" src="{$MIDIA_DIR}produtos/thumbs-hover/5.jpg" alt="" />
-										</a>
-									</li>
-								</ul>-->
-								{if $valueProdutoSite.URL_AMIGAVEL_PNAUX}
-								<a href="{$LINK}{$valueProdutoSite.URL_AMIGAVEL_PNAUX}/" class="produtoCategoria">+ linha {$valueProdutoSite.DESCRICAO_PRODUTO_NIVEL_AUXILI}</a>
-								{/if}
-								<a href="javascript:fnComprarProduto({$valueProdutoSite.PCAV_ID_PRODUTO_COMBINACAO_ATR}, 'false');" class="produtoAddCarrinho">Adicionar ao Carrinho</span></a>
-							</div>
 							<div class="produtoInformacoes">
 								<a href="{$LINK}{$valueProdutoSite.URL_AMIGAVEL}.html" class="produtoLink">
 									<span class="boxProdutoSelo">
 										{if $valueProdutoSite.TIPO_PROMOCAO eq 'P' and $valueProdutoSite.VALOR_PROMOCAO}
-										<span class="produtoSelo produtoSeloPorcentagem">{$valueProdutoSite.VALOR_PROMOCAO|number_format:0}% off</span>
+										<span class="produtoSelo produtoSeloPorcentagem">
+											<span>{$valueProdutoSite.VALOR_PROMOCAO|number_format:0}%</span> off</span>
 										{elseif $valueProdutoSite.PRECO_PROMOCIONAL > 0}
 										<span class="produtoSelo produtoSeloPorcentagem">oferta</span>
 										{/if}
@@ -149,7 +117,7 @@
 								</a>
 
 								<div class="produtosInfos"><br>
-									<!--<div class="produtoFavoritos">
+									<div class="produtoFavoritos">
 										<ul class="favoritosUl">
 											<li class="favoritosLi"><a class="favoritosLink favoritosLinkAtivo"></a></li>
 											<li class="favoritosLi"><a class="favoritosLink favoritosLinkAtivo"></a></li>
@@ -157,7 +125,7 @@
 											<li class="favoritosLi"><a class="favoritosLink"></a></li>
 											<li class="favoritosLi favoritosLiLast"><a class="favoritosLink"></a></li>
 										</ul>
-									</div>-->
+									</div>
 									<a href="{$LINK}{$valueProdutoSite.URL_AMIGAVEL}.html" class="produtoLink">
 										<span class="produtoValorFinal">
 											{if $valueProdutoSite.PRECO_PROMOCIONAL > 0}
@@ -185,18 +153,19 @@
 										{if $valueProdutoSite.FRETE_GRATIS eq 'S'}
 											<span class="produtoFrete">Frete gr&aacute;tis</span>
 										{/if}
-										
-										
 									</a>
-									
-									
+									<a href="javascript:fnComprarProduto({$valueProdutoSite.PCAV_ID_PRODUTO_COMBINACAO_ATR}, 'false');" class="produtoAddCarrinho">Adicionar ao Carrinho</span></a>
+
+									{if $valueProdutoSite.URL_AMIGAVEL_PNAUX}
+									<a href="{$LINK}{$valueProdutoSite.URL_AMIGAVEL_PNAUX}/" class="produtoCategoria">+ linha {$valueProdutoSite.DESCRICAO_PRODUTO_NIVEL_AUXILI}teste</a>
+									{/if}
 								</div>
 
 							</div>
 						</div>
 					</li>
 
-					{if $sessao neq 'produto-detalhe' and $valueProdutoSite@iteration is div by 4}<li class="produtoLiTabelaSeparador"><span class="produtosLimiter"></span></li>{/if}
+					{if $sessao neq 'produto-detalhe' and $valueProdutoSite@iteration is div by 2}<li class="produtoLiTabelaSeparador"><span class="produtosLimiter"></span></li>{/if}
 					
 				{/foreach}
 			</ul>
@@ -213,46 +182,13 @@
 					</li>
 					{foreach $listaProdutoSiteLancamento as $valueProdutoSiteLancamento}
 
-						<li class="produtoLi produtoLiTabela {if $sessao neq 'produto-detalhe' and $valueProdutoSiteLancamento@iteration is div by 4}produtoLiLast{/if}">
+						<li class="produtoLi produtoLiTabela {if $sessao neq 'produto-detalhe' and $valueProdutoSiteLancamento@iteration is div by 3}produtoLiLast{/if}">
 							<div class="produtoContent clearfix">
-								<div class="produtoHover">
-									<!--<ul class="produtoThumbsUl clearfix">
-										<li class="produtoThumbsLi">
-											<a class="produtoThumbLink produtoThumbLinkAtivo" href="javascript:;">
-												<img class="produtoThumbImg" src="{$MIDIA_DIR}produtos/thumbs-hover/1.jpg" alt="" />
-											</a>
-										</li>
-										<li class="produtoThumbsLi">
-											<a class="produtoThumbLink" href="javascript:;">
-												<img class="produtoThumbImg" src="{$MIDIA_DIR}produtos/thumbs-hover/2.jpg" alt="" />
-											</a>
-										</li>
-										<li class="produtoThumbsLi">
-											<a class="produtoThumbLink" href="javascript:;">
-												<img class="produtoThumbImg" src="{$MIDIA_DIR}produtos/thumbs-hover/3.jpg" alt="" />
-											</a>
-										</li>
-										<li class="produtoThumbsLi">
-											<a class="produtoThumbLink" href="javascript:;">
-												<img class="produtoThumbImg" src="{$MIDIA_DIR}produtos/thumbs-hover/4.jpg" alt="" />
-											</a>
-										</li>
-										<li class="produtoThumbsLi">
-											<a class="produtoThumbLink" href="javascript:;">
-												<img class="produtoThumbImg" src="{$MIDIA_DIR}produtos/thumbs-hover/5.jpg" alt="" />
-											</a>
-										</li>
-									</ul>-->
-									{if $valueProdutoSiteLancamento.URL_AMIGAVEL_PNAUX}
-									<a href="{$LINK}{$valueProdutoSiteLancamento.URL_AMIGAVEL_PNAUX}/" class="produtoCategoria">+ linha {$valueProdutoSiteLancamento.DESCRICAO_PRODUTO_NIVEL_AUXILI}</a>
-									{/if}
-									<a href="javascript:fnComprarProduto({$valueProdutoSiteLancamento.PCAV_ID_PRODUTO_COMBINACAO_ATR}, 'false');" class="produtoAddCarrinho">Adicionar ao Carrinho</span></a>
-								</div>
 								<div class="produtoInformacoes">
 									<a href="{$LINK}{$valueProdutoSiteLancamento.URL_AMIGAVEL}.html" class="produtoLink">
 										<span class="boxProdutoSelo">
 											{if $valueProdutoSiteLancamento.TIPO_PROMOCAO eq 'P' and $valueProdutoSiteLancamento.VALOR_PROMOCAO > 0}
-											<span class="produtoSelo produtoSeloPorcentagem">{$valueProdutoSiteLancamento.VALOR_PROMOCAO|number_format:0}% off</span>
+											<span class="produtoSelo produtoSeloPorcentagem"><span>{$valueProdutoSiteLancamento.VALOR_PROMOCAO|number_format:0}%</span> off</span>
 											{elseif $valueProdutoSiteLancamento.PRECO_PROMOCIONAL > 0}
 											<span class="produtoSelo produtoSeloPorcentagem">oferta</span>
 											{/if}
@@ -275,7 +211,7 @@
 									</a>
 
 									<div class="produtosInfos"><br>
-										<!--<div class="produtoFavoritos">
+										<div class="produtoFavoritos">
 											<ul class="favoritosUl">
 												<li class="favoritosLi"><a class="favoritosLink favoritosLinkAtivo"></a></li>
 												<li class="favoritosLi"><a class="favoritosLink favoritosLinkAtivo"></a></li>
@@ -283,7 +219,7 @@
 												<li class="favoritosLi"><a class="favoritosLink"></a></li>
 												<li class="favoritosLi favoritosLiLast"><a class="favoritosLink"></a></li>
 											</ul>
-										</div>-->
+										</div>
 										<a href="{$LINK}{$valueProdutoSiteLancamento.URL_AMIGAVEL}.html" class="produtoLink">
 											<span class="produtoValorFinal">
 												{if $valueProdutoSiteLancamento.PRECO_PROMOCIONAL > 0}
@@ -312,11 +248,14 @@
 											{/if}
 										</a>
 									</div>
-									<!-- <a href="javascript:;" class="produtoCategoria">+ {$valueProdutoSiteLancamento.DESCRICAO_CATEGORIA}</a> -->
+									{if $valueProdutoSiteLancamento.URL_AMIGAVEL_PNAUX}
+									<a href="{$LINK}{$valueProdutoSiteLancamento.URL_AMIGAVEL_PNAUX}/" class="produtoCategoria">+ linha {$valueProdutoSiteLancamento.DESCRICAO_PRODUTO_NIVEL_AUXILI}</a>
+									{/if}
+									<a href="javascript:fnComprarProduto({$valueProdutoSiteLancamento.PCAV_ID_PRODUTO_COMBINACAO_ATR}, 'false');" class="produtoAddCarrinho">Adicionar ao Carrinho</span></a>
 								</div>
 							</div>
 						</li>
-						{if $sessao neq 'produto-detalhe' and $valueProdutoSiteLancamento@iteration is div by 4}<li class="produtoLi produtoLiTabelaSeparador"><span class="produtosLimiter"></span></li>{/if}
+						{if $sessao neq 'produto-detalhe' and $valueProdutoSiteLancamento@iteration is div by 3}<li class="produtoLi produtoLiTabelaSeparador"><span class="produtosLimiter"></span></li>{/if}
 					{/foreach}
 				</ul>
 

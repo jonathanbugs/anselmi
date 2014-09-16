@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.10, created on 2014-09-16 09:44:22
+<?php /* Smarty version Smarty-3.1.10, created on 2014-09-16 11:46:31
          compiled from "templates/lista-produtos-categorias.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:429834304541830a61cd097-86787474%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:74093084354184d47b31a36-29323908%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '0b6931c4ad07ba80e54789f1a525c9b453ed2b17' => 
     array (
       0 => 'templates/lista-produtos-categorias.tpl',
-      1 => 1397744226,
+      1 => 1410877867,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '429834304541830a61cd097-86787474',
+  'nocache_hash' => '74093084354184d47b31a36-29323908',
   'function' => 
   array (
   ),
@@ -23,13 +23,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'valueNavegacaoCategoria' => 0,
     'tituloCategoria' => 0,
     'menuSidebar' => 0,
-    'MIDIA_DIR' => 0,
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.10',
-  'unifunc' => 'content_541830a6226524_92048691',
+  'unifunc' => 'content_54184d47b756c1_67817329',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_541830a6226524_92048691')) {function content_541830a6226524_92048691($_smarty_tpl) {?><div class="container">
+<?php if ($_valid && !is_callable('content_54184d47b756c1_67817329')) {function content_54184d47b756c1_67817329($_smarty_tpl) {?><div class="container">
 	<div id="produtosContent" class="clearfix">
 		<div class="navegacaoContent">
 			<ul class="navegacaoUl clearfix">
@@ -61,11 +60,7 @@ $_smarty_tpl->tpl_vars['valueNavegacaoCategoria']->_loop = true;
 		<div class="sidebarCategorias">
 			<?php echo $_smarty_tpl->tpl_vars['menuSidebar']->value;?>
 
-			<br>
-			<a href="/lista-de-casamento">
-				<img src="<?php echo $_smarty_tpl->tpl_vars['MIDIA_DIR']->value;?>
-banners/laterais/banner_pequeno_vertical.jpg" border="0">
-			</a>
+			
 			<!-- SIDEBAR COM FILTROS --> 
 			
 			

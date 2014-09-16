@@ -132,11 +132,11 @@
 						</div>
 					</div>
 				</div>
-				{*if ($nomeConjuge1 eq '' or $idListaCasamento eq 0) and $sessao neq 'lista-de-casamento' and $sessao neq 'lista-de-casamento-formulario'}
+				{if ($nomeConjuge1 eq '' or $idListaCasamento eq 0) and $sessao neq 'lista-de-casamento' and $sessao neq 'lista-de-casamento-formulario'}
 					{$menuTopo}
-				{/if*}
+				{/if}
 
-				<ul class="categoriasUl">
+				<!--ul class="categoriasUl">
 					<li class="categoriasLi">
 						<a href="javascript:;" class="categoriasLink">Blusas</a>
 					</li>
@@ -165,7 +165,7 @@
 					<li class="categoriasLi categoriasLiOfertas">
 						<a href="javascript:;" class="categoriasLink">Outlet</a>
 					</li>
-				</ul>			
+				</ul-->			
 			</div>
 		</div>
 		{if $idListaCasamento > 0 and $idListaCasamento eq $minhaIdListaCasamento and $sessao neq 'lista-de-casamento'}

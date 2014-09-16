@@ -19,10 +19,7 @@
 		<!-- SIDEBAR CATEGORIAS -->
 		<div class="sidebarCategorias">
 			{$menuSidebar}
-			<br>
-			<a href="/lista-de-casamento">
-				<img src="{$MIDIA_DIR}banners/laterais/banner_pequeno_vertical.jpg" border="0">
-			</a>
+			
 			<!-- SIDEBAR COM FILTROS --> 
 			{*include file="../templates/includes/_sidebar_filtros.tpl"*}
 			

@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.10, created on 2014-09-16 09:44:22
+<?php /* Smarty version Smarty-3.1.10, created on 2014-09-16 11:46:31
          compiled from "/Applications/MAMP/htdocs/anselmi/templates/includes/_produtos.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1368034014541830a622c868-50589693%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:83037790254184d47b80050-97714174%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '5ed5139c9c9d67f026bccb99c0e06fd57441b85a' => 
     array (
       0 => '/Applications/MAMP/htdocs/anselmi/templates/includes/_produtos.tpl',
-      1 => 1410784695,
+      1 => 1410878694,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1368034014541830a622c868-50589693',
+  'nocache_hash' => '83037790254184d47b80050-97714174',
   'function' => 
   array (
   ),
@@ -37,9 +37,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'listaProdutoSite' => 1,
     'nroProdutos' => 1,
     'cookieLista' => 0,
-    'MIDIA_DIR' => 1,
-    'valueProdutoSite' => 1,
     'LINK' => 1,
+    'valueProdutoSite' => 1,
+    'MIDIA_DIR' => 1,
     'descontoAVista' => 1,
     'listaProdutoSiteLancamento' => 1,
     'valueProdutoSiteLancamento' => 1,
@@ -50,9 +50,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.10',
-  'unifunc' => 'content_541830a674a236_66018767',
+  'unifunc' => 'content_54184d480e3346_94583930',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_541830a674a236_66018767')) {function content_541830a674a236_66018767($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_valor_parcelado')) include '/Applications/MAMP/htdocs/anselmi/smarty/plugins/modifier.valor_parcelado.php';
+<?php if ($_valid && !is_callable('content_54184d480e3346_94583930')) {function content_54184d480e3346_94583930($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_valor_parcelado')) include '/Applications/MAMP/htdocs/anselmi/smarty/plugins/modifier.valor_parcelado.php';
 ?>		<?php if ($_smarty_tpl->tpl_vars['listaCompreJunto']->value!='S'){?>
 		<div id="conteudo"></div>
 		<!--CASO NAO HOUVER BANNERS LATERIAS ADICIONAR A CLASSE 'produtosListagemFull' NA DIV ABAIXO-->
@@ -180,58 +180,17 @@ foreach ($_from as $_smarty_tpl->tpl_vars['valueProdutoSite']->key => $_smarty_t
 $_smarty_tpl->tpl_vars['valueProdutoSite']->_loop = true;
  $_smarty_tpl->tpl_vars['valueProdutoSite']->iteration++;
 ?>
-					<li class="produtoLi produtoLiTabela <?php if ($_smarty_tpl->tpl_vars['sessao']->value!='produto-detalhe'&&!($_smarty_tpl->tpl_vars['valueProdutoSite']->iteration % 4)){?>produtoLiLast<?php }?>">
+					<li class="produtoLi produtoLiTabela <?php if ($_smarty_tpl->tpl_vars['sessao']->value!='produto-detalhe'&&!($_smarty_tpl->tpl_vars['valueProdutoSite']->iteration % 2)){?>produtoLiLast<?php }?>">
 						<div class="produtoContent clearfix">
-							<div class="produtoHover">
-								<!--<ul class="produtoThumbsUl clearfix">
-									<li class="produtoThumbsLi">
-										<a class="produtoThumbLink produtoThumbLinkAtivo" href="javascript:;">
-											<img class="produtoThumbImg" src="<?php echo $_smarty_tpl->tpl_vars['MIDIA_DIR']->value;?>
-produtos/thumbs-hover/1.jpg" alt="" />
-										</a>
-									</li>
-									<li class="produtoThumbsLi">
-										<a class="produtoThumbLink" href="javascript:;">
-											<img class="produtoThumbImg" src="<?php echo $_smarty_tpl->tpl_vars['MIDIA_DIR']->value;?>
-produtos/thumbs-hover/2.jpg" alt="" />
-										</a>
-									</li>
-									<li class="produtoThumbsLi">
-										<a class="produtoThumbLink" href="javascript:;">
-											<img class="produtoThumbImg" src="<?php echo $_smarty_tpl->tpl_vars['MIDIA_DIR']->value;?>
-produtos/thumbs-hover/3.jpg" alt="" />
-										</a>
-									</li>
-									<li class="produtoThumbsLi">
-										<a class="produtoThumbLink" href="javascript:;">
-											<img class="produtoThumbImg" src="<?php echo $_smarty_tpl->tpl_vars['MIDIA_DIR']->value;?>
-produtos/thumbs-hover/4.jpg" alt="" />
-										</a>
-									</li>
-									<li class="produtoThumbsLi">
-										<a class="produtoThumbLink" href="javascript:;">
-											<img class="produtoThumbImg" src="<?php echo $_smarty_tpl->tpl_vars['MIDIA_DIR']->value;?>
-produtos/thumbs-hover/5.jpg" alt="" />
-										</a>
-									</li>
-								</ul>-->
-								<?php if ($_smarty_tpl->tpl_vars['valueProdutoSite']->value['URL_AMIGAVEL_PNAUX']){?>
-								<a href="<?php echo $_smarty_tpl->tpl_vars['LINK']->value;?>
-<?php echo $_smarty_tpl->tpl_vars['valueProdutoSite']->value['URL_AMIGAVEL_PNAUX'];?>
-/" class="produtoCategoria">+ linha <?php echo $_smarty_tpl->tpl_vars['valueProdutoSite']->value['DESCRICAO_PRODUTO_NIVEL_AUXILI'];?>
-</a>
-								<?php }?>
-								<a href="javascript:fnComprarProduto(<?php echo $_smarty_tpl->tpl_vars['valueProdutoSite']->value['PCAV_ID_PRODUTO_COMBINACAO_ATR'];?>
-, 'false');" class="produtoAddCarrinho">Adicionar ao Carrinho</span></a>
-							</div>
 							<div class="produtoInformacoes">
 								<a href="<?php echo $_smarty_tpl->tpl_vars['LINK']->value;?>
 <?php echo $_smarty_tpl->tpl_vars['valueProdutoSite']->value['URL_AMIGAVEL'];?>
 .html" class="produtoLink">
 									<span class="boxProdutoSelo">
 										<?php if ($_smarty_tpl->tpl_vars['valueProdutoSite']->value['TIPO_PROMOCAO']=='P'&&$_smarty_tpl->tpl_vars['valueProdutoSite']->value['VALOR_PROMOCAO']){?>
-										<span class="produtoSelo produtoSeloPorcentagem"><?php echo number_format($_smarty_tpl->tpl_vars['valueProdutoSite']->value['VALOR_PROMOCAO'],0);?>
-% off</span>
+										<span class="produtoSelo produtoSeloPorcentagem">
+											<span><?php echo number_format($_smarty_tpl->tpl_vars['valueProdutoSite']->value['VALOR_PROMOCAO'],0);?>
+%</span> off</span>
 										<?php }elseif($_smarty_tpl->tpl_vars['valueProdutoSite']->value['PRECO_PROMOCIONAL']>0){?>
 										<span class="produtoSelo produtoSeloPorcentagem">oferta</span>
 										<?php }?>
@@ -260,7 +219,7 @@ produtos/listagem/<?php echo $_smarty_tpl->tpl_vars['valueProdutoSite']->value['
 								</a>
 
 								<div class="produtosInfos"><br>
-									<!--<div class="produtoFavoritos">
+									<div class="produtoFavoritos">
 										<ul class="favoritosUl">
 											<li class="favoritosLi"><a class="favoritosLink favoritosLinkAtivo"></a></li>
 											<li class="favoritosLi"><a class="favoritosLink favoritosLinkAtivo"></a></li>
@@ -268,7 +227,7 @@ produtos/listagem/<?php echo $_smarty_tpl->tpl_vars['valueProdutoSite']->value['
 											<li class="favoritosLi"><a class="favoritosLink"></a></li>
 											<li class="favoritosLi favoritosLiLast"><a class="favoritosLink"></a></li>
 										</ul>
-									</div>-->
+									</div>
 									<a href="<?php echo $_smarty_tpl->tpl_vars['LINK']->value;?>
 <?php echo $_smarty_tpl->tpl_vars['valueProdutoSite']->value['URL_AMIGAVEL'];?>
 .html" class="produtoLink">
@@ -305,18 +264,23 @@ produtos/listagem/<?php echo $_smarty_tpl->tpl_vars['valueProdutoSite']->value['
 										<?php if ($_smarty_tpl->tpl_vars['valueProdutoSite']->value['FRETE_GRATIS']=='S'){?>
 											<span class="produtoFrete">Frete gr&aacute;tis</span>
 										<?php }?>
-										
-										
 									</a>
-									
-									
+									<a href="javascript:fnComprarProduto(<?php echo $_smarty_tpl->tpl_vars['valueProdutoSite']->value['PCAV_ID_PRODUTO_COMBINACAO_ATR'];?>
+, 'false');" class="produtoAddCarrinho">Adicionar ao Carrinho</span></a>
+
+									<?php if ($_smarty_tpl->tpl_vars['valueProdutoSite']->value['URL_AMIGAVEL_PNAUX']){?>
+									<a href="<?php echo $_smarty_tpl->tpl_vars['LINK']->value;?>
+<?php echo $_smarty_tpl->tpl_vars['valueProdutoSite']->value['URL_AMIGAVEL_PNAUX'];?>
+/" class="produtoCategoria">+ linha <?php echo $_smarty_tpl->tpl_vars['valueProdutoSite']->value['DESCRICAO_PRODUTO_NIVEL_AUXILI'];?>
+teste</a>
+									<?php }?>
 								</div>
 
 							</div>
 						</div>
 					</li>
 
-					<?php if ($_smarty_tpl->tpl_vars['sessao']->value!='produto-detalhe'&&!($_smarty_tpl->tpl_vars['valueProdutoSite']->iteration % 4)){?><li class="produtoLiTabelaSeparador"><span class="produtosLimiter"></span></li><?php }?>
+					<?php if ($_smarty_tpl->tpl_vars['sessao']->value!='produto-detalhe'&&!($_smarty_tpl->tpl_vars['valueProdutoSite']->iteration % 2)){?><li class="produtoLiTabelaSeparador"><span class="produtosLimiter"></span></li><?php }?>
 					
 				<?php } ?>
 			</ul>
@@ -339,58 +303,16 @@ $_smarty_tpl->tpl_vars['valueProdutoSiteLancamento']->_loop = true;
  $_smarty_tpl->tpl_vars['valueProdutoSiteLancamento']->iteration++;
 ?>
 
-						<li class="produtoLi produtoLiTabela <?php if ($_smarty_tpl->tpl_vars['sessao']->value!='produto-detalhe'&&!($_smarty_tpl->tpl_vars['valueProdutoSiteLancamento']->iteration % 4)){?>produtoLiLast<?php }?>">
+						<li class="produtoLi produtoLiTabela <?php if ($_smarty_tpl->tpl_vars['sessao']->value!='produto-detalhe'&&!($_smarty_tpl->tpl_vars['valueProdutoSiteLancamento']->iteration % 3)){?>produtoLiLast<?php }?>">
 							<div class="produtoContent clearfix">
-								<div class="produtoHover">
-									<!--<ul class="produtoThumbsUl clearfix">
-										<li class="produtoThumbsLi">
-											<a class="produtoThumbLink produtoThumbLinkAtivo" href="javascript:;">
-												<img class="produtoThumbImg" src="<?php echo $_smarty_tpl->tpl_vars['MIDIA_DIR']->value;?>
-produtos/thumbs-hover/1.jpg" alt="" />
-											</a>
-										</li>
-										<li class="produtoThumbsLi">
-											<a class="produtoThumbLink" href="javascript:;">
-												<img class="produtoThumbImg" src="<?php echo $_smarty_tpl->tpl_vars['MIDIA_DIR']->value;?>
-produtos/thumbs-hover/2.jpg" alt="" />
-											</a>
-										</li>
-										<li class="produtoThumbsLi">
-											<a class="produtoThumbLink" href="javascript:;">
-												<img class="produtoThumbImg" src="<?php echo $_smarty_tpl->tpl_vars['MIDIA_DIR']->value;?>
-produtos/thumbs-hover/3.jpg" alt="" />
-											</a>
-										</li>
-										<li class="produtoThumbsLi">
-											<a class="produtoThumbLink" href="javascript:;">
-												<img class="produtoThumbImg" src="<?php echo $_smarty_tpl->tpl_vars['MIDIA_DIR']->value;?>
-produtos/thumbs-hover/4.jpg" alt="" />
-											</a>
-										</li>
-										<li class="produtoThumbsLi">
-											<a class="produtoThumbLink" href="javascript:;">
-												<img class="produtoThumbImg" src="<?php echo $_smarty_tpl->tpl_vars['MIDIA_DIR']->value;?>
-produtos/thumbs-hover/5.jpg" alt="" />
-											</a>
-										</li>
-									</ul>-->
-									<?php if ($_smarty_tpl->tpl_vars['valueProdutoSiteLancamento']->value['URL_AMIGAVEL_PNAUX']){?>
-									<a href="<?php echo $_smarty_tpl->tpl_vars['LINK']->value;?>
-<?php echo $_smarty_tpl->tpl_vars['valueProdutoSiteLancamento']->value['URL_AMIGAVEL_PNAUX'];?>
-/" class="produtoCategoria">+ linha <?php echo $_smarty_tpl->tpl_vars['valueProdutoSiteLancamento']->value['DESCRICAO_PRODUTO_NIVEL_AUXILI'];?>
-</a>
-									<?php }?>
-									<a href="javascript:fnComprarProduto(<?php echo $_smarty_tpl->tpl_vars['valueProdutoSiteLancamento']->value['PCAV_ID_PRODUTO_COMBINACAO_ATR'];?>
-, 'false');" class="produtoAddCarrinho">Adicionar ao Carrinho</span></a>
-								</div>
 								<div class="produtoInformacoes">
 									<a href="<?php echo $_smarty_tpl->tpl_vars['LINK']->value;?>
 <?php echo $_smarty_tpl->tpl_vars['valueProdutoSiteLancamento']->value['URL_AMIGAVEL'];?>
 .html" class="produtoLink">
 										<span class="boxProdutoSelo">
 											<?php if ($_smarty_tpl->tpl_vars['valueProdutoSiteLancamento']->value['TIPO_PROMOCAO']=='P'&&$_smarty_tpl->tpl_vars['valueProdutoSiteLancamento']->value['VALOR_PROMOCAO']>0){?>
-											<span class="produtoSelo produtoSeloPorcentagem"><?php echo number_format($_smarty_tpl->tpl_vars['valueProdutoSiteLancamento']->value['VALOR_PROMOCAO'],0);?>
-% off</span>
+											<span class="produtoSelo produtoSeloPorcentagem"><span><?php echo number_format($_smarty_tpl->tpl_vars['valueProdutoSiteLancamento']->value['VALOR_PROMOCAO'],0);?>
+%</span> off</span>
 											<?php }elseif($_smarty_tpl->tpl_vars['valueProdutoSiteLancamento']->value['PRECO_PROMOCIONAL']>0){?>
 											<span class="produtoSelo produtoSeloPorcentagem">oferta</span>
 											<?php }?>
@@ -420,7 +342,7 @@ produtos/listagem/<?php echo $_smarty_tpl->tpl_vars['valueProdutoSiteLancamento'
 									</a>
 
 									<div class="produtosInfos"><br>
-										<!--<div class="produtoFavoritos">
+										<div class="produtoFavoritos">
 											<ul class="favoritosUl">
 												<li class="favoritosLi"><a class="favoritosLink favoritosLinkAtivo"></a></li>
 												<li class="favoritosLi"><a class="favoritosLink favoritosLinkAtivo"></a></li>
@@ -428,7 +350,7 @@ produtos/listagem/<?php echo $_smarty_tpl->tpl_vars['valueProdutoSiteLancamento'
 												<li class="favoritosLi"><a class="favoritosLink"></a></li>
 												<li class="favoritosLi favoritosLiLast"><a class="favoritosLink"></a></li>
 											</ul>
-										</div>-->
+										</div>
 										<a href="<?php echo $_smarty_tpl->tpl_vars['LINK']->value;?>
 <?php echo $_smarty_tpl->tpl_vars['valueProdutoSiteLancamento']->value['URL_AMIGAVEL'];?>
 .html" class="produtoLink">
@@ -466,12 +388,18 @@ produtos/listagem/<?php echo $_smarty_tpl->tpl_vars['valueProdutoSiteLancamento'
 											<?php }?>
 										</a>
 									</div>
-									<!-- <a href="javascript:;" class="produtoCategoria">+ <?php echo $_smarty_tpl->tpl_vars['valueProdutoSiteLancamento']->value['DESCRICAO_CATEGORIA'];?>
-</a> -->
+									<?php if ($_smarty_tpl->tpl_vars['valueProdutoSiteLancamento']->value['URL_AMIGAVEL_PNAUX']){?>
+									<a href="<?php echo $_smarty_tpl->tpl_vars['LINK']->value;?>
+<?php echo $_smarty_tpl->tpl_vars['valueProdutoSiteLancamento']->value['URL_AMIGAVEL_PNAUX'];?>
+/" class="produtoCategoria">+ linha <?php echo $_smarty_tpl->tpl_vars['valueProdutoSiteLancamento']->value['DESCRICAO_PRODUTO_NIVEL_AUXILI'];?>
+</a>
+									<?php }?>
+									<a href="javascript:fnComprarProduto(<?php echo $_smarty_tpl->tpl_vars['valueProdutoSiteLancamento']->value['PCAV_ID_PRODUTO_COMBINACAO_ATR'];?>
+, 'false');" class="produtoAddCarrinho">Adicionar ao Carrinho</span></a>
 								</div>
 							</div>
 						</li>
-						<?php if ($_smarty_tpl->tpl_vars['sessao']->value!='produto-detalhe'&&!($_smarty_tpl->tpl_vars['valueProdutoSiteLancamento']->iteration % 4)){?><li class="produtoLi produtoLiTabelaSeparador"><span class="produtosLimiter"></span></li><?php }?>
+						<?php if ($_smarty_tpl->tpl_vars['sessao']->value!='produto-detalhe'&&!($_smarty_tpl->tpl_vars['valueProdutoSiteLancamento']->iteration % 3)){?><li class="produtoLi produtoLiTabelaSeparador"><span class="produtosLimiter"></span></li><?php }?>
 					<?php } ?>
 				</ul>
 

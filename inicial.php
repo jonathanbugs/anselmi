@@ -22,7 +22,7 @@ $lengthListaProduto = 20;
 $smarty->assign('topListaProduto', $topListaProduto);
 $listaProdutoSite = $Produto->fnProdutoSite(null,$topListaProduto,'visualizacao',$busca,$getCategorias,false,$lengthListaProduto);
 $smarty->assign('listaProdutoSite', $listaProdutoSite);
-$smarty->assign('nroColunas', 4);
+$smarty->assign('nroColunas', 3);
 
 $smarty->assign('produtosLimiter', $topListaProduto);
 /**/
@@ -33,7 +33,7 @@ $lengthListaProdutoLancamento = 12;
 $smarty->assign('topListaProdutoLancamento', $topListaProdutoLancamento);
 $listaProdutoSiteLancamento = $Produto->fnProdutoSite(null,$topListaProdutoLancamento,'lancamento',$busca,$getCategorias,false,$lengthListaProdutoLancamento);
 $smarty->assign('listaProdutoSiteLancamento', $listaProdutoSiteLancamento);
-$smarty->assign('nroColunas', 4);
+$smarty->assign('nroColunas', 3);
 /**/
 
 $smarty->assign('countCategorias',$countCategorias);
