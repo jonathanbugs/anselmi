@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.10, created on 2014-09-16 11:46:31
+<?php /* Smarty version Smarty-3.1.10, created on 2014-09-16 12:01:18
          compiled from "/Applications/MAMP/htdocs/anselmi/erro-js.php" */ ?>
-<?php /*%%SmartyHeaderCode:37189222554184d479cd223-15133337%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1677585163541850bec54f22-77978903%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,15 +11,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '37189222554184d479cd223-15133337',
+  'nocache_hash' => '1677585163541850bec54f22-77978903',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.10',
-  'unifunc' => 'content_54184d479d0008_63248925',
+  'unifunc' => 'content_541850bec5b0a3_64123846',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_54184d479d0008_63248925')) {function content_54184d479d0008_63248925($_smarty_tpl) {?><noscript>
+<?php if ($_valid && !is_callable('content_541850bec5b0a3_64123846')) {function content_541850bec5b0a3_64123846($_smarty_tpl) {?><noscript>
 	<div id="boxNoscript">
 		<div id="boxSemScript">
 			<span class="arrowLeft arrowSemScript"></span>
