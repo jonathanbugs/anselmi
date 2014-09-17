@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.10, created on 2014-09-16 18:22:26
+<?php /* Smarty version Smarty-3.1.10, created on 2014-09-17 17:06:14
          compiled from "templates/produto-detalhe.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:10166577205418aa12489945-00797111%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:2198691025419e9b60a4067-16499830%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '3bbc19a77421d7c093499f3ca9f6698999e0d8cb' => 
     array (
       0 => 'templates/produto-detalhe.tpl',
-      1 => 1406201970,
+      1 => 1410983338,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '10166577205418aa12489945-00797111',
+  'nocache_hash' => '2198691025419e9b60a4067-16499830',
   'function' => 
   array (
   ),
@@ -22,7 +22,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'navegacaoCategoria' => 0,
     'countCategorias' => 0,
     'valueNavegacaoCategoria' => 0,
-    'tituloCategoria' => 0,
+    'descricaoVenda' => 0,
+    'referencia' => 0,
     'tipoPromocao' => 0,
     'valorPromocao' => 0,
     'lancamento' => 0,
@@ -32,29 +33,27 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'countImagensProduto' => 0,
     'listaImagensProduto' => 0,
     'valueImagensProduto' => 0,
-    'descricaoVenda' => 0,
-    'referencia' => 0,
     'idProdutoNivelAuxiliar' => 0,
     'urlAmigavelPnaux' => 0,
     'descricaoProdutoNivelAuxiliar' => 0,
     'precoPromocional' => 0,
     'valorEconomize' => 0,
     'precoVenda' => 0,
-    'arrayAtributos' => 0,
-    'valueCor' => 0,
     'idCor' => 0,
+    'arrayAtributos' => 0,
     'valueAtributo' => 0,
+    'LINK' => 0,
+    'idProdutoCombinacao' => 0,
+    'descontoBoleto' => 0,
+    'precoNoBoleto' => 0,
+    'valueCor' => 0,
     'parcelamento' => 0,
     'colunasParcelamento' => 0,
     'foo' => 0,
     'precoFinalVenda' => 0,
-    'descontoBoleto' => 0,
-    'precoNoBoleto' => 0,
     'saldo' => 0,
-    'idProdutoCombinacao' => 0,
     'idPessoa' => 0,
     'urlAmigavel' => 0,
-    'LINK' => 0,
     'urlAtual' => 0,
     'listaProdutoSite' => 0,
     'descricaoCurta' => 0,
@@ -63,9 +62,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.10',
-  'unifunc' => 'content_5418aa127269a9_44013813',
+  'unifunc' => 'content_5419e9b63d13c6_05744536',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5418aa127269a9_44013813')) {function content_5418aa127269a9_44013813($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_valor_parcelado')) include '/Applications/MAMP/htdocs/anselmi/smarty/plugins/modifier.valor_parcelado.php';
+<?php if ($_valid && !is_callable('content_5419e9b63d13c6_05744536')) {function content_5419e9b63d13c6_05744536($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_valor_parcelado')) include '/Applications/MAMP/htdocs/anselmi/smarty/plugins/modifier.valor_parcelado.php';
 ?><!-- JS FACEBOOK LIKE BUTTON 
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
@@ -109,7 +108,9 @@ $_smarty_tpl->tpl_vars['valueNavegacaoCategoria']->_loop = true;
 					<?php }?>
 				</li>
 			</ul>
-			<span class="tituloCategoria"><?php echo $_smarty_tpl->tpl_vars['tituloCategoria']->value;?>
+			<span class="tituloCategoria"><?php echo $_smarty_tpl->tpl_vars['descricaoVenda']->value;?>
+</span>
+			<span class="referencia">REF <?php echo $_smarty_tpl->tpl_vars['referencia']->value;?>
 </span>
 		</div>
 
@@ -120,8 +121,8 @@ $_smarty_tpl->tpl_vars['valueNavegacaoCategoria']->_loop = true;
 			<div id="galeriaProduto">
 				<span class="boxProdutoSelo">
 					<?php if ($_smarty_tpl->tpl_vars['tipoPromocao']->value=='P'&&$_smarty_tpl->tpl_vars['valorPromocao']->value>0){?>
-					<span class="produtoSelo produtoSeloPorcentagem"><?php echo number_format($_smarty_tpl->tpl_vars['valorPromocao']->value);?>
-% off</span>
+					<span class="produtoSelo produtoSeloPorcentagem"><span><?php echo number_format($_smarty_tpl->tpl_vars['valorPromocao']->value);?>
+%</span>off</span>
 					<?php }?>
 					<?php if ($_smarty_tpl->tpl_vars['lancamento']->value=='S'){?>
 					<span class="produtoSelo produtoSeloNovo">Novo</span>
@@ -181,7 +182,7 @@ produtos/detalhe/thumb-produto.jpg" alt="" />
 ">+ LINHA <?php echo $_smarty_tpl->tpl_vars['descricaoProdutoNivelAuxiliar']->value;?>
 </a>
 					<?php }?>
-					<a class="linkMaisDetalhes" href="javascript:scrollAnimate('#infosDetalhadasProduto', 2000);" title="+ ver mais detalhes sobre este produto">+ ver mais detalhes sobre este produto</a>
+					<!--a class="linkMaisDetalhes" href="javascript:scrollAnimate('#infosDetalhadasProduto', 2000);" title="+ ver mais detalhes sobre este produto">+ ver mais detalhes sobre este produto</a-->
 					
 					<div class="mediaAvaliacaoProduto clearfix" style="display:none;">
 						<ul class="mediaAvaliacaoProdutoUl">
@@ -236,8 +237,6 @@ produtos/detalhe/thumb-produto.jpg" alt="" />
 											<span class="qtdeAvaliacoes">(1)</span>
 										</li>
 									</ul>
-
-									<a class="linkTodasAvaliacoes" href="javascript:;" title="+ Veja todas as avalia&ccedil;&otilde;es">+ Veja todas as avalia&ccedil;&otilde;es</a>
 								</div>
 							</li>
 						</ul>					
@@ -246,10 +245,10 @@ produtos/detalhe/thumb-produto.jpg" alt="" />
 					<!--<a class="linkAvaliarProduto linkModal" href="#modalAvalieProduto" title="Avaliar este produto">Avaliar este produto</a>-->
 					
 					<?php if ($_smarty_tpl->tpl_vars['precoPromocional']->value>0){?>
-					<span class="valorEconomia">Economize R$ <?php echo number_format($_smarty_tpl->tpl_vars['valorEconomize']->value,2,",",".");?>
-</span>
+					<!--span class="valorEconomia">Economize R$ <?php echo number_format($_smarty_tpl->tpl_vars['valorEconomize']->value,2,",",".");?>
+</span-->
 					<?php }?>
-					<span class="valorDePor">
+					<!--span class="valorDePor">
 						<?php if ($_smarty_tpl->tpl_vars['precoPromocional']->value>0){?>
 							<del>De R$ <?php echo number_format($_smarty_tpl->tpl_vars['precoVenda']->value,2,",",".");?>
 </del> 
@@ -259,11 +258,128 @@ produtos/detalhe/thumb-produto.jpg" alt="" />
 							<ins>R$ <?php echo number_format($_smarty_tpl->tpl_vars['precoVenda']->value,2,",",".");?>
 </ins>
 						<?php }?>
-					</span>
+					</span-->
 
-					<br><br>
-					Cores:<br>
-					<select name="corProduto" id="corProduto" onchange="location = this.options[this.selectedIndex].value;">
+
+					<div class="blocoOpcpes">
+						<div class="tituloOpcoes">Tamanhos</div>
+						<ul class="listaOpcoes clearfix">
+							<?php  $_smarty_tpl->tpl_vars['valueAtributo'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['valueAtributo']->_loop = false;
+ $_from = $_smarty_tpl->tpl_vars['arrayAtributos']->value[$_smarty_tpl->tpl_vars['idCor']->value]; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+foreach ($_from as $_smarty_tpl->tpl_vars['valueAtributo']->key => $_smarty_tpl->tpl_vars['valueAtributo']->value){
+$_smarty_tpl->tpl_vars['valueAtributo']->_loop = true;
+?>
+							<li>
+								<a href="#<?php echo $_smarty_tpl->tpl_vars['valueAtributo']->value['VALOR_ATRIBUTO'];?>
+" onClick="document.getElementById('idProdutoComprar').value=<?php echo $_smarty_tpl->tpl_vars['valueAtributo']->value['PRCO_ID_PRODUTO_COMBINACAO'];?>
+"><?php echo $_smarty_tpl->tpl_vars['valueAtributo']->value['VALOR_ATRIBUTO'];?>
+</a>
+							</li>
+							<?php } ?>
+						</ul>
+					</div>
+
+					<div class="blocoOpcpes">
+						<div class="tituloOpcoes">Cores</div>
+						<ul class="listaOpcoes clearfix">
+							<li>
+								<a href="javascript:;">
+									<span class="cor" style="background-color: #395384"></span>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;">
+									<span class="cor" style="background-color: #2c7c63"></span>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;">
+									<span class="cor" style="background-color: #d71d3b"></span>
+								</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="blocoInformacoes">
+						<ul class="links clearfix">
+							<li>
+								<a href="<?php echo $_smarty_tpl->tpl_vars['LINK']->value;?>
+lista-desejos&addProduto=true&idProduto=<?php echo $_smarty_tpl->tpl_vars['idProdutoCombinacao']->value;?>
+" title="Adicionar a lista de desejos">	Adicionar a lista de desejos
+								</a>
+							</li>
+							<li>
+								<a class="linkTodasAvaliacoes" href="javascript:;" title="+ Veja todas as avalia&ccedil;&otilde;es">
+									+ Veja todas as avalia&ccedil;&otilde;es
+								</a>
+							</li>
+						</ul>
+
+						<div class="bloco clearfix">
+							<div class="blocoQuantidade">
+								<li>
+									<a href="javascript:;">
+										<span class="icone icon_minus-06"></span>
+									</a>
+								</li>
+								<li>
+									<a class="quantidade" href="javascript:;">
+										1
+									</a>
+								</li>
+								<li>
+									<a href="javascript:;">
+										<span class="icone icon_plus"></span>
+									</a>
+								</li>
+							</div>
+
+							<div class="infos">
+								<div class="bloco clearfix">
+									<div class="valor">
+										<span class="valorDePor">
+											<?php if ($_smarty_tpl->tpl_vars['precoPromocional']->value>0){?>
+												<del>De R$ <?php echo number_format($_smarty_tpl->tpl_vars['precoVenda']->value,2,",",".");?>
+</del> 
+												<ins>por R$ <?php echo number_format($_smarty_tpl->tpl_vars['precoPromocional']->value,2,",",".");?>
+</ins>
+											<?php }else{ ?>
+												<ins>R$ <?php echo number_format($_smarty_tpl->tpl_vars['precoVenda']->value,2,",",".");?>
+</ins>
+											<?php }?>
+										</span>
+
+										<?php if ($_smarty_tpl->tpl_vars['precoPromocional']->value>0){?>
+											<?php echo smarty_modifier_valor_parcelado($_smarty_tpl->tpl_vars['precoPromocional']->value,false);?>
+
+										<?php }else{ ?>
+											<?php echo smarty_modifier_valor_parcelado($_smarty_tpl->tpl_vars['precoVenda']->value,false);?>
+
+										<?php }?>
+										
+										<?php if ($_smarty_tpl->tpl_vars['descontoBoleto']->value>0){?>
+										<span class="valorVista">
+											<strong>ou R$ <?php echo number_format($_smarty_tpl->tpl_vars['precoNoBoleto']->value,2,",",".");?>
+</strong>
+											<span>no boleto ou transfer&ecirc;ncia banc&aacute;ria</span>
+											<span>(<?php echo $_smarty_tpl->tpl_vars['descontoBoleto']->value;?>
+% de desconto)</span>
+										</span>
+										<?php }?>
+									</div>
+								</div>
+
+								<a class="btn" href="javascript:fnComprarProduto($('#idProdutoComprar').val(), 'true');" title="Comprar">
+									Comprar
+								</a>
+								<a class="btn" href="javascript:fnComprarProduto($('#idProdutoComprar').val(), 'false');" title="">	Adicionar ao Carrinho e continuar comprando
+								</a>
+							</div>
+						</div>
+						
+					</div>
+
+					<!--select name="corProduto" id="corProduto" onchange="location = this.options[this.selectedIndex].value;">
 					<?php  $_smarty_tpl->tpl_vars['valueCor'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['valueCor']->_loop = false;
  $_from = $_smarty_tpl->tpl_vars['arrayAtributos']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
 foreach ($_from as $_smarty_tpl->tpl_vars['valueCor']->key => $_smarty_tpl->tpl_vars['valueCor']->value){
@@ -274,31 +390,14 @@ $_smarty_tpl->tpl_vars['valueCor']->_loop = true;
 .html"><?php echo $_smarty_tpl->tpl_vars['valueCor']->value[0]['VALOR_COR'];?>
 </option>
 					<?php } ?>
-					</select>
-					<br><br>
-					<?php echo $_smarty_tpl->tpl_vars['arrayAtributos']->value[$_smarty_tpl->tpl_vars['idCor']->value][0]['DESCRICAO_ATRIBUTO'];?>
-:<br>
-					<?php  $_smarty_tpl->tpl_vars['valueAtributo'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['valueAtributo']->_loop = false;
- $_from = $_smarty_tpl->tpl_vars['arrayAtributos']->value[$_smarty_tpl->tpl_vars['idCor']->value]; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
-foreach ($_from as $_smarty_tpl->tpl_vars['valueAtributo']->key => $_smarty_tpl->tpl_vars['valueAtributo']->value){
-$_smarty_tpl->tpl_vars['valueAtributo']->_loop = true;
-?>
-						<a href="#<?php echo $_smarty_tpl->tpl_vars['valueAtributo']->value['VALOR_ATRIBUTO'];?>
-" onClick="document.getElementById('idProdutoComprar').value=<?php echo $_smarty_tpl->tpl_vars['valueAtributo']->value['PRCO_ID_PRODUTO_COMBINACAO'];?>
-"><?php echo $_smarty_tpl->tpl_vars['valueAtributo']->value['VALOR_ATRIBUTO'];?>
-</a>
-					<?php } ?>
-					<br><br>
+					</select-->
 
-					<?php if ($_smarty_tpl->tpl_vars['precoPromocional']->value>0){?>
-						<?php echo smarty_modifier_valor_parcelado($_smarty_tpl->tpl_vars['precoPromocional']->value,false);?>
+					
+					
 
-					<?php }else{ ?>
-						<?php echo smarty_modifier_valor_parcelado($_smarty_tpl->tpl_vars['precoVenda']->value,false);?>
+					
 
-					<?php }?>
-
-					<div class="opcoesParcelamento">
+					<!--div class="opcoesParcelamento">
 						<ul>
 							<li>
 								<a class="btOpcoesParcelas" href="javascript:;" title="Outras op&ccedil;&otilde;es de parcelamento">
@@ -348,17 +447,9 @@ x de R$ <?php echo number_format(($_smarty_tpl->tpl_vars['precoFinalVenda']->val
 								</div>
 							</li>
 						</ul>
-					</div>
+					</div-->
 					
-					<?php if ($_smarty_tpl->tpl_vars['descontoBoleto']->value>0){?>
-					<span class="valorVista">
-						<strong>ou R$ <?php echo number_format($_smarty_tpl->tpl_vars['precoNoBoleto']->value,2,",",".");?>
-</strong>
-						<span>no boleto ou transfer&ecirc;ncia banc&aacute;ria</span>
-						<span>(<?php echo $_smarty_tpl->tpl_vars['descontoBoleto']->value;?>
-% de desconto)</span>
-					</span>
-					<?php }?>
+					
 				
 
 				</div>
@@ -381,10 +472,8 @@ x de R$ <?php echo number_format(($_smarty_tpl->tpl_vars['precoFinalVenda']->val
 					<input type="text" value="<?php echo $_smarty_tpl->tpl_vars['idProdutoCombinacao']->value;?>
 " name="idProdutoComprar" id="idProdutoComprar" />
 
-					<a class="btComprar" href="javascript:fnComprarProduto($('#idProdutoComprar').val(), 'true');" title="Comprar">Comprar</a>
-					<a class="btAdicionarCarrinho" href="javascript:fnComprarProduto($('#idProdutoComprar').val(), 'false');" title="">Adicionar ao Carrinho e continuar comprando</a>
 					
-					<ul class="AdicionarListasUl">
+					<!--ul class="AdicionarListasUl">
 						<li>
 							<a class="btAdicionarListaCasamento" href="javascript:fnAdicionaListaCasamento('<?php echo $_smarty_tpl->tpl_vars['idPessoa']->value;?>
 ', '<?php echo $_smarty_tpl->tpl_vars['idProdutoCombinacao']->value;?>
@@ -396,7 +485,7 @@ x de R$ <?php echo number_format(($_smarty_tpl->tpl_vars['precoFinalVenda']->val
 lista-desejos&addProduto=true&idProduto=<?php echo $_smarty_tpl->tpl_vars['idProdutoCombinacao']->value;?>
 " title="Adicionar a lista de desejos">Adicionar a lista de desejos</a>
 						</li>
-					</ul>
+					</ul-->
 				</div>
 				
 
