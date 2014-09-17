@@ -1,5 +1,6 @@
 @import url('erros.css');
 @import url('jquery.fancybox.css');
+@import url('eleganticons.css');
 
 
 /*---------
@@ -114,7 +115,7 @@ h1,h2,h3,h4,h5,h6 {
 ---------------*/
 .containerGeral {
 	margin: 0 auto;
-	width: 1020px;
+	width: 980px;
 	position: relative;
 	-webkit-transition: all .3s;
 	-moz-transition: all .3s;
@@ -125,7 +126,7 @@ h1,h2,h3,h4,h5,h6 {
 .container {
 	margin: 0 auto;
 	text-align: left;
-	max-width: 1020px;
+	max-width: 980px;
 	position: relative;
 	-webkit-transition: all .3s;
 	-moz-transition: all .3s;
@@ -1015,7 +1016,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .produtosListagem {
-	width: 755px;
+	width: 715px;
 	float: right;
 	-webkit-transition: all .3s;
 	-moz-transition: all .3s;
@@ -1038,7 +1039,7 @@ h1,h2,h3,h4,h5,h6 {
 	width: 296px;
 	height: 450px;
 	float: left;
-	margin: 0 20px 20px;
+	margin: 0 14px 14px;
 	text-align: center;
 	-webkit-transition: all .3s;
 	-moz-transition: all .3s;
@@ -1144,7 +1145,7 @@ h1,h2,h3,h4,h5,h6 {
 .produtoLiListagem .produtosInfos {
 	position: absolute;
 	top: 0;
-	right: 0;
+	right: 20px;
 }
 
 .produtoSeloPorcentagem {
@@ -1194,7 +1195,7 @@ h1,h2,h3,h4,h5,h6 {
 .produtoLiListagem .produtoTitulo {
 	float: left;
 	width: 100%;
-	max-width: 235px;
+	max-width: 205px;
 	display: block;
 }
 
@@ -2037,7 +2038,7 @@ h1,h2,h3,h4,h5,h6 {
 	line-height: 1em;
 	display: inline-block;
 	text-transform: uppercase;
-	max-width: 105px;
+	max-width: 90px;
 	padding-top: 16px;
 	float: left;
 	margin-left: 13px;
@@ -2048,7 +2049,7 @@ h1,h2,h3,h4,h5,h6 {
 	font-size: 12px;
 	line-height: 1em;
 	display: inline-block;
-	max-width: 200px;
+	max-width: 183px;
 	padding-top: 21px;
 	margin: 0 15px 0 0;
 }
@@ -2188,7 +2189,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .buscaTopo .buscaForm .input {
 	border: none;
-	width: 470px;
+	width: 430px;
 	height: 19px;
 	padding: 15px 70px 15px 22px;
 	-webkit-transition: all .3s;
@@ -2198,7 +2199,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .boxBuscarRodape .buscaForm .input {
-	width: 802px;
+	width: 762px;
 	height: 40px;
 	padding: 20px 100px 20px 40px;
 	-webkit-transition: all .3s;
@@ -2729,7 +2730,7 @@ h1,h2,h3,h4,h5,h6 {
 .auxiliarFiltros {
 	height: 50px;
 	border-bottom: 1px solid #e5e5e5;
-	margin-bottom: 25px;
+	margin: 8px 0 25px;
 }
 
 .auxiliarFiltros .contentAuxiliarFiltros {
@@ -3046,12 +3047,12 @@ h1,h2,h3,h4,h5,h6 {
 
 .tabelaServicos .table3,
 .tabelaListas .table3 {
-	width: 360px;
+	width: 325px;
 	font-size: 11px;
 }
 
 .tabelaColunas3 .table3 {
-	width: 300px;
+	width: 265px;
 }
 
 .tabelaServicos .table4,
@@ -3139,8 +3140,9 @@ h1,h2,h3,h4,h5,h6 {
 	width: 670px;
 }
 
-.meusPedidosContent {
-	width: 755px;
+.meusPedidosContent,
+.servicosContent {
+	width: 720px;
 	float: right;
 	padding: 27px 0;
 	margin-right: 20px;
