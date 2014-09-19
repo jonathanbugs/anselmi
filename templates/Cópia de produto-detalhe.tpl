@@ -31,8 +31,7 @@
 					{/if}
 				</li>
 			</ul>
-			<span class="tituloCategoria">{$descricaoVenda}</span>
-			<span class="referencia">REF {$referencia}</span>
+			<span class="tituloCategoria">{$tituloCategoria}</span>
 		</div>
 
 		<!-- DETALHE DO PRODUTO -->
@@ -42,7 +41,7 @@
 			<div id="galeriaProduto">
 				<span class="boxProdutoSelo">
 					{if $tipoPromocao eq 'P' and $valorPromocao > 0}
-					<span class="produtoSelo produtoSeloPorcentagem"><span>{$valorPromocao|number_format}%</span>off</span>
+					<span class="produtoSelo produtoSeloPorcentagem">{$valorPromocao|number_format}% off</span>
 					{/if}
 					{if $lancamento eq 'S'}
 					<span class="produtoSelo produtoSeloNovo">Novo</span>
@@ -82,7 +81,7 @@
 					{if $idProdutoNivelAuxiliar}
 					<a class="linkLinha" href="/{$urlAmigavelPnaux}">+ LINHA {$descricaoProdutoNivelAuxiliar}</a>
 					{/if}
-					<!--a class="linkMaisDetalhes" href="javascript:scrollAnimate('#infosDetalhadasProduto', 2000);" title="+ ver mais detalhes sobre este produto">+ ver mais detalhes sobre este produto</a-->
+					<a class="linkMaisDetalhes" href="javascript:scrollAnimate('#infosDetalhadasProduto', 2000);" title="+ ver mais detalhes sobre este produto">+ ver mais detalhes sobre este produto</a>
 					
 					<div class="mediaAvaliacaoProduto clearfix" style="display:none;">
 						<ul class="mediaAvaliacaoProdutoUl">
@@ -137,6 +136,8 @@
 											<span class="qtdeAvaliacoes">(1)</span>
 										</li>
 									</ul>
+
+									<a class="linkTodasAvaliacoes" href="javascript:;" title="+ Veja todas as avalia&ccedil;&otilde;es">+ Veja todas as avalia&ccedil;&otilde;es</a>
 								</div>
 							</li>
 						</ul>					
@@ -145,136 +146,38 @@
 					<!--<a class="linkAvaliarProduto linkModal" href="#modalAvalieProduto" title="Avaliar este produto">Avaliar este produto</a>-->
 					
 					{if $precoPromocional > 0}
-					<!--span class="valorEconomia">Economize R$ {$valorEconomize|number_format:2:",":"."}</span-->
+					<span class="valorEconomia">Economize R$ {$valorEconomize|number_format:2:",":"."}</span>
 					{/if}
-					<!--span class="valorDePor">
+					<span class="valorDePor">
 						{if $precoPromocional > 0}
 							<del>De R$ {$precoVenda|number_format:2:",":"."}</del> 
 							<ins>por R$ {$precoPromocional|number_format:2:",":"."}</ins>
 						{else}
 							<ins>R$ {$precoVenda|number_format:2:",":"."}</ins>
 						{/if}
-					</span-->
+					</span>
 
-
-					<div class="blocoOpcpes">
-						<div class="tituloOpcoes">Tamanhos</div>
-						<ul class="listaOpcoes clearfix">
-							{foreach $arrayAtributos[$idCor] as $valueAtributo}
-							<li>
-								<a href="#{$valueAtributo.VALOR_ATRIBUTO}" onClick="document.getElementById('idProdutoComprar').value={$valueAtributo.PRCO_ID_PRODUTO_COMBINACAO}">{$valueAtributo.VALOR_ATRIBUTO}</a>
-							</li>
-							{/foreach}
-						</ul>
-					</div>
-
-					<div class="blocoOpcpes">
-						<div class="tituloOpcoes">Cores</div>
-						<ul class="listaOpcoes clearfix">
-							<li>
-								<a href="javascript:;">
-									<span class="cor" style="background-color: #395384"></span>
-								</a>
-							</li>
-							<li>
-								<a href="javascript:;">
-									<span class="cor" style="background-color: #2c7c63"></span>
-								</a>
-							</li>
-							<li>
-								<a href="javascript:;">
-									<span class="cor" style="background-color: #d71d3b"></span>
-								</a>
-							</li>
-						</ul>
-					</div>
-
-					<div class="blocoInformacoes">
-						<ul class="links clearfix">
-							<li>
-								<a href="{$LINK}lista-desejos&addProduto=true&idProduto={$idProdutoCombinacao}" title="Adicionar a lista de desejos">	Adicionar a lista de desejos
-								</a>
-							</li>
-							<li>
-								<a class="linkTodasAvaliacoes" href="javascript:;" title="+ Veja todas as avalia&ccedil;&otilde;es">
-									+ Veja todas as avalia&ccedil;&otilde;es
-								</a>
-							</li>
-						</ul>
-
-						<div class="bloco clearfix">
-							<div class="blocoQuantidade">
-								<li>
-									<a href="javascript:;">
-										<span class="icone icon_minus-06"></span>
-									</a>
-								</li>
-								<li>
-									<a class="quantidade" href="javascript:;">
-										1
-									</a>
-								</li>
-								<li>
-									<a href="javascript:;">
-										<span class="icone icon_plus"></span>
-									</a>
-								</li>
-							</div>
-
-							<div class="infos">
-								<div class="bloco clearfix">
-									<div class="valor">
-										<span class="valorDePor">
-											{if $precoPromocional > 0}
-												<del>De R$ {$precoVenda|number_format:2:",":"."}</del> 
-												<ins>por R$ {$precoPromocional|number_format:2:",":"."}</ins>
-											{else}
-												<ins>R$ {$precoVenda|number_format:2:",":"."}</ins>
-											{/if}
-										</span>
-
-										{if $precoPromocional > 0}
-											{$precoPromocional|valor_parcelado:false}
-										{else}
-											{$precoVenda|valor_parcelado:false}
-										{/if}
-										
-										{if $descontoBoleto > 0}
-										<span class="valorVista">
-											<strong>ou R$ {$precoNoBoleto|number_format:2:",":"."}</strong>
-											<span>no boleto ou transfer&ecirc;ncia banc&aacute;ria</span>
-											<span>({$descontoBoleto}% de desconto)</span>
-										</span>
-										{/if}
-									</div>
-								</div>
-
-								<a class="btn" href="javascript:fnComprarProduto($('#idProdutoComprar').val(), 'true');" title="Comprar">
-									Comprar
-								</a>
-								<a class="btn" href="javascript:fnComprarProduto($('#idProdutoComprar').val(), 'false');" title="">	Adicionar ao Carrinho e continuar comprando
-								</a>
-							</div>
-						</div>
-						
-					</div>
-
-					<!--select name="corProduto" id="corProduto" onchange="location = this.options[this.selectedIndex].value;">
+					<br><br>
+					Cores:<br>
+					<select name="corProduto" id="corProduto" onchange="location = this.options[this.selectedIndex].value;">
 					{foreach $arrayAtributos as $valueCor}
 						<option {if $valueCor[0].ID_COR eq $idCor}selected="selected"{/if} value="/{$valueCor[0].URL_AMIGAVEL}-{$valueCor[0].URL_ATRIBUTO}.html">{$valueCor[0].VALOR_COR}</option>
 					{/foreach}
-					</select-->
+					</select>
+					<br><br>
+					{$arrayAtributos[$idCor][0].DESCRICAO_ATRIBUTO}:<br>
+					{foreach $arrayAtributos[$idCor] as $valueAtributo}
+						<a href="#{$valueAtributo.VALOR_ATRIBUTO}" onClick="document.getElementById('idProdutoComprar').value={$valueAtributo.PRCO_ID_PRODUTO_COMBINACAO}">{$valueAtributo.VALOR_ATRIBUTO}</a>
+					{/foreach}
+					<br><br>
 
-					{*$arrayAtributos[$idCor][0].DESCRICAO_ATRIBUTO*}
-					
-
-					{*if $precoPromocional > 0}
+					{if $precoPromocional > 0}
 						{$precoPromocional|valor_parcelado:false}
 					{else}
 						{$precoVenda|valor_parcelado:false}
-					{/if*}
+					{/if}
 
-					<!--div class="opcoesParcelamento">
+					<div class="opcoesParcelamento">
 						<ul>
 							<li>
 								<a class="btOpcoesParcelas" href="javascript:;" title="Outras op&ccedil;&otilde;es de parcelamento">
@@ -314,15 +217,15 @@
 								</div>
 							</li>
 						</ul>
-					</div-->
+					</div>
 					
-					{*if $descontoBoleto > 0}
-					<!--span class="valorVista">
+					{if $descontoBoleto > 0}
+					<span class="valorVista">
 						<strong>ou R$ {$precoNoBoleto|number_format:2:",":"."}</strong>
 						<span>no boleto ou transfer&ecirc;ncia banc&aacute;ria</span>
 						<span>({$descontoBoleto}% de desconto)</span>
-					</span-->
-					{/if*}
+					</span>
+					{/if}
 				
 
 				</div>
@@ -342,15 +245,17 @@
 					
 					<input type="text" value="{$idProdutoCombinacao}" name="idProdutoComprar" id="idProdutoComprar" />
 
+					<a class="btComprar" href="javascript:fnComprarProduto($('#idProdutoComprar').val(), 'true');" title="Comprar">Comprar</a>
+					<a class="btAdicionarCarrinho" href="javascript:fnComprarProduto($('#idProdutoComprar').val(), 'false');" title="">Adicionar ao Carrinho e continuar comprando</a>
 					
-					<!--ul class="AdicionarListasUl">
+					<ul class="AdicionarListasUl">
 						<li>
 							<a class="btAdicionarListaCasamento" href="javascript:fnAdicionaListaCasamento('{$idPessoa}', '{$idProdutoCombinacao}','{$urlAmigavel}');" title="Adicionar a lista de casamento">Adicionar a lista de casamento</a>
 						</li>
 						<li>
 							<a class="btAdicionarListaDesejos" href="{$LINK}lista-desejos&addProduto=true&idProduto={$idProdutoCombinacao}" title="Adicionar a lista de desejos">Adicionar a lista de desejos</a>
 						</li>
-					</ul-->
+					</ul>
 				</div>
 				
 
@@ -728,10 +633,10 @@
 	</div>
 
 	<div class="blocoResultadoConsulta">
-		<p>O CEP referente ao endereï¿½o informado ï¿½:</p>
+		<p>O CEP referente ao endereço informado é:</p>
 		<div class="resultadoCep">
 			<span class="cep">93145-210</span>
-			<span class="endereco">Rua Juï¿½z de Fora, Sï¿½o Leopoldo / RS</span>
+			<span class="endereco">Rua Juíz de Fora, São Leopoldo / RS</span>
 		</div>
 
 		<a class="btCalcularEntregaCep" title="Calcular" href="javascript:;">Calcular frete com este CEP</a>
