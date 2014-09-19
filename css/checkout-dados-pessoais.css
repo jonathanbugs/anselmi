@@ -121,7 +121,7 @@
 }
 
 .checkoutBloco .btSenha:hover {
-	color: #005099;
+	color: #c8965a;
 }
 
 .checkoutBloco .checkoutBlocoTxt {
@@ -171,7 +171,7 @@
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 12px;
-	background: url("../img/backgrounds/bg-buttons.png") no-repeat 174px 20px #005099;
+	background: url("../img/backgrounds/bg-buttons.png") no-repeat 174px 20px #c8965a;
 	border: none;
 	outline: none;
 	cursor: pointer;

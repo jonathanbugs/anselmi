@@ -10,7 +10,7 @@
 .filtroPedidos .txtIntro {
 	float: left;
 	font-size: 16px;
-	color: #005099;
+	color: #c8965a;
 	text-transform: uppercase;
 	line-height: 50px;
 	font-weight: bold;
@@ -117,7 +117,7 @@
 }
 
 .holderBusca .btSubmit {
-	background: #005099;
+	background: #c8965a;
 	width: 50px;
 	height: 50px;
 	border: none;
@@ -144,14 +144,14 @@
 	PEDIDO ABERTO
 ---------------*/
 .pedidoAberto {
-	border: 4px solid #005099;
+	border: 4px solid #c8965a;
 	padding: 16px;
 	position: relative;
 	display: none;
 }
 
 .pedidoAberto .btFecharPedido {
-	background: #005099;
+	background: #c8965a;
 	width: 60px;
 	height: 60px;
 	float: right;
@@ -176,7 +176,7 @@
 }
 
 .pedidoAberto .btFecharPedido:hover {
-	background: #545454;
+	background: #000;
 }
 
 .pedidoAberto .pedidoInfos {
@@ -185,7 +185,6 @@
 }
 
 .pedidoAberto .pedidoTable {
-	margin-left: 22px;
 	float: left;
 	padding-top: 12px;
 }
@@ -197,13 +196,13 @@
 
 .pedidoTable .pedidoTableTd {
 	padding: 0 50px 7px 0;
-	color: #545454;
+	color: #000;
 	text-transform: none;
 }
 
 .pedidoTable .pedidoTableTdTitulo {
 	font-size: 14px;
-	color: #005099;
+	color: #c8965a;
 	font-weight: bold;
 	text-transform: uppercase;
 }
@@ -217,11 +216,13 @@
 .tituloBloco {
 	background: url('../img/icons/titulos_chechout.png') no-repeat;
 	display: block;
+	font-family: 'pathway_gothic_oneregular', sans-serif;
+	font-size: 20px;
+	line-height: 1em;
 	text-transform: uppercase;
-	font-size: 14px;
-	font-weight: bold;
-	color: #005199;
-	border-bottom: 2px solid #005099;
+	letter-spacing: 0.05em;
+	color: #000;
+	border-bottom: 1px solid #c8965a;
 	padding: 0 0 7px 40px;
 	line-height: 25px;
 	margin-bottom: 30px;
@@ -324,7 +325,7 @@
 }
 
 .statusLi .statusLinhaAtiva {
-	background: #005099;
+	background: #c8965a;
 }
 
 
@@ -343,12 +344,12 @@
 .pedidoBlocos {
 	border: 1px solid #e6e6e6;
 	padding: 20px 20px 40px;
-	width: 305px;
+	width: 290px;
 	color: #919191;
 }
 
 .pedidoTable .pedidoTableTd {
-	padding: 0 25px 7px 0;
+	padding: 0 18px 7px 0;
 }
 
 /* AJUSTES SECOES */
@@ -407,7 +408,7 @@
 
 .pedidosCarrinhoUl .pedidosCarrinhoLink:hover .carrinhoProdutoTitulo {
 	text-decoration: underline;
-	color: #005199;
+	color: #c8965a;
 }
 
 .pedidosCarrinhoUl .carrinhoProdutoQuantidade {
@@ -416,7 +417,7 @@
 
 .pedidosCarrinhoUl .carrinhoProdutoValor {
 	font-size: 14px;
-	color: #005199;
+	color: #c8965a;
 	font-weight: bold;
 	position: absolute;
 	top: 25px;
@@ -466,7 +467,7 @@
 }
 
 .totalLi .subTotalTxt {
-	color: #005199;
+	color: #c8965a;
 }
 
 
@@ -491,7 +492,7 @@
 
 .entregaBloco .titulo {
 	text-transform: uppercase;
-	color: #005099;
+	color: #c8965a;
 	font-size: 14px;
 	font-weight: bold;
 	display: block;
@@ -541,7 +542,7 @@
 
 .pedidoPagamento .pagamentoBloco .tituloBlocos {
 	font-size: 14px;
-	color: #005099;
+	color: #c8965a;
 	font-weight: bold;
 	display: block;
 	text-align: left;
