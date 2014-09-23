@@ -16,6 +16,10 @@
 	margin-bottom: 15px;
 }
 
+.blocoOpcpes .descricaoOpcoes {
+	color: #767676;
+}
+
 .blocoOpcpes .tituloOpcoes {
 	color: #000;
 	display: block;
@@ -70,6 +74,57 @@
 	top: 4px;
 	left: 4px;
 }
+
+
+.listaOpcoesAtacado {
+	margin-top: 10px;
+}
+
+.listaOpcoesAtacado li {
+	background: #f4eade;
+	width: 52px;
+	height: 66px;
+	text-align: center;
+	padding: 10px 10px 0;
+}
+
+.listaOpcoesAtacado li .tamanho {
+	color: #000;
+	font-family: 'pathway_gothic_oneregular', sans-serif;
+	font-size: 20px;
+	line-height: 1em;
+	margin-bottom: 5px;
+}
+
+.listaOpcoesAtacado li .inputTamanho,
+.listaOpcoesAtacado li .esgotado {
+	border: none;
+	color: #767676;
+	font-size: 14px;
+	height: 34px;
+	line-height: 34px;
+	margin-top: 3px;
+	text-align: center;
+	width: 100%;
+	text-transform: uppercase;
+}
+
+.listaOpcoesAtacado li .esgotado {
+	background: #c8965a;
+	color: #FFF;
+	display: block;
+	font-size: 10px;
+	width: auto;
+	padding: 0 10px;
+	line-height: 1em;
+}
+
+.listaOpcoesAtacado li .esgotado span:first-child {
+	display: block;
+	padding-top: 7px;
+}
+
+
 
 .blocoInformacoes {
 	border: 1px solid #e9d5bd;

@@ -168,6 +168,52 @@
 						</ul>
 					</div>
 
+
+					
+					<!-- VARIACAO CASO FOR ATACADO -->
+					<div class="blocoOpcpes">
+						<div class="tituloOpcoes">Tamanhos</div>
+						<p class="descricaoOpcoes">Insira a quantidade desejada de cada tamanho</p>
+						
+						<form id="quantidadeTamanhos" method="" action="">
+							<ul class="listaOpcoes listaOpcoesAtacado clearfix">
+								<li>
+									<span class="tamanho">PP</span>
+									<input class="inputTamanho" type="text" name="" id="" value="14" />
+								</li>
+								<li>
+									<span class="tamanho">PP</span>
+									<input class="inputTamanho" type="text" name="" id="" value="0" />
+								</li>
+								<li>
+									<span class="tamanho">PP</span>
+									<input class="inputTamanho" type="text" name="" id="" value="24" />
+								</li>
+								<li>
+									<span class="tamanho">PP</span>
+									<input class="inputTamanho" type="text" name="" id="" value="5" />
+								</li>
+								<li>
+									<span class="tamanho">PP</span>
+									<div class="esgotado">
+										<span>esgo</span>
+										<span>tado</span>
+									</div>
+								</li>
+							</ul>
+						</form>
+
+
+						<!--ul class="listaOpcoes listaOpcoesAtacado clearfix">
+							{foreach $arrayAtributos[$idCor] as $valueAtributo}
+							<li>
+								<a href="#{$valueAtributo.VALOR_ATRIBUTO}" onClick="document.getElementById('idProdutoComprar').value={$valueAtributo.PRCO_ID_PRODUTO_COMBINACAO}">{$valueAtributo.VALOR_ATRIBUTO}</a>
+							</li>
+							{/foreach}
+						</ul-->
+					</div>
+
+
 					<div class="blocoOpcpes">
 						<div class="tituloOpcoes">Cores</div>
 						<ul class="listaOpcoes clearfix">

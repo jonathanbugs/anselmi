@@ -39,14 +39,15 @@
 .produtoUl .produtoLi .produtoInformacoes {
 	max-width: 260px;
 	float: left;
-	color: #808080
+	color: #808080;
 }
 
 .produtoInformacoes .produtoTitulo {
 	text-transform: uppercase;
-	color: #545454;
-	font-size: 14px;
-	font-weight: bold;
+	color: #000;
+	font-family: 'pathway_gothic_oneregular', sans-serif;
+	font-size: 20px;
+	line-height: 1em;
 	padding-bottom: 12px;
 }
 
@@ -56,27 +57,32 @@
 
 .produtoInformacoes .produtoValor {
 	display: block;
+	color: #000;
 	padding-bottom: 4px;
+	font-family: 'pathway_gothic_oneregular', sans-serif;
+	font-size: 20px;
+	line-height: 1em;
 }
 
 .produtoInformacoes .produtoValor span {
 	text-decoration: line-through;
 }
 
-.produtoInformacoes .produtoValorParcelado {
-	color: #005199;
-	font-size: 20px;
-	font-weight: bold;
+.produtoInformacoes .produtoValorParcelado .produtoParcelado {
+	color: #c8965a;
+	font-family: 'pathway_gothic_oneregular', sans-serif;
+	font-size: 26px;
+	line-height: 1em;
 	display: block;
 }
 
 .produtoInformacoes .produtoValorParcelado .produtoVezes {
-	font-size: 12px;
+	font-size: 20px;
 }
 
 .produtoInformacoes .produtoValorParcelado .produtoJuros {
 	color: #808080;
-	font-size: 12px;
+	font-size: 20px;
 }
 
 .produtoInformacoes .produtoValorVista {
@@ -119,19 +125,22 @@
 	display: block;
 	position: relative;
 	color: #FFF;
-	font-weight: bold;
+	font-family: 'pathway_gothic_oneregular', sans-serif;
+	font-size: 20px;
+	line-height: 1em;
 	text-transform: uppercase;
 }
 
 .produtoLi .produtoOpcoes .btOpces:hover {
-	background: #545454;
+	background: #c8965a;
+	color: #000
 }
 
 .produtoLi .produtoOpcoes .btOpcesComprar {
 	width: 151px;
-	background: #ec4a00;
-	height: 31px;
-	font-size: 14px;
+	background: #000;
+	height: 35px;
+	text-transform: uppercase;
 	margin-bottom: 2px;
 	padding: 19px 0 0 39px;
 }
@@ -147,12 +156,11 @@
 }
 
 .produtoLi .produtoOpcoes .btOpcesAdicionar {
+	background: #000;
 	width: 190px;
-	background: #005099;
-	height: 38px;
-	font-size: 10px;
+	height: auto;
 	text-align: center;
-	padding-top: 12px;
-	line-height: 12px;
+	padding: 12px 0;
+	font-size: 18px;
 }
 
